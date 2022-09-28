@@ -8,11 +8,11 @@
 #include <texts/TextKeysAndLanguages.hpp>
 #include <touchgfx/Texts.hpp>
 #include <touchgfx/hal/HAL.hpp>
-#include <platform/driver/lcd/LCD16bpp.hpp>
+#include <platform/driver/lcd/LCD32bpp.hpp>
 #include <gui/main_screen_screen/Main_screenView.hpp>
 #include <gui/main_screen_screen/Main_screenPresenter.hpp>
-#include <gui/menu_screen_0_screen/Menu_screen_0View.hpp>
-#include <gui/menu_screen_0_screen/Menu_screen_0Presenter.hpp>
+#include <gui/menu_9_screen/Menu_9View.hpp>
+#include <gui/menu_9_screen/Menu_9Presenter.hpp>
 
 using namespace touchgfx;
 
@@ -24,7 +24,7 @@ FrontendApplicationBase::FrontendApplicationBase(Model& m, FrontendHeap& heap)
 {
     touchgfx::HAL::getInstance()->setDisplayOrientation(touchgfx::ORIENTATION_PORTRAIT);
     touchgfx::Texts::setLanguage(PL);
-    reinterpret_cast<touchgfx::LCD16bpp&>(touchgfx::HAL::lcd()).enableTextureMapperAll();
+    reinterpret_cast<touchgfx::LCD32bpp&>(touchgfx::HAL::lcd()).enableTextureMapperAll();
 }
 
 /*
@@ -44,15 +44,15 @@ void FrontendApplicationBase::gotoMain_screenScreenNoTransitionImpl()
     touchgfx::makeTransition<Main_screenView, Main_screenPresenter, touchgfx::NoTransition, Model >(&currentScreen, &currentPresenter, frontendHeap, &currentTransition, &model);
 }
 
-// Menu_screen_0
+// Menu_9
 
-void FrontendApplicationBase::gotoMenu_screen_0ScreenNoTransition()
+void FrontendApplicationBase::gotoMenu_9ScreenNoTransition()
 {
-    transitionCallback = touchgfx::Callback<FrontendApplicationBase>(this, &FrontendApplication::gotoMenu_screen_0ScreenNoTransitionImpl);
+    transitionCallback = touchgfx::Callback<FrontendApplicationBase>(this, &FrontendApplication::gotoMenu_9ScreenNoTransitionImpl);
     pendingScreenTransitionCallback = &transitionCallback;
 }
 
-void FrontendApplicationBase::gotoMenu_screen_0ScreenNoTransitionImpl()
+void FrontendApplicationBase::gotoMenu_9ScreenNoTransitionImpl()
 {
-    touchgfx::makeTransition<Menu_screen_0View, Menu_screen_0Presenter, touchgfx::NoTransition, Model >(&currentScreen, &currentPresenter, frontendHeap, &currentTransition, &model);
+    touchgfx::makeTransition<Menu_9View, Menu_9Presenter, touchgfx::NoTransition, Model >(&currentScreen, &currentPresenter, frontendHeap, &currentTransition, &model);
 }

@@ -4,7 +4,6 @@
 #include <gui_generated/main_screen_screen/Main_screenViewBase.hpp>
 #include <touchgfx/Color.hpp>
 #include <BitmapDatabase.hpp>
-#include <texts/TextKeysAndLanguages.hpp>
 
 Main_screenViewBase::Main_screenViewBase() :
     buttonCallback(this, &Main_screenViewBase::buttonCallbackHandler)
@@ -13,52 +12,22 @@ Main_screenViewBase::Main_screenViewBase() :
     __background.setPosition(0, 0, 480, 800);
     __background.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
 
-    image1.setXY(0, 0);
-    image1.setBitmap(touchgfx::Bitmap(BITMAP_MAIN_SCREEN_2_ID));
+    Image_main_screen.setXY(0, 0);
+    Image_main_screen.setBitmap(touchgfx::Bitmap(BITMAP_MAIN_SCREEN_2_ID));
 
-    animatedImage1.setXY(438, 8);
-    animatedImage1.setBitmaps(BITMAP_IMG_WIFI_01_ID, BITMAP_IMG_WIFI_02_ID);
-    animatedImage1.setUpdateTicksInterval(60);
-    animatedImage1.startAnimation(false, true, true);
+    btn_menu.setXY(155, 624);
+    btn_menu.setBitmaps(touchgfx::Bitmap(BITMAP_BUTTON_MENU_OFF_ID), touchgfx::Bitmap(BITMAP_BUTTON_MENU_ON_ID));
+    btn_menu.setAction(buttonCallback);
 
-    menu_button.setXY(160, 582);
-    menu_button.setBitmaps(touchgfx::Bitmap(BITMAP_BUTTON_MENU_OFF_ID), touchgfx::Bitmap(BITMAP_BUTTON_MENU_ON_ID));
-    menu_button.setAction(buttonCallback);
-
-    button2.setXY(304, 12);
-    button2.setBitmaps(touchgfx::Bitmap(BITMAP_BUTTON_FRAME_ID), touchgfx::Bitmap(BITMAP_BUTTON_FRAME_ON_ID));
-
-    textArea1.setXY(188, 12);
-    textArea1.setColor(touchgfx::Color::getColorFromRGB(136, 150, 194));
-    textArea1.setLinespacing(0);
-    textArea1.setTypedText(touchgfx::TypedText(T___SINGLEUSE_XH5A));
-
-    digitalClock1.setPosition(9, 11, 100, 25);
-    digitalClock1.setColor(touchgfx::Color::getColorFromRGB(120, 159, 204));
-    digitalClock1.setTypedText(touchgfx::TypedText(T___SINGLEUSE_UKU5));
-    digitalClock1.displayLeadingZeroForHourIndicator(true);
-    digitalClock1.setDisplayMode(touchgfx::DigitalClock::DISPLAY_24_HOUR);
-    digitalClock1.setTime24Hour(10, 10, 0);
-
-    animatedImage2.setXY(302, 744);
-    animatedImage2.setBitmaps(BITMAP_DZ_IMG_01_ID, BITMAP_DZ_IMG_03_ID);
-    animatedImage2.setUpdateTicksInterval(60);
-    animatedImage2.startAnimation(false, true, true);
-
-    animatedImage2_1.setXY(357, 744);
-    animatedImage2_1.setBitmaps(BITMAP_SG_IMG_01_ID, BITMAP_SG_IMG_03_ID);
-    animatedImage2_1.setUpdateTicksInterval(60);
-    animatedImage2_1.startAnimation(false, true, true);
+    Image_Wifi.setXY(442, 7);
+    Image_Wifi.setBitmaps(BITMAP_IMG_WIFI_01_ID, BITMAP_IMG_WIFI_02_ID);
+    Image_Wifi.setUpdateTicksInterval(30);
+    Image_Wifi.startAnimation(false, true, true);
 
     add(__background);
-    add(image1);
-    add(animatedImage1);
-    add(menu_button);
-    add(button2);
-    add(textArea1);
-    add(digitalClock1);
-    add(animatedImage2);
-    add(animatedImage2_1);
+    add(Image_main_screen);
+    add(btn_menu);
+    add(Image_Wifi);
 }
 
 void Main_screenViewBase::setupScreen()
@@ -68,11 +37,11 @@ void Main_screenViewBase::setupScreen()
 
 void Main_screenViewBase::buttonCallbackHandler(const touchgfx::AbstractButton& src)
 {
-    if (&src == &menu_button)
+    if (&src == &btn_menu)
     {
         //Interaction1
-        //When menu_button clicked change screen to Menu_screen_0
-        //Go to Menu_screen_0 with no screen transition
-        application().gotoMenu_screen_0ScreenNoTransition();
+        //When btn_menu clicked change screen to Menu_9
+        //Go to Menu_9 with no screen transition
+        application().gotoMenu_9ScreenNoTransition();
     }
 }

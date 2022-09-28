@@ -24,9 +24,17 @@
     <ClCompile Include="..\..\gui\src\main_screen_screen\Main_screenPresenter.cpp"/>
     <ClCompile Include="..\..\gui\src\main_screen_screen\Main_screenView.cpp"/>
     <ClCompile Include="..\..\generated\gui_generated\src\main_screen_screen\Main_screenViewBase.cpp"/>
-    <ClCompile Include="..\..\gui\src\menu_screen_0_screen\Menu_screen_0Presenter.cpp"/>
-    <ClCompile Include="..\..\gui\src\menu_screen_0_screen\Menu_screen_0View.cpp"/>
-    <ClCompile Include="..\..\generated\gui_generated\src\menu_screen_0_screen\Menu_screen_0ViewBase.cpp"/>
+    <ClCompile Include="..\..\gui\src\model\FakeHardware.cpp"/>
+    <ClCompile Include="..\..\gui\include\gui\model\ModelListener.cpp"/>
+    <ClCompile Include="..\..\gui\src\containers\Menu_buttons_container.cpp"/>
+    <ClCompile Include="..\..\generated\gui_generated\src\containers\Menu_buttons_containerBase.cpp"/>
+    <ClCompile Include="..\..\gui\src\containers\Menu_tree_title_container.cpp"/>
+    <ClCompile Include="..\..\generated\gui_generated\src\containers\Menu_tree_title_containerBase.cpp"/>
+    <ClCompile Include="..\..\gui\src\containers\Back_menu_container_1.cpp"/>
+    <ClCompile Include="..\..\generated\gui_generated\src\containers\Back_menu_container_1Base.cpp"/>
+    <ClCompile Include="..\..\gui\src\menu_9_screen\Menu_9Presenter.cpp"/>
+    <ClCompile Include="..\..\gui\src\menu_9_screen\Menu_9View.cpp"/>
+    <ClCompile Include="..\..\generated\gui_generated\src\menu_9_screen\Menu_9ViewBase.cpp"/>
   </ItemGroup>
   <ItemGroup>
     <None Include="$(ApplicationRoot)\assets\texts\texts.xml"/>
@@ -180,9 +188,21 @@
     <ClInclude Include="..\..\gui\include\gui\main_screen_screen\Main_screenPresenter.hpp"/>
     <ClInclude Include="..\..\gui\include\gui\main_screen_screen\Main_screenView.hpp"/>
     <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\main_screen_screen\Main_screenViewBase.hpp"/>
-    <ClInclude Include="..\..\gui\include\gui\menu_screen_0_screen\Menu_screen_0Presenter.hpp"/>
-    <ClInclude Include="..\..\gui\include\gui\menu_screen_0_screen\Menu_screen_0View.hpp"/>
-    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\menu_screen_0_screen\Menu_screen_0ViewBase.hpp"/>
+    <ClInclude Include="..\..\gui\include\gui\demo_screen\DemoPresenter.hpp"/>
+    <ClInclude Include="..\..\gui\include\gui\demo_screen\DemoView.hpp"/>
+    <ClInclude Include="..\..\gui\include\gui\model\FakeHardware.hpp"/>
+    <ClInclude Include="..\..\gui\include\gui\introduction_screen\IntroductionPresenter.hpp"/>
+    <ClInclude Include="..\..\gui\include\gui\introduction_screen\IntroductionView.hpp"/>
+    <ClInclude Include="..\..\gui\include\gui\containers\LabelBox.hpp"/>
+    <ClInclude Include="..\..\gui\include\gui\containers\Menu_buttons_container.hpp"/>
+    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\containers\Menu_buttons_containerBase.hpp"/>
+    <ClInclude Include="..\..\gui\include\gui\containers\Menu_tree_title_container.hpp"/>
+    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\containers\Menu_tree_title_containerBase.hpp"/>
+    <ClInclude Include="..\..\gui\include\gui\containers\Back_menu_container_1.hpp"/>
+    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\containers\Back_menu_container_1Base.hpp"/>
+    <ClInclude Include="..\..\gui\include\gui\menu_9_screen\Menu_9Presenter.hpp"/>
+    <ClInclude Include="..\..\gui\include\gui\menu_9_screen\Menu_9View.hpp"/>
+    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\menu_9_screen\Menu_9ViewBase.hpp"/>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="$(ApplicationRoot)\generated\simulator\touchgfx.rc"/>

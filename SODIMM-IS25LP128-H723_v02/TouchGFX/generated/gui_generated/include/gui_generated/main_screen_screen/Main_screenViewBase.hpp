@@ -9,10 +9,8 @@
 #include <gui/main_screen_screen/Main_screenPresenter.hpp>
 #include <touchgfx/widgets/Box.hpp>
 #include <touchgfx/widgets/Image.hpp>
-#include <touchgfx/widgets/AnimatedImage.hpp>
 #include <touchgfx/widgets/Button.hpp>
-#include <touchgfx/widgets/TextArea.hpp>
-#include <touchgfx/containers/clock/DigitalClock.hpp>
+#include <touchgfx/widgets/AnimatedImage.hpp>
 #include <touchgfx/EasingEquations.hpp>
 #include <touchgfx/mixins/MoveAnimator.hpp>
 
@@ -32,14 +30,9 @@ protected:
      * Member Declarations
      */
     touchgfx::Box __background;
-    touchgfx::Image image1;
-    touchgfx::AnimatedImage animatedImage1;
-    touchgfx::Button menu_button;
-    touchgfx::Button button2;
-    touchgfx::TextArea textArea1;
-    touchgfx::DigitalClock digitalClock1;
-    touchgfx::MoveAnimator< touchgfx::AnimatedImage > animatedImage2;
-    touchgfx::MoveAnimator< touchgfx::AnimatedImage > animatedImage2_1;
+    touchgfx::Image Image_main_screen;
+    touchgfx::Button btn_menu;
+    touchgfx::MoveAnimator< touchgfx::AnimatedImage > Image_Wifi;
 
 private:
 

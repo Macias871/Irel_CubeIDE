@@ -178,12 +178,6 @@
     <Filter Include="Source Files\generated\gui_generated\containers">
       <UniqueIdentifier>6A9CC049-541E-CB40-6088-3B74FAC6EA1D</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files\gui\menu_screen_0_screen">
-      <UniqueIdentifier>52222D25-A976-94A7-7BAC-171BCBEE4C10</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\gui\menu_screen_0_screen">
-      <UniqueIdentifier>B667647B-ABCF-C949-95E0-E3C94EB50F8E</UniqueIdentifier>
-    </Filter>
     <Filter Include="Header Files\gui\main_screen_screen">
       <UniqueIdentifier>C605DE78-7096-F690-DC8A-9058DAF2B210</UniqueIdentifier>
     </Filter>
@@ -193,14 +187,32 @@
     <Filter Include="Source Files\generated\gui_generated\main_screen_screen">
       <UniqueIdentifier>9247B568-2B1E-4F50-B904-E78F8EDC25D4</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files\generated\gui_generated\menu_screen_0_screen">
-      <UniqueIdentifier>ED106BCE-AE5D-4A91-14D6-7A0EE9994AF0</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\generated\gui_generated\menu_screen_0_screen">
-      <UniqueIdentifier>988C7CA1-F9FA-B1EF-D9C9-631C4FDDC6D1</UniqueIdentifier>
-    </Filter>
     <Filter Include="Header Files\generated\gui_generated\main_screen_screen">
       <UniqueIdentifier>56E44B1D-6A88-2EFE-1E06-8C908D4A910B</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\gui\containers">
+      <UniqueIdentifier>8EE45682-96E1-F21E-C854-6299907F91CB</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\gui\introduction_screen">
+      <UniqueIdentifier>3AD76D65-C794-06C0-0C8D-F66A763669A8</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\gui\demo_screen">
+      <UniqueIdentifier>B36DBC01-4DC5-DDD1-E5D5-E626A96D8259</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\gui\containers">
+      <UniqueIdentifier>271925B6-9B6D-21B9-81A2-4B9F3288FEEF</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\gui\menu_9_screen">
+      <UniqueIdentifier>CF75C417-4277-4AF3-5E55-29E78CE74D8D</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\gui\menu_9_screen">
+      <UniqueIdentifier>22DEC04F-D170-053F-DED6-1924135F1BAE</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\generated\gui_generated\menu_9_screen">
+      <UniqueIdentifier>F41C75E2-A08F-F313-7CB4-E69B81A67094</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\generated\gui_generated\menu_9_screen">
+      <UniqueIdentifier>CEBE33FF-9FB7-BEF5-A34E-8A26BA8D5DD9</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -243,14 +255,38 @@
     <ClCompile Include="..\..\generated\gui_generated\src\main_screen_screen\Main_screenViewBase.cpp">
       <Filter>Source Files\generated\gui_generated\main_screen_screen</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\gui\src\menu_screen_0_screen\Menu_screen_0Presenter.cpp">
-      <Filter>Source Files\gui\menu_screen_0_screen</Filter>
+    <ClCompile Include="..\..\gui\src\model\FakeHardware.cpp">
+      <Filter>Source Files\gui\model</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\gui\src\menu_screen_0_screen\Menu_screen_0View.cpp">
-      <Filter>Source Files\gui\menu_screen_0_screen</Filter>
+    <ClCompile Include="..\..\gui\include\gui\model\ModelListener.cpp">
+      <Filter>Source Files\gui\model</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\generated\gui_generated\src\menu_screen_0_screen\Menu_screen_0ViewBase.cpp">
-      <Filter>Source Files\generated\gui_generated\menu_screen_0_screen</Filter>
+    <ClCompile Include="..\..\gui\src\containers\Menu_buttons_container.cpp">
+      <Filter>Source Files\gui\containers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\generated\gui_generated\src\containers\Menu_buttons_containerBase.cpp">
+      <Filter>Source Files\generated\gui_generated\containers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\containers\Menu_tree_title_container.cpp">
+      <Filter>Source Files\gui\containers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\generated\gui_generated\src\containers\Menu_tree_title_containerBase.cpp">
+      <Filter>Source Files\generated\gui_generated\containers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\containers\Back_menu_container_1.cpp">
+      <Filter>Source Files\gui\containers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\generated\gui_generated\src\containers\Back_menu_container_1Base.cpp">
+      <Filter>Source Files\generated\gui_generated\containers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\menu_9_screen\Menu_9Presenter.cpp">
+      <Filter>Source Files\gui\menu_9_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\menu_9_screen\Menu_9View.cpp">
+      <Filter>Source Files\gui\menu_9_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\generated\gui_generated\src\menu_9_screen\Menu_9ViewBase.cpp">
+      <Filter>Source Files\generated\gui_generated\menu_9_screen</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -703,14 +739,50 @@
     <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\main_screen_screen\Main_screenViewBase.hpp">
       <Filter>Header Files\generated\gui_generated\main_screen_screen</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gui\include\gui\menu_screen_0_screen\Menu_screen_0Presenter.hpp">
-      <Filter>Header Files\gui\menu_screen_0_screen</Filter>
+    <ClInclude Include="..\..\gui\include\gui\demo_screen\DemoPresenter.hpp">
+      <Filter>Header Files\gui\demo_screen</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gui\include\gui\menu_screen_0_screen\Menu_screen_0View.hpp">
-      <Filter>Header Files\gui\menu_screen_0_screen</Filter>
+    <ClInclude Include="..\..\gui\include\gui\demo_screen\DemoView.hpp">
+      <Filter>Header Files\gui\demo_screen</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\menu_screen_0_screen\Menu_screen_0ViewBase.hpp">
-      <Filter>Header Files\generated\gui_generated\menu_screen_0_screen</Filter>
+    <ClInclude Include="..\..\gui\include\gui\model\FakeHardware.hpp">
+      <Filter>Header Files\gui\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\introduction_screen\IntroductionPresenter.hpp">
+      <Filter>Header Files\gui\introduction_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\introduction_screen\IntroductionView.hpp">
+      <Filter>Header Files\gui\introduction_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\containers\LabelBox.hpp">
+      <Filter>Header Files\gui\containers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\containers\Menu_buttons_container.hpp">
+      <Filter>Header Files\gui\containers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\containers\Menu_buttons_containerBase.hpp">
+      <Filter>Header Files\generated\gui_generated\containers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\containers\Menu_tree_title_container.hpp">
+      <Filter>Header Files\gui\containers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\containers\Menu_tree_title_containerBase.hpp">
+      <Filter>Header Files\generated\gui_generated\containers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\containers\Back_menu_container_1.hpp">
+      <Filter>Header Files\gui\containers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\containers\Back_menu_container_1Base.hpp">
+      <Filter>Header Files\generated\gui_generated\containers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\menu_9_screen\Menu_9Presenter.hpp">
+      <Filter>Header Files\gui\menu_9_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\menu_9_screen\Menu_9View.hpp">
+      <Filter>Header Files\gui\menu_9_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\menu_9_screen\Menu_9ViewBase.hpp">
+      <Filter>Header Files\generated\gui_generated\menu_9_screen</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

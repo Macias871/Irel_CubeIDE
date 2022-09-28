@@ -6,13 +6,21 @@
   </Languages>
   <Texts>
     <TextGroup Id="Menu_9_1">
-      <Text Id="ResourceId3" Alignment="Left" TypographyId="Default">
-        <Translation Language="GB">New Text</Translation>
-        <Translation Language="PL">New Text</Translation>
+      <Text Id="Set_externals" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">9.1.4. Ext. config</Translation>
+        <Translation Language="PL">9.1.4. Ustawienia rozszerzeń</Translation>
+      </Text>
+      <Text Id="Set_defaults" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">9.1.3. Defaults</Translation>
+        <Translation Language="PL">9.1.3. Ustawinia fabryczne</Translation>
+      </Text>
+      <Text Id="Set_Heat" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">9.1.2. Set Heating</Translation>
+        <Translation Language="PL">9.1.2. Załączenie ogrzewania</Translation>
       </Text>
       <Text Id="Menu_title_9_1" Alignment="Left" TypographyId="Default">
-        <Translation Language="GB">Menu 9.1. Default Settings</Translation>
-        <Translation Language="PL">Menu 9.1. Nastawy podstawowe</Translation>
+        <Translation Language="GB">9.1. Default Settings</Translation>
+        <Translation Language="PL">9.1. Nastawy podstawowe</Translation>
       </Text>
       <Text Id="Language" Alignment="Left" TypographyId="Default">
         <Translation Language="GB">9.1.1. Language</Translation>
@@ -84,7 +92,7 @@
     <TextGroup Id="Unsorted" />
   </Texts>
   <Typographies>
-    <Typography Id="Default" Font="verdana.ttf" Size="20" Bpp="4" Direction="LTR" FallbackCharacter="?" WidgetWildcardCharacters="0123456789 :APM" />
+    <Typography Id="Default" Font="verdana.ttf" Size="20" Bpp="4" Direction="LTR" FallbackCharacter="?" />
     <Typography Id="Large" Font="verdana.ttf" Size="40" Bpp="4" Direction="LTR" FallbackCharacter="?" />
     <Typography Id="Small" Font="verdana.ttf" Size="10" Bpp="4" Direction="LTR" FallbackCharacter="?" />
   </Typographies>

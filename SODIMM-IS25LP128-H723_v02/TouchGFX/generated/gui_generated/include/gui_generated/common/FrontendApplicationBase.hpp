@@ -23,8 +23,8 @@ public:
     // Main_screen
     void gotoMain_screenScreenNoTransition();
 
-    // Menu_screen_0
-    void gotoMenu_screen_0ScreenNoTransition();
+    // Menu_9
+    void gotoMenu_9ScreenNoTransition();
 
 protected:
     touchgfx::Callback<FrontendApplicationBase> transitionCallback;
@@ -34,8 +34,8 @@ protected:
     // Main_screen
     void gotoMain_screenScreenNoTransitionImpl();
 
-    // Menu_screen_0
-    void gotoMenu_screen_0ScreenNoTransitionImpl();
+    // Menu_9
+    void gotoMenu_9ScreenNoTransitionImpl();
 };
 
 #endif // FRONTENDAPPLICATIONBASE_HPP

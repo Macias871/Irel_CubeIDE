@@ -1,8 +1,8 @@
 
 # Relative location of the TouchGFX framework from root of application
-touchgfx_path := touchgfx
+touchgfx_path := ../Middlewares/ST/touchgfx
 
 # Location of the TouchGFX Environment
-touchgfx_env := D:/TouchGFX/4.20.0/env
+touchgfx_env := ../../../../../TouchGFX/4.20.0/env
 # Optional additional compiler flags
-user_cflags := -DUSE_BPP=16
+user_cflags := -DUSE_BPP=32
