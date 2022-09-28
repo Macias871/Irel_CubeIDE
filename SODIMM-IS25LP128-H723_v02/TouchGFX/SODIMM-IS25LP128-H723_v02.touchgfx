@@ -1,0 +1,620 @@
+{
+  "Application": {
+    "Screens": [
+      {
+        "Name": "Main_screen",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "image1",
+            "Width": 480,
+            "Height": 800,
+            "RelativeFilename": "Main_screen_2.png"
+          },
+          {
+            "Type": "AnimatedImage",
+            "Name": "animatedImage1",
+            "X": 438,
+            "Y": 8,
+            "Width": 32,
+            "Height": 32,
+            "FileNameFirst": "img_Wifi_01.png",
+            "FileNameLast": "img_Wifi_02.png",
+            "UpdateTicksInterval": 1000,
+            "StartOnLoad": true,
+            "LoopEnabled": true
+          },
+          {
+            "Type": "Button",
+            "Name": "menu_button",
+            "X": 160,
+            "Y": 582,
+            "Width": 160,
+            "Height": 60,
+            "Pressed": "button_MENU_ON.png",
+            "Released": "button_MENU_OFF.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "button2",
+            "X": 304,
+            "Y": 12,
+            "Width": 122,
+            "Height": 28,
+            "Pressed": "button_frame_on.png",
+            "Released": "button_frame.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 188,
+            "Y": 12,
+            "Width": 114,
+            "Height": 24,
+            "TextId": "__SingleUse_XH5A",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 136,
+              "Green": 150,
+              "Blue": 194
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "DigitalClock",
+            "Name": "digitalClock1",
+            "X": 9,
+            "Y": 11,
+            "Width": 100,
+            "Height": 25,
+            "TextColor": {
+              "Red": 120,
+              "Green": 159,
+              "Blue": 204
+            },
+            "TextId": "__SingleUse_UKU5",
+            "DisplaySeconds": true,
+            "DisplayLeadingZeroForHourIndicator": true,
+            "InitialHour": 10,
+            "InitialMinute": 10
+          },
+          {
+            "Type": "AnimatedImage",
+            "Name": "animatedImage2",
+            "X": 302,
+            "Y": 744,
+            "Width": 50,
+            "Height": 50,
+            "FileNameFirst": "DZ_img_01.png",
+            "FileNameLast": "DZ_img_03.png",
+            "UpdateTicksInterval": 1000,
+            "StartOnLoad": true,
+            "LoopEnabled": true,
+            "Moveable": true
+          },
+          {
+            "Type": "AnimatedImage",
+            "Name": "animatedImage2_1",
+            "X": 357,
+            "Y": 744,
+            "Width": 50,
+            "Height": 50,
+            "FileNameFirst": "SG_img_01.png",
+            "FileNameLast": "SG_img_03.png",
+            "UpdateTicksInterval": 1000,
+            "StartOnLoad": true,
+            "LoopEnabled": true,
+            "Moveable": true
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "menu_button"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Menu_screen_9"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "Menu_screen_9",
+        "CanvasBufferSize": 7200,
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "image1",
+            "Width": 480,
+            "Height": 800,
+            "LockPosition": true,
+            "RelativeFilename": "background_black.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "menu_9_btn_back",
+            "X": 20,
+            "Y": 730,
+            "Width": 234,
+            "Height": 30,
+            "Pressed": "button_small_in_menu_on.png",
+            "Released": "button_small_in_menu_off.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "button9_1",
+            "X": 20,
+            "Y": 112,
+            "Width": 440,
+            "Height": 30,
+            "Pressed": "button_in_menu_on.png",
+            "Released": "button_in_menu_off.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 102,
+            "Y": 733,
+            "Width": 71,
+            "Height": 24,
+            "TextId": "Wstecz",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 37,
+              "Green": 145,
+              "Blue": 204
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea2",
+            "X": 29,
+            "Y": 115,
+            "Width": 256,
+            "Height": 24,
+            "TextId": "Default_settings",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 37,
+              "Green": 145,
+              "Blue": 204
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "Button",
+            "Name": "button9_2",
+            "X": 20,
+            "Y": 168,
+            "Width": 440,
+            "Height": 30,
+            "Pressed": "button_in_menu_on.png",
+            "Released": "button_in_menu_off.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "button9_3",
+            "X": 20,
+            "Y": 224,
+            "Width": 440,
+            "Height": 30,
+            "Pressed": "button_in_menu_on.png",
+            "Released": "button_in_menu_off.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "button9_4",
+            "X": 20,
+            "Y": 281,
+            "Width": 440,
+            "Height": 30,
+            "Pressed": "button_in_menu_on.png",
+            "Released": "button_in_menu_off.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "button9_5",
+            "X": 20,
+            "Y": 340,
+            "Width": 440,
+            "Height": 30,
+            "Pressed": "button_in_menu_on.png",
+            "Released": "button_in_menu_off.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "button9_6",
+            "X": 20,
+            "Y": 399,
+            "Width": 440,
+            "Height": 30,
+            "Pressed": "button_in_menu_on.png",
+            "Released": "button_in_menu_off.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea2_1",
+            "X": 29,
+            "Y": 171,
+            "Width": 106,
+            "Height": 24,
+            "TextId": "Service",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 37,
+              "Green": 145,
+              "Blue": 204
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea2_2",
+            "X": 29,
+            "Y": 227,
+            "Width": 164,
+            "Height": 24,
+            "TextId": "Diagnstic",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 37,
+              "Green": 145,
+              "Blue": 204
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea2_3",
+            "X": 29,
+            "Y": 284,
+            "Width": 288,
+            "Height": 24,
+            "TextId": "Out_temperature",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 37,
+              "Green": 145,
+              "Blue": 204
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea2_4",
+            "X": 29,
+            "Y": 343,
+            "Width": 149,
+            "Height": 24,
+            "TextId": "Work_time",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 37,
+              "Green": 145,
+              "Blue": 204
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea2_5",
+            "X": 29,
+            "Y": 402,
+            "Width": 209,
+            "Height": 24,
+            "TextId": "Set_programm",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 37,
+              "Green": 145,
+              "Blue": 204
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea2_1_1",
+            "X": 49,
+            "Y": 22,
+            "Width": 81,
+            "Height": 24,
+            "TextId": "Menu_title",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 37,
+              "Green": 145,
+              "Blue": 204
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "Line",
+            "Name": "line1",
+            "X": 20,
+            "Y": 58,
+            "Width": 449,
+            "Height": 15,
+            "Color": {
+              "Red": 56,
+              "Green": 119,
+              "Blue": 148
+            },
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 440.0,
+            "EndY": 5.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "menu_9_btn_back"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Main_screen"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "Menu_screen_9_1",
+        "CanvasBufferSize": 7200,
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "image1",
+            "Width": 480,
+            "Height": 800,
+            "LockPosition": true,
+            "RelativeFilename": "background_black.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "menu_9_btn_back",
+            "X": 20,
+            "Y": 730,
+            "Width": 234,
+            "Height": 30,
+            "Pressed": "button_small_in_menu_on.png",
+            "Released": "button_small_in_menu_off.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "button9_1",
+            "X": 20,
+            "Y": 112,
+            "Width": 440,
+            "Height": 30,
+            "Pressed": "button_in_menu_on.png",
+            "Released": "button_in_menu_off.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 102,
+            "Y": 733,
+            "Width": 71,
+            "Height": 24,
+            "TextId": "Wstecz",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 37,
+              "Green": 145,
+              "Blue": 204
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea2",
+            "X": 29,
+            "Y": 115,
+            "Width": 256,
+            "Height": 24,
+            "TextId": "Default_settings",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 37,
+              "Green": 145,
+              "Blue": 204
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "Button",
+            "Name": "button9_2",
+            "X": 20,
+            "Y": 168,
+            "Width": 440,
+            "Height": 30,
+            "Pressed": "button_in_menu_on.png",
+            "Released": "button_in_menu_off.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "button9_3",
+            "X": 20,
+            "Y": 224,
+            "Width": 440,
+            "Height": 30,
+            "Pressed": "button_in_menu_on.png",
+            "Released": "button_in_menu_off.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "button9_4",
+            "X": 20,
+            "Y": 281,
+            "Width": 440,
+            "Height": 30,
+            "Pressed": "button_in_menu_on.png",
+            "Released": "button_in_menu_off.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea2_1",
+            "X": 29,
+            "Y": 171,
+            "Width": 106,
+            "Height": 24,
+            "TextId": "Service",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 37,
+              "Green": 145,
+              "Blue": 204
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea2_2",
+            "X": 29,
+            "Y": 227,
+            "Width": 164,
+            "Height": 24,
+            "TextId": "Diagnstic",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 37,
+              "Green": 145,
+              "Blue": 204
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea2_3",
+            "X": 29,
+            "Y": 284,
+            "Width": 288,
+            "Height": 24,
+            "TextId": "Out_temperature",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 37,
+              "Green": 145,
+              "Blue": 204
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea2_1_1",
+            "X": 49,
+            "Y": 22,
+            "Width": 50,
+            "Height": 50,
+            "TextRotation": "0",
+            "Color": {
+              "Red": 37,
+              "Green": 145,
+              "Blue": 204
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "Line",
+            "Name": "line1",
+            "X": 20,
+            "Y": 58,
+            "Width": 449,
+            "Height": 15,
+            "Color": {
+              "Red": 56,
+              "Green": 119,
+              "Blue": 148
+            },
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 440.0,
+            "EndY": 5.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "menu_9_btn_back"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Main_screen"
+            }
+          }
+        ]
+      }
+    ],
+    "CustomContainerDefinitions": [],
+    "Name": "MyApplication",
+    "Resolution": {
+      "Width": 480,
+      "Height": 800
+    },
+    "SelectedColorDepth": 16,
+    "StartupScreenName": "Main_screen",
+    "SelectedStartupLanguage": "PL",
+    "Skin": "Blue",
+    "TouchGfxPath": "touchgfx",
+    "UIPath": ".",
+    "ApplicationTemplateName": "Simulator",
+    "ApplicationTemplateVersion": "2.0.0",
+    "ApplicationTemplateDescription": "Simulator Application Template",
+    "AvailableColorDepths": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      24
+    ],
+    "AvailableLCDs": {
+      "1": "LCD1bpp",
+      "2": "LCD2bpp",
+      "4": "LCD4bpp",
+      "8": "LCD8bpp_ARGB2222",
+      "16": "LCD16bpp",
+      "24": "LCD24bpp"
+    },
+    "AvailableSections": [
+      "ExtFlashSection",
+      "IntFlashSection"
+    ],
+    "AvailableResolutions": [],
+    "PhysicalButtons": [],
+    "FrameworkFeatures": {
+      "LCD16bpp": {
+        "Id": "LCD16bpp",
+        "IsEnabled": true
+      }
+    },
+    "GenerateAssetsCommand": "make -f simulator/gcc/Makefile assets -j8",
+    "PostGenerateCommand": "touchgfx update_project --project-file=simulator/msvs/Application.vcxproj",
+    "CompileSimulatorCommand": "make -f simulator/gcc/Makefile -j8",
+    "RunSimulatorCommand": "build\\bin\\simulator.exe",
+    "CompileTargetCommand": "",
+    "FlashTargetCommand": "",
+    "LandscapeSkinX": 0,
+    "LandscapeSkinY": 0,
+    "PortraitSkinX": 0,
+    "PortraitSkinY": 0,
+    "DisplayOrientation": "Portrait"
+  },
+  "Version": "4.20.0",
+  "CreatedBy": "4.20.0"
+}
