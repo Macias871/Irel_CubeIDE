@@ -3,6 +3,7 @@
 
 #include <gui_generated/menu_9_screen/Menu_9ViewBase.hpp>
 #include <gui/menu_9_screen/Menu_9Presenter.hpp>
+#include <gui/containers/Menu_buttons_container.hpp>
 
 class Menu_9View : public Menu_9ViewBase
 {

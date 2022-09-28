@@ -5,6 +5,16 @@
     <Language Id="PL" />
   </Languages>
   <Texts>
+    <TextGroup Id="Container_menu_text">
+      <Text Id="Menu_button_title" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">Button_title</Translation>
+        <Translation Language="PL">napis_klawisza</Translation>
+      </Text>
+      <Text Id="Menu_tree_title" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">menu_tree_title</Translation>
+        <Translation Language="PL">napis_numeu_menu</Translation>
+      </Text>
+    </TextGroup>
     <TextGroup Id="Menu_9_1">
       <Text Id="Set_externals" Alignment="Left" TypographyId="Default">
         <Translation Language="GB">9.1.4. Ext. config</Translation>
