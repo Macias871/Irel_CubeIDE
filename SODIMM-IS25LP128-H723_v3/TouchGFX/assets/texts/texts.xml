@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextDatabase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="texts.xsd" Version="4.20.0">
+  <Languages>
+    <Language Id="GB" />
+    <Language Id="PL" />
+  </Languages>
+  <Texts>
+    <TextGroup Id="Container_menu_text">
+      <Text Id="Menu_button_title" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">Button_title</Translation>
+        <Translation Language="PL">napis_klawisza</Translation>
+      </Text>
+      <Text Id="Menu_tree_title" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">menu_tree_title</Translation>
+        <Translation Language="PL">napis_numeu_menu</Translation>
+      </Text>
+    </TextGroup>
+    <TextGroup Id="Menu_9_1">
+      <Text Id="Set_externals" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">9.1.4. Ext. config</Translation>
+        <Translation Language="PL">9.1.4. Ustawienia rozszerzeń</Translation>
+      </Text>
+      <Text Id="Set_defaults" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">9.1.3. Defaults</Translation>
+        <Translation Language="PL">9.1.3. Ustawinia fabryczne</Translation>
+      </Text>
+      <Text Id="Set_Heat" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">9.1.2. Set Heating</Translation>
+        <Translation Language="PL">9.1.2. Załączenie ogrzewania</Translation>
+      </Text>
+      <Text Id="Menu_title_9_1" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">9.1. Default Settings</Translation>
+        <Translation Language="PL">9.1. Nastawy podstawowe</Translation>
+      </Text>
+      <Text Id="Language" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">9.1.1. Language</Translation>
+        <Translation Language="PL">9.1.1. Język</Translation>
+      </Text>
+    </TextGroup>
+    <TextGroup Id="Main_screen">
+      <Text Id="__SingleUse_QYE9" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">Menu</Translation>
+        <Translation Language="PL" />
+      </Text>
+      <Text Id="__SingleUse_YB6R" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">New Text</Translation>
+        <Translation Language="PL" />
+      </Text>
+      <Text Id="__SingleUse_XH5A" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">Work mode</Translation>
+        <Translation Language="PL">Tryb pracy:</Translation>
+      </Text>
+      <Text Id="__SingleUse_UKU5" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">&lt;&gt;</Translation>
+        <Translation Language="PL">&lt;&gt;</Translation>
+      </Text>
+    </TextGroup>
+    <TextGroup Id="Group1">
+      <Text Id="ResourceId2" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">2</Translation>
+        <Translation Language="PL" />
+      </Text>
+      <Text Id="ResourceId1" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">1</Translation>
+        <Translation Language="PL" />
+      </Text>
+    </TextGroup>
+    <TextGroup Id="Menu_9">
+      <Text Id="Menu_title" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">Menu 9.1</Translation>
+        <Translation Language="PL">9. Menu</Translation>
+      </Text>
+      <Text Id="Service" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">9.2 Service</Translation>
+        <Translation Language="PL">9.2 Serwis</Translation>
+      </Text>
+      <Text Id="Set_programm" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">9.6 Change Programm</Translation>
+        <Translation Language="PL">9.6 Wybór programu</Translation>
+      </Text>
+      <Text Id="Work_time" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">9.5 Work Time</Translation>
+        <Translation Language="PL">9.5 Czas pracy</Translation>
+      </Text>
+      <Text Id="Out_temperature" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">9.4 Outside Temperature</Translation>
+        <Translation Language="PL">9.4 Temperatura zewnętrzna</Translation>
+      </Text>
+      <Text Id="Diagnstic" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">9.3 Diagnostic</Translation>
+        <Translation Language="PL">9.3 Diagnostyka</Translation>
+      </Text>
+      <Text Id="Default_settings" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">9.1 Default Settings</Translation>
+        <Translation Language="PL">9.1 Nastawy podstawowe</Translation>
+      </Text>
+      <Text Id="Wstecz" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">Back</Translation>
+        <Translation Language="PL">Wstecz</Translation>
+      </Text>
+    </TextGroup>
+    <TextGroup Id="Unsorted" />
+  </Texts>
+  <Typographies>
+    <Typography Id="Default" Font="verdana.ttf" Size="20" Bpp="4" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Large" Font="verdana.ttf" Size="40" Bpp="4" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Small" Font="verdana.ttf" Size="10" Bpp="4" Direction="LTR" FallbackCharacter="?" />
+  </Typographies>
+</TextDatabase>

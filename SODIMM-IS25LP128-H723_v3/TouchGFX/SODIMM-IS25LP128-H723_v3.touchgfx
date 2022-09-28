@@ -1,0 +1,284 @@
+{
+  "Application": {
+    "Screens": [
+      {
+        "Name": "Main_screen",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "Image_main_screen",
+            "Width": 480,
+            "Height": 800,
+            "RelativeFilename": "Main_screen_2.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "btn_menu",
+            "X": 155,
+            "Y": 624,
+            "Width": 160,
+            "Height": 60,
+            "Pressed": "button_MENU_ON.png",
+            "Released": "button_MENU_OFF.png"
+          },
+          {
+            "Type": "AnimatedImage",
+            "Name": "Image_Wifi",
+            "X": 442,
+            "Y": 7,
+            "Width": 32,
+            "Height": 32,
+            "FileNameFirst": "img_Wifi_01.png",
+            "FileNameLast": "img_Wifi_02.png",
+            "UpdateTicksInterval": 500,
+            "StartOnLoad": true,
+            "LoopEnabled": true,
+            "Moveable": true
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "btn_menu"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Menu_9"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "Menu_9",
+        "CanvasBufferSize": 7200,
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "backgroud",
+            "Width": 480,
+            "Height": 800,
+            "RelativeFilename": "background_black.png"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "menu_tree_title_container1",
+            "Width": 480,
+            "Height": 68,
+            "CustomContainerDefinitionName": "Menu_tree_title_container"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "back_menu_container_11",
+            "Y": 732,
+            "Width": 480,
+            "Height": 68,
+            "CustomContainerDefinitionName": "Back_menu_container_1"
+          },
+          {
+            "Type": "ScrollList",
+            "Name": "scrollList",
+            "X": 10,
+            "Y": 74,
+            "Width": 460,
+            "Height": 453,
+            "ItemTemplateName": "Menu_buttons_container",
+            "NumberofItems": 6,
+            "Easing": "Back",
+            "EasingOption": "Out",
+            "SwipeAcceleration": 1.0,
+            "DragAcceleration": 1.0
+          }
+        ],
+        "Interactions": []
+      }
+    ],
+    "CustomContainerDefinitions": [
+      {
+        "Name": "Menu_tree_title_container",
+        "X": 160,
+        "Y": -160,
+        "Width": 480,
+        "Height": 68,
+        "Components": [
+          {
+            "Type": "Line",
+            "Name": "line1",
+            "Y": 56,
+            "Width": 480,
+            "Height": 25,
+            "Color": {
+              "Red": 70,
+              "Green": 105,
+              "Blue": 138
+            },
+            "StartX": 5.0,
+            "StartY": 4.0,
+            "EndX": 475.0,
+            "EndY": 4.0,
+            "LineWidth": 5.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 20,
+            "Y": 22,
+            "Width": 94,
+            "Height": 24,
+            "TextId": "Menu_title",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 33,
+              "Green": 133,
+              "Blue": 126
+            },
+            "AutoSize": true
+          }
+        ],
+        "Interactions": []
+      },
+      {
+        "Name": "Back_menu_container_1",
+        "X": 160,
+        "Y": 572,
+        "Width": 480,
+        "Height": 68,
+        "Components": [
+          {
+            "Type": "Line",
+            "Name": "line1",
+            "Y": 9,
+            "Width": 480,
+            "Height": 25,
+            "Color": {
+              "Red": 70,
+              "Green": 105,
+              "Blue": 138
+            },
+            "StartX": 5.0,
+            "StartY": 4.0,
+            "EndX": 475.0,
+            "EndY": 4.0,
+            "LineWidth": 5.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Button",
+            "Name": "button1",
+            "X": 123,
+            "Y": 21,
+            "Width": 234,
+            "Height": 42,
+            "Pressed": "button_small_in_menu_on.png",
+            "Released": "button_small_in_menu_off.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 194,
+            "Y": 30,
+            "Width": 48,
+            "Height": 24,
+            "TextId": "Wstecz",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 33,
+              "Green": 133,
+              "Blue": 126
+            },
+            "AutoSize": true
+          }
+        ],
+        "Interactions": []
+      },
+      {
+        "Name": "Menu_buttons_container",
+        "X": 171,
+        "Y": -102,
+        "Width": 460,
+        "Height": 64,
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "image1",
+            "X": 9,
+            "Y": 11,
+            "Width": 440,
+            "Height": 42,
+            "RelativeFilename": "button_in_menu_off.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textarea",
+            "X": 23,
+            "Y": 20,
+            "Width": 81,
+            "Height": 24,
+            "TextId": "Menu_title",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 31,
+              "Green": 180,
+              "Blue": 194
+            },
+            "AutoSize": true
+          }
+        ],
+        "Interactions": []
+      }
+    ],
+    "Name": "MyApplication",
+    "Resolution": {
+      "Width": 800,
+      "Height": 480
+    },
+    "SelectedColorDepth": 32,
+    "StartupScreenName": "Main_screen",
+    "SelectedStartupLanguage": "PL",
+    "Skin": "Blue",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "UIPath": ".",
+    "AvailableColorDepths": [
+      32
+    ],
+    "AvailableLCDs": {
+      "32": "LCD32bpp"
+    },
+    "AvailableSections": [
+      "ExtFlashSection",
+      "IntFlashSection"
+    ],
+    "AvailableResolutions": [
+      {
+        "Width": 800,
+        "Height": 480
+      }
+    ],
+    "PhysicalButtons": [],
+    "FrameworkFeatures": {
+      "LCD32bpp": {
+        "Id": "LCD32bpp",
+        "IsEnabled": true
+      }
+    },
+    "GenerateAssetsCommand": "make -f simulator/gcc/Makefile assets -j8",
+    "PostGenerateCommand": "touchgfx update_project --project-file=simulator/msvs/Application.vcxproj",
+    "PostGenerateTargetCommand": "touchgfx update_project",
+    "CompileSimulatorCommand": "make -f simulator/gcc/Makefile -j8",
+    "RunSimulatorCommand": "build\\bin\\simulator.exe",
+    "LandscapeSkinX": 0,
+    "LandscapeSkinY": 0,
+    "PortraitSkinX": 0,
+    "PortraitSkinY": 0,
+    "DisplayOrientation": "Portrait",
+    "Family": "STM32H7",
+    "Platform": "m7",
+    "ProjectFile": "../SODIMM-IS25LP128-H723_v3.ioc",
+    "OptionalComponentsRoot": "../Middlewares/ST/touchgfx_components",
+    "OptionalComponents": []
+  },
+  "Version": "4.20.0"
+}
