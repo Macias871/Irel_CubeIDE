@@ -1,200 +1,208 @@
 build/MINGW32_NT-6.2/generated/simulator/src/mainBase.o: \
  generated/simulator/src/mainBase.cpp \
  generated/simulator/include/simulator/mainBase.hpp \
- touchgfx/framework/include/touchgfx/hal/HAL.hpp \
- touchgfx/framework/include/platform/core/MCUInstrumentation.hpp \
- touchgfx/framework/include/touchgfx/hal/Types.hpp \
- touchgfx/framework/include/touchgfx/hal/Config.hpp \
- touchgfx/framework/include/platform/driver/button/ButtonController.hpp \
- touchgfx/framework/include/platform/driver/touch/TouchController.hpp \
- touchgfx/framework/include/touchgfx/Bitmap.hpp \
- touchgfx/framework/include/touchgfx/Drawable.hpp \
- touchgfx/framework/include/touchgfx/events/ClickEvent.hpp \
- touchgfx/framework/include/touchgfx/Event.hpp \
- touchgfx/framework/include/touchgfx/events/DragEvent.hpp \
- touchgfx/framework/include/touchgfx/events/GestureEvent.hpp \
- touchgfx/framework/include/touchgfx/hal/BlitOp.hpp \
- touchgfx/framework/include/touchgfx/hal/DMA.hpp \
- touchgfx/framework/include/touchgfx/hal/Atomic.hpp \
- touchgfx/framework/include/touchgfx/hal/FrameBufferAllocator.hpp \
- touchgfx/framework/include/touchgfx/hal/Gestures.hpp \
- touchgfx/framework/include/touchgfx/UIEventListener.hpp \
- touchgfx/framework/include/touchgfx/lcd/LCD.hpp \
- touchgfx/framework/include/touchgfx/Font.hpp \
- touchgfx/framework/include/touchgfx/Unicode.hpp \
- touchgfx/framework/include/touchgfx/TextProvider.hpp \
- touchgfx/framework/include/touchgfx/TextureMapTypes.hpp \
- touchgfx/framework/include/touchgfx/lcd/DebugPrinter.hpp \
- touchgfx/framework/include/platform/hal/simulator/sdl2/HALSDL2.hpp \
- touchgfx/framework/include/platform/hal/simulator/sdl2/vendor/SDL2/SDL_render.h \
- touchgfx/framework/include/platform/hal/simulator/sdl2/vendor/SDL2/SDL_stdinc.h \
- touchgfx/framework/include/platform/hal/simulator/sdl2/vendor/SDL2/SDL_config.h \
- touchgfx/framework/include/platform/hal/simulator/sdl2/vendor/SDL2/SDL_platform.h \
- touchgfx/framework/include/platform/hal/simulator/sdl2/vendor/SDL2/begin_code.h \
- touchgfx/framework/include/platform/hal/simulator/sdl2/vendor/SDL2/close_code.h \
- touchgfx/framework/include/platform/hal/simulator/sdl2/vendor/SDL2/SDL_config_windows.h \
- touchgfx/framework/include/platform/hal/simulator/sdl2/vendor/SDL2/SDL_rect.h \
- touchgfx/framework/include/platform/hal/simulator/sdl2/vendor/SDL2/SDL_error.h \
- touchgfx/framework/include/platform/hal/simulator/sdl2/vendor/SDL2/SDL_pixels.h \
- touchgfx/framework/include/platform/hal/simulator/sdl2/vendor/SDL2/SDL_rwops.h \
- touchgfx/framework/include/platform/hal/simulator/sdl2/vendor/SDL2/SDL_video.h \
- touchgfx/framework/include/platform/hal/simulator/sdl2/vendor/SDL2/SDL_surface.h \
- touchgfx/framework/include/platform/hal/simulator/sdl2/vendor/SDL2/SDL_blendmode.h \
- touchgfx/framework/include/platform/hal/simulator/sdl2/vendor/SDL2/SDL_video.h \
- touchgfx/framework/include/common/TouchGFXInit.hpp \
- touchgfx/framework/include/touchgfx/Application.hpp \
- touchgfx/framework/include/touchgfx/Texts.hpp \
- touchgfx/framework/include/touchgfx/TypedText.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/HAL.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/platform/core/MCUInstrumentation.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/Types.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/Config.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/platform/driver/button/ButtonController.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/platform/driver/touch/TouchController.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/Bitmap.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/events/ClickEvent.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/Event.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/events/DragEvent.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/events/GestureEvent.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/BlitOp.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/DMA.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/Atomic.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/FrameBufferAllocator.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/Gestures.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/UIEventListener.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/lcd/LCD.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/Font.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/Unicode.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/TextProvider.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/TextureMapTypes.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/lcd/DebugPrinter.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/platform/hal/simulator/sdl2/HALSDL2.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/platform/hal/simulator/sdl2/vendor/SDL2/SDL_render.h \
+ ../Middlewares/ST/touchgfx/framework/include/platform/hal/simulator/sdl2/vendor/SDL2/SDL_stdinc.h \
+ ../Middlewares/ST/touchgfx/framework/include/platform/hal/simulator/sdl2/vendor/SDL2/SDL_config.h \
+ ../Middlewares/ST/touchgfx/framework/include/platform/hal/simulator/sdl2/vendor/SDL2/SDL_platform.h \
+ ../Middlewares/ST/touchgfx/framework/include/platform/hal/simulator/sdl2/vendor/SDL2/begin_code.h \
+ ../Middlewares/ST/touchgfx/framework/include/platform/hal/simulator/sdl2/vendor/SDL2/close_code.h \
+ ../Middlewares/ST/touchgfx/framework/include/platform/hal/simulator/sdl2/vendor/SDL2/SDL_config_windows.h \
+ ../Middlewares/ST/touchgfx/framework/include/platform/hal/simulator/sdl2/vendor/SDL2/SDL_rect.h \
+ ../Middlewares/ST/touchgfx/framework/include/platform/hal/simulator/sdl2/vendor/SDL2/SDL_error.h \
+ ../Middlewares/ST/touchgfx/framework/include/platform/hal/simulator/sdl2/vendor/SDL2/SDL_pixels.h \
+ ../Middlewares/ST/touchgfx/framework/include/platform/hal/simulator/sdl2/vendor/SDL2/SDL_rwops.h \
+ ../Middlewares/ST/touchgfx/framework/include/platform/hal/simulator/sdl2/vendor/SDL2/SDL_video.h \
+ ../Middlewares/ST/touchgfx/framework/include/platform/hal/simulator/sdl2/vendor/SDL2/SDL_surface.h \
+ ../Middlewares/ST/touchgfx/framework/include/platform/hal/simulator/sdl2/vendor/SDL2/SDL_blendmode.h \
+ ../Middlewares/ST/touchgfx/framework/include/platform/hal/simulator/sdl2/vendor/SDL2/SDL_video.h \
+ ../Middlewares/ST/touchgfx/framework/include/common/TouchGFXInit.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/Application.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/Texts.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/TypedText.hpp \
  generated/images/include/BitmapDatabase.hpp \
  generated/fonts/include/fonts/ApplicationFontProvider.hpp \
- touchgfx/framework/include/touchgfx/FontManager.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/FontManager.hpp \
  generated/texts/include/texts/TypedTextDatabase.hpp \
  gui/include/gui/common/FrontendHeap.hpp \
  generated/gui_generated/include/gui_generated/common/FrontendHeapBase.hpp \
- touchgfx/framework/include/common/Meta.hpp \
- touchgfx/framework/include/common/Partition.hpp \
- touchgfx/framework/include/common/AbstractPartition.hpp \
- touchgfx/framework/include/mvp/MVPHeap.hpp \
- touchgfx/framework/include/touchgfx/transitions/NoTransition.hpp \
- touchgfx/framework/include/touchgfx/transitions/Transition.hpp \
- touchgfx/framework/include/touchgfx/containers/Container.hpp \
- touchgfx/framework/include/touchgfx/Callback.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/common/Meta.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/common/Partition.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/common/AbstractPartition.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/mvp/MVPHeap.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/transitions/NoTransition.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/transitions/Transition.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/Container.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp \
  gui/include/gui/common/FrontendApplication.hpp \
  generated/gui_generated/include/gui_generated/common/FrontendApplicationBase.hpp \
- touchgfx/framework/include/mvp/MVPApplication.hpp \
- touchgfx/framework/include/mvp/Presenter.hpp \
- touchgfx/framework/include/touchgfx/Screen.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/mvp/MVPApplication.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/mvp/Presenter.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp \
  gui/include/gui/model/Model.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/Utils.hpp \
+ gui/include/gui/model/FakeHardware.hpp \
  gui/include/gui/main_screen_screen/Main_screenView.hpp \
  generated/gui_generated/include/gui_generated/main_screen_screen/Main_screenViewBase.hpp \
- touchgfx/framework/include/mvp/View.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/mvp/View.hpp \
  gui/include/gui/main_screen_screen/Main_screenPresenter.hpp \
  gui/include/gui/model/ModelListener.hpp \
- touchgfx/framework/include/touchgfx/widgets/Box.hpp \
- touchgfx/framework/include/touchgfx/widgets/Widget.hpp \
- touchgfx/framework/include/touchgfx/widgets/Image.hpp \
- touchgfx/framework/include/touchgfx/widgets/AnimatedImage.hpp \
- touchgfx/framework/include/touchgfx/widgets/Button.hpp \
- touchgfx/framework/include/touchgfx/widgets/AbstractButton.hpp \
- touchgfx/framework/include/touchgfx/widgets/TextArea.hpp \
- touchgfx/framework/include/touchgfx/containers/clock/DigitalClock.hpp \
- touchgfx/framework/include/touchgfx/containers/clock/AbstractClock.hpp \
- touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp \
- touchgfx/framework/include/touchgfx/EasingEquations.hpp \
- touchgfx/framework/include/touchgfx/mixins/MoveAnimator.hpp \
- gui/include/gui/menu_screen_0_screen/Menu_screen_0View.hpp \
- generated/gui_generated/include/gui_generated/menu_screen_0_screen/Menu_screen_0ViewBase.hpp \
- gui/include/gui/menu_screen_0_screen/Menu_screen_0Presenter.hpp \
- touchgfx/framework/include/touchgfx/widgets/canvas/Line.hpp \
- touchgfx/framework/include/touchgfx/widgets/canvas/CWRUtil.hpp \
- touchgfx/framework/include/touchgfx/Utils.hpp \
- touchgfx/framework/include/touchgfx/canvas_widget_renderer/Rasterizer.hpp \
- touchgfx/framework/include/touchgfx/canvas_widget_renderer/Outline.hpp \
- touchgfx/framework/include/touchgfx/canvas_widget_renderer/Cell.hpp \
- touchgfx/framework/include/touchgfx/widgets/canvas/AbstractPainter.hpp \
- touchgfx/framework/include/touchgfx/transforms/DisplayTransformation.hpp \
- touchgfx/framework/include/touchgfx/widgets/canvas/CanvasWidget.hpp \
- touchgfx/framework/include/touchgfx/widgets/canvas/PainterRGB565.hpp \
- touchgfx/framework/include/platform/driver/lcd/LCD16bpp.hpp \
- touchgfx/framework/include/touchgfx/lcd/LCD16DebugPrinter.hpp \
- touchgfx/framework/include/touchgfx/widgets/canvas/AbstractPainterColor.hpp \
- touchgfx/framework/include/touchgfx/widgets/canvas/AbstractPainterRGB565.hpp
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Box.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Widget.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Image.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Button.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/AbstractButton.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/AnimatedImage.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/EasingEquations.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/mixins/MoveAnimator.hpp \
+ gui/include/gui/menu_9_screen/Menu_9View.hpp \
+ generated/gui_generated/include/gui_generated/menu_9_screen/Menu_9ViewBase.hpp \
+ gui/include/gui/menu_9_screen/Menu_9Presenter.hpp \
+ gui/include/gui/containers/Menu_tree_title_container.hpp \
+ generated/gui_generated/include/gui_generated/containers/Menu_tree_title_containerBase.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/Line.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/CWRUtil.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/canvas_widget_renderer/Rasterizer.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/canvas_widget_renderer/Outline.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/canvas_widget_renderer/Cell.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/AbstractPainter.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/transforms/DisplayTransformation.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/CanvasWidget.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/PainterARGB8888.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/Color.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/AbstractPainterARGB8888.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/AbstractPainterColor.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp \
+ gui/include/gui/containers/Back_menu_container_1.hpp \
+ generated/gui_generated/include/gui_generated/containers/Back_menu_container_1Base.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/scrollers/ScrollList.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/scrollers/DrawableList.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/scrollers/ScrollBase.hpp \
+ gui/include/gui/containers/Menu_buttons_container.hpp \
+ generated/gui_generated/include/gui_generated/containers/Menu_buttons_containerBase.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/platform/driver/lcd/LCD32bpp.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/lcd/LCD32DebugPrinter.hpp
 
 generated/simulator/include/simulator/mainBase.hpp:
 
-touchgfx/framework/include/touchgfx/hal/HAL.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/HAL.hpp:
 
-touchgfx/framework/include/platform/core/MCUInstrumentation.hpp:
+../Middlewares/ST/touchgfx/framework/include/platform/core/MCUInstrumentation.hpp:
 
-touchgfx/framework/include/touchgfx/hal/Types.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/Types.hpp:
 
-touchgfx/framework/include/touchgfx/hal/Config.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/Config.hpp:
 
-touchgfx/framework/include/platform/driver/button/ButtonController.hpp:
+../Middlewares/ST/touchgfx/framework/include/platform/driver/button/ButtonController.hpp:
 
-touchgfx/framework/include/platform/driver/touch/TouchController.hpp:
+../Middlewares/ST/touchgfx/framework/include/platform/driver/touch/TouchController.hpp:
 
-touchgfx/framework/include/touchgfx/Bitmap.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/Bitmap.hpp:
 
-touchgfx/framework/include/touchgfx/Drawable.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:
 
-touchgfx/framework/include/touchgfx/events/ClickEvent.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/events/ClickEvent.hpp:
 
-touchgfx/framework/include/touchgfx/Event.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/Event.hpp:
 
-touchgfx/framework/include/touchgfx/events/DragEvent.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/events/DragEvent.hpp:
 
-touchgfx/framework/include/touchgfx/events/GestureEvent.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/events/GestureEvent.hpp:
 
-touchgfx/framework/include/touchgfx/hal/BlitOp.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/BlitOp.hpp:
 
-touchgfx/framework/include/touchgfx/hal/DMA.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/DMA.hpp:
 
-touchgfx/framework/include/touchgfx/hal/Atomic.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/Atomic.hpp:
 
-touchgfx/framework/include/touchgfx/hal/FrameBufferAllocator.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/FrameBufferAllocator.hpp:
 
-touchgfx/framework/include/touchgfx/hal/Gestures.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/Gestures.hpp:
 
-touchgfx/framework/include/touchgfx/UIEventListener.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/UIEventListener.hpp:
 
-touchgfx/framework/include/touchgfx/lcd/LCD.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/lcd/LCD.hpp:
 
-touchgfx/framework/include/touchgfx/Font.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/Font.hpp:
 
-touchgfx/framework/include/touchgfx/Unicode.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/Unicode.hpp:
 
-touchgfx/framework/include/touchgfx/TextProvider.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/TextProvider.hpp:
 
-touchgfx/framework/include/touchgfx/TextureMapTypes.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/TextureMapTypes.hpp:
 
-touchgfx/framework/include/touchgfx/lcd/DebugPrinter.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/lcd/DebugPrinter.hpp:
 
-touchgfx/framework/include/platform/hal/simulator/sdl2/HALSDL2.hpp:
+../Middlewares/ST/touchgfx/framework/include/platform/hal/simulator/sdl2/HALSDL2.hpp:
 
-touchgfx/framework/include/platform/hal/simulator/sdl2/vendor/SDL2/SDL_render.h:
+../Middlewares/ST/touchgfx/framework/include/platform/hal/simulator/sdl2/vendor/SDL2/SDL_render.h:
 
-touchgfx/framework/include/platform/hal/simulator/sdl2/vendor/SDL2/SDL_stdinc.h:
+../Middlewares/ST/touchgfx/framework/include/platform/hal/simulator/sdl2/vendor/SDL2/SDL_stdinc.h:
 
-touchgfx/framework/include/platform/hal/simulator/sdl2/vendor/SDL2/SDL_config.h:
+../Middlewares/ST/touchgfx/framework/include/platform/hal/simulator/sdl2/vendor/SDL2/SDL_config.h:
 
-touchgfx/framework/include/platform/hal/simulator/sdl2/vendor/SDL2/SDL_platform.h:
+../Middlewares/ST/touchgfx/framework/include/platform/hal/simulator/sdl2/vendor/SDL2/SDL_platform.h:
 
-touchgfx/framework/include/platform/hal/simulator/sdl2/vendor/SDL2/begin_code.h:
+../Middlewares/ST/touchgfx/framework/include/platform/hal/simulator/sdl2/vendor/SDL2/begin_code.h:
 
-touchgfx/framework/include/platform/hal/simulator/sdl2/vendor/SDL2/close_code.h:
+../Middlewares/ST/touchgfx/framework/include/platform/hal/simulator/sdl2/vendor/SDL2/close_code.h:
 
-touchgfx/framework/include/platform/hal/simulator/sdl2/vendor/SDL2/SDL_config_windows.h:
+../Middlewares/ST/touchgfx/framework/include/platform/hal/simulator/sdl2/vendor/SDL2/SDL_config_windows.h:
 
-touchgfx/framework/include/platform/hal/simulator/sdl2/vendor/SDL2/SDL_rect.h:
+../Middlewares/ST/touchgfx/framework/include/platform/hal/simulator/sdl2/vendor/SDL2/SDL_rect.h:
 
-touchgfx/framework/include/platform/hal/simulator/sdl2/vendor/SDL2/SDL_error.h:
+../Middlewares/ST/touchgfx/framework/include/platform/hal/simulator/sdl2/vendor/SDL2/SDL_error.h:
 
-touchgfx/framework/include/platform/hal/simulator/sdl2/vendor/SDL2/SDL_pixels.h:
+../Middlewares/ST/touchgfx/framework/include/platform/hal/simulator/sdl2/vendor/SDL2/SDL_pixels.h:
 
-touchgfx/framework/include/platform/hal/simulator/sdl2/vendor/SDL2/SDL_rwops.h:
+../Middlewares/ST/touchgfx/framework/include/platform/hal/simulator/sdl2/vendor/SDL2/SDL_rwops.h:
 
-touchgfx/framework/include/platform/hal/simulator/sdl2/vendor/SDL2/SDL_video.h:
+../Middlewares/ST/touchgfx/framework/include/platform/hal/simulator/sdl2/vendor/SDL2/SDL_video.h:
 
-touchgfx/framework/include/platform/hal/simulator/sdl2/vendor/SDL2/SDL_surface.h:
+../Middlewares/ST/touchgfx/framework/include/platform/hal/simulator/sdl2/vendor/SDL2/SDL_surface.h:
 
-touchgfx/framework/include/platform/hal/simulator/sdl2/vendor/SDL2/SDL_blendmode.h:
+../Middlewares/ST/touchgfx/framework/include/platform/hal/simulator/sdl2/vendor/SDL2/SDL_blendmode.h:
 
-touchgfx/framework/include/platform/hal/simulator/sdl2/vendor/SDL2/SDL_video.h:
+../Middlewares/ST/touchgfx/framework/include/platform/hal/simulator/sdl2/vendor/SDL2/SDL_video.h:
 
-touchgfx/framework/include/common/TouchGFXInit.hpp:
+../Middlewares/ST/touchgfx/framework/include/common/TouchGFXInit.hpp:
 
-touchgfx/framework/include/touchgfx/Application.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/Application.hpp:
 
-touchgfx/framework/include/touchgfx/Texts.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/Texts.hpp:
 
-touchgfx/framework/include/touchgfx/TypedText.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/TypedText.hpp:
 
 generated/images/include/BitmapDatabase.hpp:
 
 generated/fonts/include/fonts/ApplicationFontProvider.hpp:
 
-touchgfx/framework/include/touchgfx/FontManager.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/FontManager.hpp:
 
 generated/texts/include/texts/TypedTextDatabase.hpp:
 
@@ -202,98 +210,114 @@ gui/include/gui/common/FrontendHeap.hpp:
 
 generated/gui_generated/include/gui_generated/common/FrontendHeapBase.hpp:
 
-touchgfx/framework/include/common/Meta.hpp:
+../Middlewares/ST/touchgfx/framework/include/common/Meta.hpp:
 
-touchgfx/framework/include/common/Partition.hpp:
+../Middlewares/ST/touchgfx/framework/include/common/Partition.hpp:
 
-touchgfx/framework/include/common/AbstractPartition.hpp:
+../Middlewares/ST/touchgfx/framework/include/common/AbstractPartition.hpp:
 
-touchgfx/framework/include/mvp/MVPHeap.hpp:
+../Middlewares/ST/touchgfx/framework/include/mvp/MVPHeap.hpp:
 
-touchgfx/framework/include/touchgfx/transitions/NoTransition.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/transitions/NoTransition.hpp:
 
-touchgfx/framework/include/touchgfx/transitions/Transition.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/transitions/Transition.hpp:
 
-touchgfx/framework/include/touchgfx/containers/Container.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/Container.hpp:
 
-touchgfx/framework/include/touchgfx/Callback.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:
 
 gui/include/gui/common/FrontendApplication.hpp:
 
 generated/gui_generated/include/gui_generated/common/FrontendApplicationBase.hpp:
 
-touchgfx/framework/include/mvp/MVPApplication.hpp:
+../Middlewares/ST/touchgfx/framework/include/mvp/MVPApplication.hpp:
 
-touchgfx/framework/include/mvp/Presenter.hpp:
+../Middlewares/ST/touchgfx/framework/include/mvp/Presenter.hpp:
 
-touchgfx/framework/include/touchgfx/Screen.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:
 
 gui/include/gui/model/Model.hpp:
+
+../Middlewares/ST/touchgfx/framework/include/touchgfx/Utils.hpp:
+
+gui/include/gui/model/FakeHardware.hpp:
 
 gui/include/gui/main_screen_screen/Main_screenView.hpp:
 
 generated/gui_generated/include/gui_generated/main_screen_screen/Main_screenViewBase.hpp:
 
-touchgfx/framework/include/mvp/View.hpp:
+../Middlewares/ST/touchgfx/framework/include/mvp/View.hpp:
 
 gui/include/gui/main_screen_screen/Main_screenPresenter.hpp:
 
 gui/include/gui/model/ModelListener.hpp:
 
-touchgfx/framework/include/touchgfx/widgets/Box.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Box.hpp:
 
-touchgfx/framework/include/touchgfx/widgets/Widget.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Widget.hpp:
 
-touchgfx/framework/include/touchgfx/widgets/Image.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Image.hpp:
 
-touchgfx/framework/include/touchgfx/widgets/AnimatedImage.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Button.hpp:
 
-touchgfx/framework/include/touchgfx/widgets/Button.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/AbstractButton.hpp:
 
-touchgfx/framework/include/touchgfx/widgets/AbstractButton.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/AnimatedImage.hpp:
 
-touchgfx/framework/include/touchgfx/widgets/TextArea.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/EasingEquations.hpp:
 
-touchgfx/framework/include/touchgfx/containers/clock/DigitalClock.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/mixins/MoveAnimator.hpp:
 
-touchgfx/framework/include/touchgfx/containers/clock/AbstractClock.hpp:
+gui/include/gui/menu_9_screen/Menu_9View.hpp:
 
-touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp:
+generated/gui_generated/include/gui_generated/menu_9_screen/Menu_9ViewBase.hpp:
 
-touchgfx/framework/include/touchgfx/EasingEquations.hpp:
+gui/include/gui/menu_9_screen/Menu_9Presenter.hpp:
 
-touchgfx/framework/include/touchgfx/mixins/MoveAnimator.hpp:
+gui/include/gui/containers/Menu_tree_title_container.hpp:
 
-gui/include/gui/menu_screen_0_screen/Menu_screen_0View.hpp:
+generated/gui_generated/include/gui_generated/containers/Menu_tree_title_containerBase.hpp:
 
-generated/gui_generated/include/gui_generated/menu_screen_0_screen/Menu_screen_0ViewBase.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/Line.hpp:
 
-gui/include/gui/menu_screen_0_screen/Menu_screen_0Presenter.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/CWRUtil.hpp:
 
-touchgfx/framework/include/touchgfx/widgets/canvas/Line.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/canvas_widget_renderer/Rasterizer.hpp:
 
-touchgfx/framework/include/touchgfx/widgets/canvas/CWRUtil.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/canvas_widget_renderer/Outline.hpp:
 
-touchgfx/framework/include/touchgfx/Utils.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/canvas_widget_renderer/Cell.hpp:
 
-touchgfx/framework/include/touchgfx/canvas_widget_renderer/Rasterizer.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/AbstractPainter.hpp:
 
-touchgfx/framework/include/touchgfx/canvas_widget_renderer/Outline.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/transforms/DisplayTransformation.hpp:
 
-touchgfx/framework/include/touchgfx/canvas_widget_renderer/Cell.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/CanvasWidget.hpp:
 
-touchgfx/framework/include/touchgfx/widgets/canvas/AbstractPainter.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/PainterARGB8888.hpp:
 
-touchgfx/framework/include/touchgfx/transforms/DisplayTransformation.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/Color.hpp:
 
-touchgfx/framework/include/touchgfx/widgets/canvas/CanvasWidget.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/AbstractPainterARGB8888.hpp:
 
-touchgfx/framework/include/touchgfx/widgets/canvas/PainterRGB565.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/AbstractPainterColor.hpp:
 
-touchgfx/framework/include/platform/driver/lcd/LCD16bpp.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp:
 
-touchgfx/framework/include/touchgfx/lcd/LCD16DebugPrinter.hpp:
+gui/include/gui/containers/Back_menu_container_1.hpp:
 
-touchgfx/framework/include/touchgfx/widgets/canvas/AbstractPainterColor.hpp:
+generated/gui_generated/include/gui_generated/containers/Back_menu_container_1Base.hpp:
 
-touchgfx/framework/include/touchgfx/widgets/canvas/AbstractPainterRGB565.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/scrollers/ScrollList.hpp:
+
+../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/scrollers/DrawableList.hpp:
+
+../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/scrollers/ScrollBase.hpp:
+
+gui/include/gui/containers/Menu_buttons_container.hpp:
+
+generated/gui_generated/include/gui_generated/containers/Menu_buttons_containerBase.hpp:
+
+../Middlewares/ST/touchgfx/framework/include/platform/driver/lcd/LCD32bpp.hpp:
+
+../Middlewares/ST/touchgfx/framework/include/touchgfx/lcd/LCD32DebugPrinter.hpp:
