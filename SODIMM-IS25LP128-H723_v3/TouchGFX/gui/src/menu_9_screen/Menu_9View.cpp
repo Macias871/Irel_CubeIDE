@@ -108,6 +108,7 @@ void Menu_9View::scrollListUpdateItem(Menu_buttons_container& item, int16_t item
 void Menu_9View::listElementClicked(Menu_buttons_container& element)
 {
 
+
 	//fill_positions_menu(element.);
 
     // The button of the list element has been pressed
