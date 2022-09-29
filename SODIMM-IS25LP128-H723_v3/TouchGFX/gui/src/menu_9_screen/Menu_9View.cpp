@@ -1,6 +1,10 @@
 #include <gui/menu_9_screen/Menu_9View.hpp>
-
+#include <texts/TextKeysAndLanguages.hpp>
 #include <BitmapDatabase.hpp>
+
+
+
+
 
 Menu_9View::Menu_9View()
 {

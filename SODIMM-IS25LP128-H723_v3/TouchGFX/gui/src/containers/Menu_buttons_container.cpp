@@ -1,6 +1,13 @@
 #include <gui/containers/Menu_buttons_container.hpp>
 #include <BitmapDatabase.hpp>
 #include <texts/TextKeysAndLanguages.hpp>
+
+
+TGFX_Menu_t sub_menu_9_1 = { "9.1. Nastawy podstawowe", T_DEFAULT_SETTINGS , &sub_menu_9_2, NULL, NULL, NULL, NULL};
+TGFX_Menu_t sub_menu_9_2 = { "9.2. Serwis"            , T_SERVICE          ,NULL          , &sub_menu_9_1, NULL, NULL, NULL};
+
+
+
 Menu_buttons_container::Menu_buttons_container()
 {
 
