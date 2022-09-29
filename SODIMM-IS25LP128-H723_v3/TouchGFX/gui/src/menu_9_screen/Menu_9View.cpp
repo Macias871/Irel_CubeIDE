@@ -65,7 +65,7 @@ void Menu_9View::fill_positions_menu(TGFX_Menu_t Menu)
 
     for(uint8_t position = 0; position < 30; position++)
     {
-    	scrollListListItems[position].setupListElement(Bitmap(BITMAP_BUTTON_IN_MENU_OFF_ID), Sub_menu->Ttext);
+    	scrollListListItems[position].setupListElement(Bitmap(BITMAP_BUTTON_IN_MENU_OFF_ID), Sub_menu->Ttext, *Sub_menu);
     	Base_of_menu_struct_items[position] = Sub_menu;
     	numbers_of_menu_lines++;
     	if(Sub_menu->next == NULL)
@@ -85,6 +85,7 @@ void Menu_9View::fill_positions_menu(TGFX_Menu_t Menu)
 
 
 
+
 }
 
 
@@ -94,8 +95,7 @@ void Menu_9View::tearDownScreen()
 }
 
 
-
-void Menu_9View::scrollListUpdateItem(Menu_buttons_container& item, int16_t itemIndex, TGFX_Menu_t Menu)
+void Menu_9View::scrollListUpdateItem(Menu_buttons_container& item, int16_t itemIndex)
 {
 
 
@@ -104,15 +104,75 @@ void Menu_9View::scrollListUpdateItem(Menu_buttons_container& item, int16_t item
 
 }
 
+void Menu_9View::updateItemCallbackHandler(touchgfx::DrawableListItemsInterface* items, int16_t containerIndex, int16_t itemIndex)
+{
+    if (items == &scrollListListItems)
+    {
+        touchgfx::Drawable* d = items->getDrawable(containerIndex);
+        Menu_buttons_container* cc = (Menu_buttons_container*)d;
+        scrollListUpdateItem(*cc, itemIndex);
+    }
+}
 
+/*
+void Menu_9View::listElementClickedCallback(Menu_buttons_container& element)
+{
+
+	textArea1.setTypedText(TypedText(T_SET_EXTERNALS));
+	textArea1.resizeToCurrentText();
+    invalidate();
+
+}
+*/
+/*
 void Menu_9View::listElementClicked(Menu_buttons_container& element)
 {
 
+	textArea1.setTypedText(TypedText(T_SET_EXTERNALS));
+	textArea1.resizeToCurrentText();
+    invalidate();
 
-	//fill_positions_menu(element.);
 
     // The button of the list element has been pressed
     // so it is removed from the list
    // list.remove(element);
    // scrollCnt.invalidate();
 }
+*/
+
+/*
+void Menu_9View::scrollListUpdateItem(Menu_buttons_container& item, int16_t itemIndex)
+{
+
+
+
+
+	//textArea1.setTypedText(TypedText(T_SET_EXTERNALS));
+	//textArea1.resizeToCurrentText();
+    //invalidate();
+
+
+	//item.SetListElemnts(itemIndex,TGFX_Actual_menu);
+
+}
+*/
+
+/*
+void Menu_9View::listElementClickedCallback(Menu_buttons_container& element)
+{
+
+	textArea1.setTypedText(TypedText(T_SET_EXTERNALS));
+	textArea1.resizeToCurrentText();
+    invalidate();
+
+	//fill_positions_menu(element.TGFX_menu_elemnt);
+
+
+//	fill_positions_menu(element.TGFX_menu_elemnt);
+
+    // The button of the list element has been pressed
+    // so it is removed from the list
+   // list.remove(element);
+   // scrollCnt.invalidate();
+}
+*/

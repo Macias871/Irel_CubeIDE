@@ -30,13 +30,25 @@ public:
     virtual ~Menu_buttons_container() {}
 
     virtual void initialize();
-    void setupListElement(const Bitmap& iconBMP, TEXTS iconTextID);
+    void setupListElement(const Bitmap& iconBMP, TEXTS iconTextID, TGFX_Menu_t Menu);
     void SetListElemnts(int item);
-   // TGFX_Menu_t Get_TGFX_menu(int item);
+    TGFX_Menu_t TGFX_menu_elemnt;
 
 
 protected:
 
+
+private:
+    /*
+     * Callback Declarations
+     */
+    touchgfx::Callback<Menu_buttons_containerBase, const touchgfx::AbstractButton&> buttonCallback;
+
+    /*
+     * Callback Handler Declarations
+     */
+    void buttonCallbackHandler(const touchgfx::AbstractButton& src);
+  //  GenericCallback< Menu_buttons_container& >* viewCallback;
   //  Callback<Menu_buttons_container,int16_t> scrollmenu_ItemSelectedCallback;
   //  void scrollmenu_ItemSelectedCallback(int16_t itemSelected);
 };

@@ -83,23 +83,29 @@
             "X": 10,
             "Y": 68,
             "Width": 460,
-            "Height": 76,
+            "Height": 572,
             "ItemTemplateName": "Menu_buttons_container",
-            "NumberofItems": 10,
+            "NumberofItems": 2,
             "Easing": "Back",
             "EasingOption": "Out",
             "SwipeAcceleration": 1.0,
             "DragAcceleration": 1.0
           },
           {
-            "Type": "ListLayout",
-            "Name": "listLayout1",
-            "X": 115,
-            "Y": 166,
-            "Width": 250,
-            "Height": 250,
-            "Direction": "East",
-            "Components": []
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 45,
+            "Y": 671,
+            "Width": 92,
+            "Height": 24,
+            "TextId": "__SingleUse_ABEO",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 89,
+              "Green": 148,
+              "Blue": 139
+            },
+            "AutoSize": true
           }
         ],
         "Interactions": []
@@ -212,13 +218,14 @@
         "Height": 64,
         "Components": [
           {
-            "Type": "Image",
-            "Name": "image1",
+            "Type": "Button",
+            "Name": "button1",
             "X": 9,
             "Y": 11,
             "Width": 440,
             "Height": 42,
-            "RelativeFilename": "button_in_menu_off.png"
+            "Pressed": "button_in_menu_on.png",
+            "Released": "button_in_menu_off.png"
           },
           {
             "Type": "TextArea",
@@ -237,7 +244,19 @@
             "AutoSize": true
           }
         ],
-        "Interactions": []
+        "Interactions": [
+          {
+            "InteractionName": "Clicked_butt",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "button1"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "button_menu_clicked"
+            }
+          }
+        ]
       }
     ],
     "Name": "MyApplication",

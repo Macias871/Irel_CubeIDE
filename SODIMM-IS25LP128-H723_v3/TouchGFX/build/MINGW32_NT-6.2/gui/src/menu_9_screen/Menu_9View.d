@@ -41,7 +41,8 @@ build/MINGW32_NT-6.2/gui/src/menu_9_screen/Menu_9View.o: \
  gui/include/gui/model/Model.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/Utils.hpp \
  gui/include/gui/model/FakeHardware.hpp \
- ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Image.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Button.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/AbstractButton.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Widget.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/TypedText.hpp \
@@ -52,6 +53,7 @@ build/MINGW32_NT-6.2/gui/src/menu_9_screen/Menu_9View.o: \
  gui/include/gui/menu_9_screen/Menu_9Presenter.hpp \
  gui/include/gui/model/ModelListener.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Box.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Image.hpp \
  gui/include/gui/containers/Menu_tree_title_container.hpp \
  generated/gui_generated/include/gui_generated/containers/Menu_tree_title_containerBase.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/Line.hpp \
@@ -68,8 +70,6 @@ build/MINGW32_NT-6.2/gui/src/menu_9_screen/Menu_9View.o: \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/AbstractPainterColor.hpp \
  gui/include/gui/containers/Back_menu_container_1.hpp \
  generated/gui_generated/include/gui_generated/containers/Back_menu_container_1Base.hpp \
- ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Button.hpp \
- ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/AbstractButton.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/scrollers/ScrollList.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/scrollers/DrawableList.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/scrollers/ScrollBase.hpp \
@@ -158,7 +158,9 @@ gui/include/gui/model/Model.hpp:
 
 gui/include/gui/model/FakeHardware.hpp:
 
-../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Image.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Button.hpp:
+
+../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/AbstractButton.hpp:
 
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Widget.hpp:
 
@@ -179,6 +181,8 @@ gui/include/gui/menu_9_screen/Menu_9Presenter.hpp:
 gui/include/gui/model/ModelListener.hpp:
 
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Box.hpp:
+
+../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Image.hpp:
 
 gui/include/gui/containers/Menu_tree_title_container.hpp:
 
@@ -211,10 +215,6 @@ generated/gui_generated/include/gui_generated/containers/Menu_tree_title_contain
 gui/include/gui/containers/Back_menu_container_1.hpp:
 
 generated/gui_generated/include/gui_generated/containers/Back_menu_container_1Base.hpp:
-
-../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Button.hpp:
-
-../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/AbstractButton.hpp:
 
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/scrollers/ScrollList.hpp:
 

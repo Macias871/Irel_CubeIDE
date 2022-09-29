@@ -4,7 +4,6 @@
 
 
 
-
 Menu_buttons_container::Menu_buttons_container()
 {
 
@@ -13,7 +12,8 @@ Menu_buttons_container::Menu_buttons_container()
 void Menu_buttons_container::SetListElemnts(int item)
 {
 
-	image1.invalidate();
+	//image1.invalidate();
+	/*
 	textarea.invalidate();
 
 	switch (item) {
@@ -39,7 +39,7 @@ void Menu_buttons_container::SetListElemnts(int item)
 			break;
 	}
 
-
+*/
 }
 /*
 TGFX_Menu_t Get_TGFX_menu(int item)
@@ -52,9 +52,11 @@ TGFX_Menu_t Get_TGFX_menu(int item)
 }
 */
 
-void Menu_buttons_container::setupListElement(const Bitmap& iconBMP, TEXTS iconTextID)
+void Menu_buttons_container::setupListElement(const Bitmap& iconBMP, TEXTS iconTextID, TGFX_Menu_t Menu)
 {
-	image1.setBitmap(iconBMP);
+
+	TGFX_menu_elemnt = Menu;
+	//image1.setBitmap(iconBMP);
 	textarea.setTypedText(TypedText(iconTextID));
 	textarea.resizeToCurrentText();
     invalidate();
@@ -63,4 +65,15 @@ void Menu_buttons_container::setupListElement(const Bitmap& iconBMP, TEXTS iconT
 void Menu_buttons_container::initialize()
 {
     Menu_buttons_containerBase::initialize();
+}
+
+void Menu_buttons_container::buttonCallbackHandler(const touchgfx::AbstractButton& src)
+{
+    if (&src == &button1)
+    {
+        //Clicked_butt
+        //When button1 clicked call virtual function
+        //Call button_menu_clicked
+        button_menu_clicked();
+    }
 }
