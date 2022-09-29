@@ -23,13 +23,13 @@ Menu_9ViewBase::Menu_9ViewBase() :
 
     back_menu_container_11.setXY(0, 732);
 
-    scrollList.setPosition(10, 74, 460, 453);
+    scrollList.setPosition(10, 68, 460, 126);
     scrollList.setHorizontal(false);
     scrollList.setCircular(false);
     scrollList.setEasingEquation(touchgfx::EasingEquations::backEaseOut);
     scrollList.setSwipeAcceleration(10);
     scrollList.setDragAcceleration(10);
-    scrollList.setNumberOfItems(6);
+    scrollList.setNumberOfItems(10);
     scrollList.setPadding(0, 0);
     scrollList.setSnapping(false);
     scrollList.setDrawableSize(64, 0);

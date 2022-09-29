@@ -5,8 +5,27 @@
 #include <gui_generated/containers/Menu_buttons_containerBase.hpp>
 #include <gui/menu_9_screen/Menu_9Presenter.hpp>
 
+typedef struct TGFX_menu_struct TGFX_Menu_t;
+
+struct TGFX_menu_struct {
+
+	const char * name;
+	TEXTS  Ttext;
+	TGFX_Menu_t * next;
+	TGFX_Menu_t * prev;
+	TGFX_Menu_t * child;
+	TGFX_Menu_t * parent;
+	void (*menu_function)(void);
 
 
+};
+extern TGFX_Menu_t menu_9;
+extern TGFX_Menu_t sub_menu_9_1;
+extern TGFX_Menu_t sub_menu_9_2;
+
+extern TGFX_Menu_t *Sub_menu;
+extern TGFX_Menu_t *Temp_menu;
+//extern TGFX_Menu_t *TGFX_Actual_menu;
 
 class Menu_9View : public Menu_9ViewBase
 {
@@ -15,8 +34,9 @@ public:
     virtual ~Menu_9View() {}
     virtual void setupScreen();
     virtual void tearDownScreen();
-    virtual void scrollListUpdateItem(Menu_buttons_container& item, int16_t itemIndex);
-
+    virtual void scrollListUpdateItem(Menu_buttons_container& item, int16_t itemIndex, TGFX_Menu_t Menu);
+    void listElementClicked(Menu_buttons_container& element);
+    void fill_positions_menu(TGFX_Menu_t Menu);
 
 protected:
     Callback<Menu_9View,int16_t> scrollList_ItemSelectedCallback;

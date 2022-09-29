@@ -3,9 +3,6 @@
 #include <texts/TextKeysAndLanguages.hpp>
 
 
-TGFX_Menu_t sub_menu_9_1 = { "9.1. Nastawy podstawowe", T_DEFAULT_SETTINGS , &sub_menu_9_2, NULL, NULL, NULL, NULL};
-TGFX_Menu_t sub_menu_9_2 = { "9.2. Serwis"            , T_SERVICE          ,NULL          , &sub_menu_9_1, NULL, NULL, NULL};
-
 
 
 Menu_buttons_container::Menu_buttons_container()
@@ -21,7 +18,9 @@ void Menu_buttons_container::SetListElemnts(int item)
 
 	switch (item) {
 		case 0:
+
 			image1.setBitmap(Bitmap(BITMAP_BUTTON_IN_MENU_OFF_ID));
+			//textarea.setTypedText(TypedText(Menu.Ttext));
 			textarea.setTypedText(TypedText(T_DEFAULT_SETTINGS));
 			textarea.resizeToCurrentText();
 			break;
@@ -41,6 +40,14 @@ void Menu_buttons_container::SetListElemnts(int item)
 	}
 
 
+}
+
+void Menu_buttons_container::setupListElement(const Bitmap& iconBMP, TEXTS iconTextID)
+{
+	image1.setBitmap(iconBMP);
+	textarea.setTypedText(TypedText(iconTextID));
+	textarea.resizeToCurrentText();
+    invalidate();
 }
 
 void Menu_buttons_container::initialize()
