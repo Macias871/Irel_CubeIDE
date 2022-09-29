@@ -41,6 +41,16 @@ void Menu_buttons_container::SetListElemnts(int item)
 
 
 }
+/*
+TGFX_Menu_t Get_TGFX_menu(int item)
+{
+
+	TGFX_Menu_t Temp_struct_menu;
+
+	return Temp_struct_menu;
+
+}
+*/
 
 void Menu_buttons_container::setupListElement(const Bitmap& iconBMP, TEXTS iconTextID)
 {

@@ -13,6 +13,7 @@
 #include <gui/containers/Back_menu_container_1.hpp>
 #include <touchgfx/containers/scrollers/ScrollList.hpp>
 #include <gui/containers/Menu_buttons_container.hpp>
+#include <touchgfx/containers/ListLayout.hpp>
 
 class Menu_9ViewBase : public touchgfx::View<Menu_9Presenter>
 {
@@ -40,6 +41,7 @@ protected:
     Back_menu_container_1 back_menu_container_11;
     touchgfx::ScrollList scrollList;
     touchgfx::DrawableListItems<Menu_buttons_container, 3> scrollListListItems;
+    touchgfx::ListLayout listLayout1;
 
 private:
     touchgfx::Callback<Menu_9ViewBase, touchgfx::DrawableListItemsInterface*, int16_t, int16_t> updateItemCallback;

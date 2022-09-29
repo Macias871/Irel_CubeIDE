@@ -23,7 +23,7 @@ Menu_9ViewBase::Menu_9ViewBase() :
 
     back_menu_container_11.setXY(0, 732);
 
-    scrollList.setPosition(10, 68, 460, 126);
+    scrollList.setPosition(10, 68, 460, 76);
     scrollList.setHorizontal(false);
     scrollList.setCircular(false);
     scrollList.setEasingEquation(touchgfx::EasingEquations::backEaseOut);
@@ -35,11 +35,15 @@ Menu_9ViewBase::Menu_9ViewBase() :
     scrollList.setDrawableSize(64, 0);
     scrollList.setDrawables(scrollListListItems, updateItemCallback);
 
+    listLayout1.setDirection(touchgfx::EAST);
+    listLayout1.setPosition(115, 166, 250, 250);
+
     add(__background);
     add(backgroud);
     add(menu_tree_title_container1);
     add(back_menu_container_11);
     add(scrollList);
+    add(listLayout1);
 }
 
 void Menu_9ViewBase::setupScreen()

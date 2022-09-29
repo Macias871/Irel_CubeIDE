@@ -83,13 +83,23 @@
             "X": 10,
             "Y": 68,
             "Width": 460,
-            "Height": 126,
+            "Height": 76,
             "ItemTemplateName": "Menu_buttons_container",
             "NumberofItems": 10,
             "Easing": "Back",
             "EasingOption": "Out",
             "SwipeAcceleration": 1.0,
             "DragAcceleration": 1.0
+          },
+          {
+            "Type": "ListLayout",
+            "Name": "listLayout1",
+            "X": 115,
+            "Y": 166,
+            "Width": 250,
+            "Height": 250,
+            "Direction": "East",
+            "Components": []
           }
         ],
         "Interactions": []
@@ -126,7 +136,7 @@
             "Name": "textArea1",
             "X": 20,
             "Y": 22,
-            "Width": 94,
+            "Width": 81,
             "Height": 24,
             "TextId": "Menu_title",
             "TextRotation": "0",
@@ -180,7 +190,7 @@
             "Name": "textArea1",
             "X": 194,
             "Y": 30,
-            "Width": 48,
+            "Width": 71,
             "Height": 24,
             "TextId": "Wstecz",
             "TextRotation": "0",

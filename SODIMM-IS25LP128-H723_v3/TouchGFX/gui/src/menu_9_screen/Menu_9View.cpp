@@ -3,16 +3,31 @@
 #include <BitmapDatabase.hpp>
 
 
+
+
+
 TGFX_Menu_t menu_9 = { "9. Menu", T_MENU_TITLE_9_1,NULL, NULL, &sub_menu_9_1, NULL, NULL};
 
 TGFX_Menu_t sub_menu_9_1 = { "9.1. Nastawy podstawowe", T_DEFAULT_SETTINGS , &sub_menu_9_2, NULL, NULL, NULL, NULL};
-TGFX_Menu_t sub_menu_9_2 = { "9.2. Serwis"            , T_SERVICE          ,NULL          , &sub_menu_9_1, NULL, NULL, NULL};
+	TGFX_Menu_t sub_menu_9_1_1 = { "9.1.1 Język"            , T_LANGUAGE     , &sub_menu_9_1_2, NULL, NULL, NULL, NULL};
+	TGFX_Menu_t sub_menu_9_1_2 = { "9.1.2 Zał ogrz"         , T_SET_HEAT     , &sub_menu_9_1_3, &sub_menu_9_1_2, NULL, NULL, NULL};
+	TGFX_Menu_t sub_menu_9_1_3 = { "9.1.3 Ust. Fab."        , T_SET_DEFAULTS , &sub_menu_9_1_4, &sub_menu_9_1_3, NULL, NULL, NULL};
+	TGFX_Menu_t sub_menu_9_1_4 = { "9.1.4 Ust. Roz."        , T_SET_EXTERNALS, NULL, &sub_menu_9_1_3, NULL, NULL, NULL};
 
 
 
-//TGFX_Menu_t *TGFX_Actual_menu;
+TGFX_Menu_t sub_menu_9_2 = { "9.2. Serwis"            , T_SERVICE          , &sub_menu_9_3, &sub_menu_9_1, NULL, NULL, NULL};
+TGFX_Menu_t sub_menu_9_3 = { "9.3. Diagnostyka"       , T_DIAGNSTIC        , &sub_menu_9_4, &sub_menu_9_2, NULL, NULL, NULL};
+TGFX_Menu_t sub_menu_9_4 = { "9.4. Temp. zew."        , T_OUT_TEMPERATURE  , &sub_menu_9_5, &sub_menu_9_3, NULL, NULL, NULL};
+TGFX_Menu_t sub_menu_9_5 = { "9.5. Czas pracy"        , T_WORK_TIME        , &sub_menu_9_6, &sub_menu_9_4, NULL, NULL, NULL};
+TGFX_Menu_t sub_menu_9_6 = { "9.6. Wybór programu"    , T_SET_PROGRAMM     , NULL         , &sub_menu_9_5, NULL, NULL, NULL};
+
+
+
+TGFX_Menu_t *TGFX_Actual_menu;
 TGFX_Menu_t *Sub_menu;
 TGFX_Menu_t *Temp_menu;
+TGFX_Menu_t *Base_of_menu_struct_items[30];
 
 
 Menu_9View::Menu_9View()
@@ -32,31 +47,7 @@ void Menu_9View::setupScreen()
 
     fill_positions_menu(menu_9);
 
-   // scrollList.invalidate();
 
-
-
-
-    //scrollList.initialize();
-
-    /*for (int i = 0; i < scrollListListItems.getNumberOfDrawables(); i++)
-    {
-        scrollListListItems[i].initialize();
-    }
-*/
-
-
-
-   // scrollListListItems[0].setupListElement(Bitmap(BITMAP_BUTTON_IN_MENU_OFF_ID), T_DEFAULT_SETTINGS);
-   // scrollListListItems[1].setupListElement(Bitmap(BITMAP_BUTTON_IN_MENU_OFF_ID), T_SERVICE);
-    //scrollListListItems[2].setupListElement(Bitmap(BITMAP_BUTTON_IN_MENU_OFF_ID), T_OUT_TEMPERATURE);
-
-    /*
-    for(uint8_t position = 0; position < 9; position++)
-    {
-    	scrollListListItems[0].setupListElement(Bitmap(BITMAP_BUTTON_IN_MENU_OFF_ID), T_DEFAULT_SETTINGS);
-    }
-    */
 }
 
 
@@ -64,6 +55,7 @@ void Menu_9View::fill_positions_menu(TGFX_Menu_t Menu)
 {
 
 	uint8_t numbers_of_menu_lines = 0;
+	TGFX_Actual_menu = &Menu;
 
 
 	if(Menu.child != NULL)
@@ -71,32 +63,27 @@ void Menu_9View::fill_positions_menu(TGFX_Menu_t Menu)
 		Sub_menu = Menu.child;
 	}
 
-    for(uint8_t position = 0; position < 9; position++)
+    for(uint8_t position = 0; position < 30; position++)
     {
-    	if(Menu.next == NULL)
-    	{
-    		break;
-    	}
-
+    	scrollListListItems[position].setupListElement(Bitmap(BITMAP_BUTTON_IN_MENU_OFF_ID), Sub_menu->Ttext);
+    	Base_of_menu_struct_items[position] = Sub_menu;
+    	numbers_of_menu_lines++;
     	if(Sub_menu->next == NULL)
     	{
     		break;
     	}
-
-    //	scrollListListItems[position].setupListElement(Bitmap(BITMAP_BUTTON_IN_MENU_OFF_ID), Sub_menu->Ttext);
-
-    	Sub_menu = Sub_menu->next;
-
-
-   	numbers_of_menu_lines++;
+    	else
+    	{
+    		Sub_menu = Sub_menu->next;
+    	}
 
     }
 
+    scrollList.setNumberOfItems(numbers_of_menu_lines);
+    scrollList.invalidate();
 
-	//if(Menu.next != NULL)
-	//{
-	//scrollListListItems[position].setupListElement(Bitmap(BITMAP_BUTTON_IN_MENU_OFF_ID), Sub_menu.Ttext);
-	//}
+
+
 
 }
 
@@ -120,6 +107,9 @@ void Menu_9View::scrollListUpdateItem(Menu_buttons_container& item, int16_t item
 
 void Menu_9View::listElementClicked(Menu_buttons_container& element)
 {
+
+	//fill_positions_menu(element.);
+
     // The button of the list element has been pressed
     // so it is removed from the list
    // list.remove(element);

@@ -5,27 +5,27 @@
 #include <gui_generated/containers/Menu_buttons_containerBase.hpp>
 #include <gui/menu_9_screen/Menu_9Presenter.hpp>
 
-typedef struct TGFX_menu_struct TGFX_Menu_t;
-
-struct TGFX_menu_struct {
-
-	const char * name;
-	TEXTS  Ttext;
-	TGFX_Menu_t * next;
-	TGFX_Menu_t * prev;
-	TGFX_Menu_t * child;
-	TGFX_Menu_t * parent;
-	void (*menu_function)(void);
 
 
-};
+
+
 extern TGFX_Menu_t menu_9;
 extern TGFX_Menu_t sub_menu_9_1;
+	extern TGFX_Menu_t sub_menu_9_1_1;
+	extern TGFX_Menu_t sub_menu_9_1_2;
+	extern TGFX_Menu_t sub_menu_9_1_3;
+	extern TGFX_Menu_t sub_menu_9_1_4;
+
 extern TGFX_Menu_t sub_menu_9_2;
+extern TGFX_Menu_t sub_menu_9_3;
+extern TGFX_Menu_t sub_menu_9_4;
+extern TGFX_Menu_t sub_menu_9_5;
+extern TGFX_Menu_t sub_menu_9_6;
 
 extern TGFX_Menu_t *Sub_menu;
 extern TGFX_Menu_t *Temp_menu;
-//extern TGFX_Menu_t *TGFX_Actual_menu;
+extern TGFX_Menu_t *TGFX_Actual_menu;
+extern TGFX_Menu_t *Base_of_menu_struct_items[30];
 
 class Menu_9View : public Menu_9ViewBase
 {
