@@ -46,6 +46,7 @@ build/MINGW32_NT-6.2/gui/src/menu_9_screen/Menu_9View.o: \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/TypedText.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/Texts.hpp \
+ generated/texts/include/texts/TextKeysAndLanguages.hpp \
  generated/gui_generated/include/gui_generated/menu_9_screen/Menu_9ViewBase.hpp \
  ../Middlewares/ST/touchgfx/framework/include/mvp/View.hpp \
  gui/include/gui/menu_9_screen/Menu_9Presenter.hpp \
@@ -166,6 +167,8 @@ gui/include/gui/model/FakeHardware.hpp:
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/TypedText.hpp:
 
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/Texts.hpp:
+
+generated/texts/include/texts/TextKeysAndLanguages.hpp:
 
 generated/gui_generated/include/gui_generated/menu_9_screen/Menu_9ViewBase.hpp:
 

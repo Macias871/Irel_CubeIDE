@@ -84,6 +84,7 @@ build/MINGW32_NT-6.2/generated/simulator/src/mainBase.o: \
  gui/include/gui/containers/Menu_buttons_container.hpp \
  generated/gui_generated/include/gui_generated/containers/Menu_buttons_containerBase.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp \
+ generated/texts/include/texts/TextKeysAndLanguages.hpp \
  generated/gui_generated/include/gui_generated/menu_9_screen/Menu_9ViewBase.hpp \
  gui/include/gui/menu_9_screen/Menu_9Presenter.hpp \
  gui/include/gui/containers/Menu_tree_title_container.hpp \
@@ -275,6 +276,8 @@ gui/include/gui/containers/Menu_buttons_container.hpp:
 generated/gui_generated/include/gui_generated/containers/Menu_buttons_containerBase.hpp:
 
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp:
+
+generated/texts/include/texts/TextKeysAndLanguages.hpp:
 
 generated/gui_generated/include/gui_generated/menu_9_screen/Menu_9ViewBase.hpp:
 

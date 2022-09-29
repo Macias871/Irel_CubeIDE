@@ -62,6 +62,7 @@ build/MINGW32_NT-6.2/generated/gui_generated/src/common/FrontendApplicationBase.
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/TypedText.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/Texts.hpp \
+ generated/texts/include/texts/TextKeysAndLanguages.hpp \
  generated/gui_generated/include/gui_generated/menu_9_screen/Menu_9ViewBase.hpp \
  gui/include/gui/menu_9_screen/Menu_9Presenter.hpp \
  gui/include/gui/containers/Menu_tree_title_container.hpp \
@@ -83,7 +84,6 @@ build/MINGW32_NT-6.2/generated/gui_generated/src/common/FrontendApplicationBase.
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/scrollers/ScrollList.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/scrollers/DrawableList.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/scrollers/ScrollBase.hpp \
- generated/texts/include/texts/TextKeysAndLanguages.hpp \
  ../Middlewares/ST/touchgfx/framework/include/platform/driver/lcd/LCD32bpp.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/lcd/LCD32DebugPrinter.hpp
 
@@ -211,6 +211,8 @@ generated/gui_generated/include/gui_generated/containers/Menu_buttons_containerB
 
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/Texts.hpp:
 
+generated/texts/include/texts/TextKeysAndLanguages.hpp:
+
 generated/gui_generated/include/gui_generated/menu_9_screen/Menu_9ViewBase.hpp:
 
 gui/include/gui/menu_9_screen/Menu_9Presenter.hpp:
@@ -252,8 +254,6 @@ generated/gui_generated/include/gui_generated/containers/Back_menu_container_1Ba
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/scrollers/DrawableList.hpp:
 
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/scrollers/ScrollBase.hpp:
-
-generated/texts/include/texts/TextKeysAndLanguages.hpp:
 
 ../Middlewares/ST/touchgfx/framework/include/platform/driver/lcd/LCD32bpp.hpp:
 
