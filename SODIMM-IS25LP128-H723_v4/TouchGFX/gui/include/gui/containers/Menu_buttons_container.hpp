@@ -11,6 +11,18 @@ public:
 
     virtual void initialize();
 protected:
+
+
+private:
+    /*
+     * Callback Declarations
+     */
+    touchgfx::Callback<Menu_buttons_container, const touchgfx::AbstractButton&> buttonCallback;
+
+    /*
+     * Callback Handler Declarations
+     */
+    void buttonCallbackHandler(const touchgfx::AbstractButton& src);
 };
 
 #endif // MENU_BUTTONS_CONTAINER_HPP
