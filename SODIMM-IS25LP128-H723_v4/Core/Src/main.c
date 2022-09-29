@@ -20,7 +20,7 @@
 #include "main.h"
 #include "string.h"
 #include "cmsis_os.h"
-//#include "app_touchgfx.h"
+#include "app_touchgfx.h"
 #include "usb_device.h"
 
 /* Private includes ----------------------------------------------------------*/
