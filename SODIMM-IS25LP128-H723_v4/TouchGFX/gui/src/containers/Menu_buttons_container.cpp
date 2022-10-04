@@ -52,6 +52,8 @@ void Menu_buttons_container::setupListElement( TEXTS iconTextID, TGFX_Menu_t Men
 void Menu_buttons_container::ButtonClickedHandler( const touchgfx::AbstractButton& src)
 {
 
+
+
 	//touchgfx_printf("Received callback from: %d\n", 0);
 	//Send signal to view
 	if (viewCallback && viewCallback->isValid())
