@@ -103,7 +103,8 @@ build/MINGW32_NT-6.2/generated/simulator/src/mainBase.o: \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/scrollers/DrawableList.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/scrollers/ScrollBase.hpp \
  gui/include/gui/containers/Menu_buttons_container.hpp \
- generated/gui_generated/include/gui_generated/containers/Menu_buttons_containerBase.hpp \
+ generated/texts/include/texts/TextKeysAndLanguages.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/mixins/ClickListener.hpp \
  ../Middlewares/ST/touchgfx/framework/include/platform/driver/lcd/LCD32bpp.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/lcd/LCD32DebugPrinter.hpp
 
@@ -313,7 +314,9 @@ generated/gui_generated/include/gui_generated/containers/Back_menu_container_1Ba
 
 gui/include/gui/containers/Menu_buttons_container.hpp:
 
-generated/gui_generated/include/gui_generated/containers/Menu_buttons_containerBase.hpp:
+generated/texts/include/texts/TextKeysAndLanguages.hpp:
+
+../Middlewares/ST/touchgfx/framework/include/touchgfx/mixins/ClickListener.hpp:
 
 ../Middlewares/ST/touchgfx/framework/include/platform/driver/lcd/LCD32bpp.hpp:
 

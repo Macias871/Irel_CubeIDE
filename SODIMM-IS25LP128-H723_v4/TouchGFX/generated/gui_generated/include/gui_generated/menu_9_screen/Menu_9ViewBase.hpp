@@ -14,6 +14,7 @@
 #include <touchgfx/containers/scrollers/ScrollList.hpp>
 #include <gui/containers/Menu_buttons_container.hpp>
 #include <touchgfx/widgets/TextArea.hpp>
+#include <touchgfx/mixins/ClickListener.hpp>
 
 class Menu_9ViewBase : public touchgfx::View<Menu_9Presenter>
 {
@@ -39,7 +40,7 @@ protected:
     touchgfx::Image backgroud;
     Menu_tree_title_container menu_tree_title_container1;
     Back_menu_container_1 back_menu_container_11;
-    touchgfx::ScrollList scrollList;
+    touchgfx::ClickListener< touchgfx::ScrollList > scrollList;
     touchgfx::DrawableListItems<Menu_buttons_container, 10> scrollListListItems;
     touchgfx::TextArea textArea1;
 

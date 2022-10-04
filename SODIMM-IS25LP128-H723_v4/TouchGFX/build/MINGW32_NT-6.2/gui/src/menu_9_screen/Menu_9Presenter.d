@@ -71,7 +71,8 @@ build/MINGW32_NT-6.2/gui/src/menu_9_screen/Menu_9Presenter.o: \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/scrollers/ScrollBase.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/EasingEquations.hpp \
  gui/include/gui/containers/Menu_buttons_container.hpp \
- generated/gui_generated/include/gui_generated/containers/Menu_buttons_containerBase.hpp
+ generated/texts/include/texts/TextKeysAndLanguages.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/mixins/ClickListener.hpp
 
 gui/include/gui/menu_9_screen/Menu_9View.hpp:
 
@@ -215,4 +216,6 @@ generated/gui_generated/include/gui_generated/containers/Back_menu_container_1Ba
 
 gui/include/gui/containers/Menu_buttons_container.hpp:
 
-generated/gui_generated/include/gui_generated/containers/Menu_buttons_containerBase.hpp:
+generated/texts/include/texts/TextKeysAndLanguages.hpp:
+
+../Middlewares/ST/touchgfx/framework/include/touchgfx/mixins/ClickListener.hpp:

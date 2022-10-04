@@ -49,6 +49,8 @@ MEMORY
   RAM_D1  (xrw)    : ORIGIN = 0x24000000,   LENGTH = 320K
   RAM_D2  (xrw)    : ORIGIN = 0x30000000,   LENGTH = 32K
   RAM_D3  (xrw)    : ORIGIN = 0x38000000,   LENGTH = 16K
+     SDRAM (rw)      : ORIGIN = 0xD0000000,   LENGTH = 4096K 
+     QUADSPI (r)    : ORIGIN = 0x90000000,  LENGTH = 16M
 }
 
 /* Define output sections */
@@ -171,4 +173,27 @@ SECTIONS
   }
 
   .ARM.attributes 0 : { *(.ARM.attributes) }
+  .HeapMemSection : {*(.HeapMemSection)} >SDRAM 
+  
+  
+    ExtFlashSection :
+	{
+		*(ExtFlashSection ExtFlashSection.*)
+		*(.gnu.linkonce.r.*)
+        . = ALIGN(0x4);
+	} >QUADSPI
+
+  FontFlashSection :
+	{
+		*(FontFlashSection FontFlashSection.*)
+		*(.gnu.linkonce.r.*)
+        . = ALIGN(0x4);
+	} >QUADSPI
+
+  TextFlashSection :
+	{
+		*(TextFlashSection TextFlashSection.*)
+		*(.gnu.linkonce.r.*)
+        . = ALIGN(0x4);
+	} >QUADSPI
 }

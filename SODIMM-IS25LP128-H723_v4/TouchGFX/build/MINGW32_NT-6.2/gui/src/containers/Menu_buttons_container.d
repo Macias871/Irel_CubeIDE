@@ -1,7 +1,6 @@
 build/MINGW32_NT-6.2/gui/src/containers/Menu_buttons_container.o: \
  gui/src/containers/Menu_buttons_container.cpp \
  gui/include/gui/containers/Menu_buttons_container.hpp \
- generated/gui_generated/include/gui_generated/containers/Menu_buttons_containerBase.hpp \
  gui/include/gui/common/FrontendApplication.hpp \
  generated/gui_generated/include/gui_generated/common/FrontendApplicationBase.hpp \
  ../Middlewares/ST/touchgfx/framework/include/mvp/MVPApplication.hpp \
@@ -43,11 +42,13 @@ build/MINGW32_NT-6.2/gui/src/containers/Menu_buttons_container.o: \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Widget.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/TypedText.hpp \
- ../Middlewares/ST/touchgfx/framework/include/touchgfx/Texts.hpp
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/Texts.hpp \
+ generated/texts/include/texts/TextKeysAndLanguages.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/Utils.hpp \
+ generated/images/include/BitmapDatabase.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/Color.hpp
 
 gui/include/gui/containers/Menu_buttons_container.hpp:
-
-generated/gui_generated/include/gui_generated/containers/Menu_buttons_containerBase.hpp:
 
 gui/include/gui/common/FrontendApplication.hpp:
 
@@ -132,3 +133,11 @@ gui/include/gui/model/Model.hpp:
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/TypedText.hpp:
 
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/Texts.hpp:
+
+generated/texts/include/texts/TextKeysAndLanguages.hpp:
+
+../Middlewares/ST/touchgfx/framework/include/touchgfx/Utils.hpp:
+
+generated/images/include/BitmapDatabase.hpp:
+
+../Middlewares/ST/touchgfx/framework/include/touchgfx/Color.hpp:
