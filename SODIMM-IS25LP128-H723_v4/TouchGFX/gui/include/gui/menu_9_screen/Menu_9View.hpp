@@ -43,6 +43,7 @@ public:
 protected:
 
     Callback<Menu_9View, TGFX_Menu_t> viewCallback;
+    //Callback<Menu_9View, TGFX_Menu_t> viewCallback;
     /*     * Callback Declarations     */
    // touchgfx::Callback<Menu_9View> customContainer1Trigger1Callback;
     /*     * Callback Handler Declarations     */

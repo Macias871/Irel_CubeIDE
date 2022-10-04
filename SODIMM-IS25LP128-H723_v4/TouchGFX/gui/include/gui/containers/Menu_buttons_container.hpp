@@ -40,6 +40,7 @@ public:
     //void ButtonClickedHandler( const TGFX_Menu_t& m);
     void ButtonClickedHandler(const touchgfx::AbstractButton& src);
     void setViewCallback(GenericCallback<uint8_t>& callback);
+
     void setType(uint8_t _type);
     /*
      * Virtual Action Handlers
@@ -64,9 +65,14 @@ private:
 
     //Internal custom container callback for the box click listener
     	//Callback<Menu_buttons_container,  const TGFX_Menu_t&> ButtonClickedCallback;
+
+
+
     	Callback<Menu_buttons_container, const touchgfx::AbstractButton&> buttonCallback;
     	GenericCallback<uint8_t>* viewCallback;
     	uint8_t type;
+
+
     /*
      * Callback Declarations
      */

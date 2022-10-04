@@ -1,6 +1,7 @@
 #include <gui/menu_9_screen/Menu_9View.hpp>
 #include <texts/TextKeysAndLanguages.hpp>
 #include <BitmapDatabase.hpp>
+#include <gui/containers/Menu_buttons_container.hpp>
 
 
 
@@ -37,7 +38,6 @@ Menu_9View::Menu_9View(): viewCallback(this, &Menu_9View::ButtonsContainerClicke
 
 void Menu_9View::ButtonsContainerClickedHandler(TGFX_Menu_t Menu)
 {
-	touchgfx_printf("Received callback from: %d\n", 0);
 
 	textArea1.setTypedText(TypedText(T_LANGUAGE));
 	textArea1.resizeToCurrentText();
@@ -100,6 +100,11 @@ void Menu_9View::GetItem(Menu_buttons_container& item, TGFX_Menu_t Menu)
 void Menu_9View::setupScreen()
 {
    // Menu_9ViewBase::setupScreen();
+
+
+	//Container.setType(0);
+	//Container.setViewCallback(viewCallback);
+
 
     menu_tree_title_container1.initialize();
     back_menu_container_11.initialize();

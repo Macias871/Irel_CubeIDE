@@ -59,6 +59,7 @@ void Menu_buttons_container::ButtonClickedHandler( const touchgfx::AbstractButto
 	if (viewCallback && viewCallback->isValid())
 	{
 		viewCallback->execute(type);
+		//touchgfx_printf("Received callback from: %d\n", 0);
 	}
 	/*
     if (&src == &button1)
