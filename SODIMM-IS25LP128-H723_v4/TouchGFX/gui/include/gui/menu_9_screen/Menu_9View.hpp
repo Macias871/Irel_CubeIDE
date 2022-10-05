@@ -36,18 +36,14 @@ public:
     virtual void setupScreen();
     void fill_positions_menu(TGFX_Menu_t Menu);
     virtual void tearDownScreen();
-
-    //virtual void GetItem(Menu_buttons_container& item, TGFX_Menu_t Menu);
-    void ButtonsContainerClickedHandler(TGFX_Menu_t Menu);
+   // virtual void scrollListUpdateItem(Menu_buttons_container& item, int16_t itemIndex);
 
 protected:
-
-    Callback<Menu_9View, TGFX_Menu_t> viewCallback;
-    //Callback<Menu_9View, TGFX_Menu_t> viewCallback;
-    /*     * Callback Declarations     */
-   // touchgfx::Callback<Menu_9View> customContainer1Trigger1Callback;
-    /*     * Callback Handler Declarations     */
-   // void customContainer1Trigger1CallbackHandler();
+    //Callback<Menu_9View, int16_t> scrollListItemSelectedCallback;
+    //Callback<Menu_9View, DrawableListItemsInterface*, int16_t, int16_t> scrollListItemSelectedCallback;
+    //Callback<Menu_9View, DrawableListItemsInterface*, int16_t, int16_t> updateItemCallback;
+   // void updateItemCallbackHandler(touchgfx::DrawableListItemsInterface* items, int16_t containerIndex, int16_t itemIndex);
+   // void scrollListItemSelectedHandler(touchgfx::DrawableListItemsInterface* items, int16_t containerIndex, int16_t itemIndex);
 };
 
 #endif // MENU_9VIEW_HPP

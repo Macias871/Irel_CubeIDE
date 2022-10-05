@@ -8,26 +8,54 @@
 #include <touchgfx/Color.hpp>
 #include <texts/TextKeysAndLanguages.hpp>
 
-Menu_buttons_container::Menu_buttons_container() :buttonCallback(this, &Menu_buttons_container::ButtonClickedHandler)
+
+
+Menu_buttons_container::Menu_buttons_container()
+  // Define the callback and tie it to specific handler
+  : buttonClickedCallback(this, &Menu_buttons_container::boxClickedHandler)
 {
     setWidth(460);
     setHeight(64);
     button1.setXY(9, 11);
     button1.setBitmaps(touchgfx::Bitmap(BITMAP_BUTTON_IN_MENU_OFF_ID), touchgfx::Bitmap(BITMAP_BUTTON_IN_MENU_ON_ID));
- //   button1.setAction(ButtonClickedCallback);
-    button1.setAction(buttonCallback);
-   // button1.handleClickEvent(ButtonClickedCallback);
-
-
 
     textarea.setXY(23, 20);
     textarea.setColor(touchgfx::Color::getColorFromRGB(31, 180, 194));
     textarea.setLinespacing(0);
     textarea.setTypedText(touchgfx::TypedText(T_MENU_TITLE));
 
+ //   button1.setAction(boxClickedCallback);
+ //   button1.setAction(buttonClickedCallback);
+
+
     add(button1);
     add(textarea);
+
+
+
+	//box2.setClickAction(boxClickedCallback);
 }
+
+
+void Menu_buttons_container::boxClickedHandler(const Button& b, const ClickEvent& evt)
+{
+
+}
+
+//Store a pointer to the view callback
+void Menu_buttons_container::setViewCallback(GenericCallback<uint8_t>& callback)
+{
+	viewCallback = &callback;
+}
+
+//Use some way of identifying the container. Could be anything.
+//Update the callback and associated handler to match this type when changing.
+void Menu_buttons_container::setType(uint8_t _type)
+{
+	type = _type;
+}
+
+
 
 Menu_buttons_container::~Menu_buttons_container()
 {
@@ -49,53 +77,4 @@ void Menu_buttons_container::setupListElement( TEXTS iconTextID, TGFX_Menu_t Men
     invalidate();
 }
 
-void Menu_buttons_container::ButtonClickedHandler( const touchgfx::AbstractButton& src)
-{
 
-
-
-	//touchgfx_printf("Received callback from: %d\n", 0);
-	//Send signal to view
-	if (viewCallback && viewCallback->isValid())
-	{
-		touchgfx_printf("Received callback from: %d\n", &src);
-		viewCallback->execute(type);
-		//touchgfx_printf("Received callback from: %d\n", 0);
-	}
-	/*
-    if (&src == &button1)
-    {
-
-
-        //Clicked_butt
-        //When button1 clicked call virtual function
-        //Call button_menu_clicked
-        button_menu_clicked();
-    }
-    */
-}
-
-
-//Store a pointer to the view callback
-void Menu_buttons_container::setViewCallback(GenericCallback<uint8_t>& callback)
-{
-	viewCallback = &callback;
-}
-
-//Use some way of identifying the container. Could be anything.
-//Update the callback and associated handler to match this type when changing.
-void Menu_buttons_container::setType(uint8_t _type)
-{
-	type = _type;
-}
-
-
-/*
-void Menu_buttons_container::button_menu_clicked()
-{
-
-	//image1.setBitmap(iconBMP);
-	//textarea.setTypedText(TypedText(T_LANGUAGE));
-	//textarea.resizeToCurrentText();
-}
-*/

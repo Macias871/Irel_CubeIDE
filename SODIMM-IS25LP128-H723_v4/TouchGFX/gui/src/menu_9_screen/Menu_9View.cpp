@@ -30,12 +30,53 @@ TGFX_Menu_t *Sub_menu;
 TGFX_Menu_t *Temp_menu;
 TGFX_Menu_t *Base_of_menu_struct_items[30];
 
+void Menu_9View::setupScreen()
+{
+   // Menu_9ViewBase::setupScreen();
 
-Menu_9View::Menu_9View(): viewCallback(this, &Menu_9View::ButtonsContainerClickedHandler)
+
+	//Container.setType(0);
+	//Container.setViewCallback(viewCallback);
+
+	//scrollList.setItemSelectedCallback(scrollListItemSelectedCallback);
+
+    menu_tree_title_container1.initialize();
+    back_menu_container_11.initialize();
+
+    fill_positions_menu(menu_9);
+}
+
+Menu_9View::Menu_9View()
 {
 
 }
 
+/*
+void Menu_9View::scrollListUpdateItem(Menu_buttons_container& item, int16_t itemIndex)
+{
+	touchgfx_printf("Received callback from: %d\n", &itemIndex);
+}
+Menu_9View::Menu_9View():scrollListItemSelectedCallback(this, &Menu_9View::scrollListItemSelectedHandler)
+{
+	//scrollList.setDrawables(scrollListListItems, scrollListItemSelectedCallback);
+	scrollList.setDrawables(scrollListListItems, scrollListItemSelectedCallback);
+	//touchgfx_printf("Received callback from: %d\n", 0);
+}
+
+void Menu_9View::scrollListItemSelectedHandler(DrawableListItemsInterface* items, int16_t containerIndex, int16_t itemIndex)
+{
+	touchgfx_printf("Received callback from: %d\n", &itemIndex);
+}
+
+*/
+/*
+void Menu_9View::scrollListUpdateItem(Menu_buttons_container& item, int16_t itemIndex)
+{
+	touchgfx_printf("Received callback from: %d\n", &itemIndex);
+}
+*/
+
+/*
 void Menu_9View::ButtonsContainerClickedHandler(TGFX_Menu_t Menu)
 {
 
@@ -47,7 +88,7 @@ void Menu_9View::ButtonsContainerClickedHandler(TGFX_Menu_t Menu)
 
 
 }
-
+*/
 
 void Menu_9View::fill_positions_menu(TGFX_Menu_t Menu)
 {
@@ -99,20 +140,7 @@ void Menu_9View::GetItem(Menu_buttons_container& item, TGFX_Menu_t Menu)
 }
 */
 
-void Menu_9View::setupScreen()
-{
-   // Menu_9ViewBase::setupScreen();
 
-
-	//Container.setType(0);
-	//Container.setViewCallback(viewCallback);
-
-
-    menu_tree_title_container1.initialize();
-    back_menu_container_11.initialize();
-
-    fill_positions_menu(menu_9);
-}
 
 void Menu_9View::tearDownScreen()
 {

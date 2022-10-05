@@ -37,23 +37,20 @@ public:
     void setupListElement( TEXTS iconTextID, TGFX_Menu_t Menu);
     TGFX_Menu_t TGFX_menu_elemnt;
 
-    //void ButtonClickedHandler( const TGFX_Menu_t& m);
-    void ButtonClickedHandler(const touchgfx::AbstractButton& src);
-    void setViewCallback(GenericCallback<uint8_t>& callback);
+    void boxClickedHandler(const Button& b, const ClickEvent& e);
+
+    //Method to set the view callback
+	void setViewCallback(GenericCallback<uint8_t>& callback);
 
     void setType(uint8_t _type);
-    /*
-     * Virtual Action Handlers
-     */
-    //virtual void button_menu_clicked()//;
-    //{
-        // Override and implement this function in Menu_buttons_container
-    //}
+
 
 protected:
     FrontendApplication& application() {
         return *static_cast<FrontendApplication*>(touchgfx::Application::getInstance());
     }
+
+
 
     /*
      * Member Declarations
@@ -63,25 +60,14 @@ protected:
 
 private:
 
-    //Internal custom container callback for the box click listener
-    	//Callback<Menu_buttons_container,  const TGFX_Menu_t&> ButtonClickedCallback;
+	//Internal custom container callback for the box click listener
+	Callback<Menu_buttons_container, const Button&, const ClickEvent&> buttonClickedCallback;
 
+	//Store pointer to view callback
+	GenericCallback<uint8_t>* viewCallback;
 
-
-    	Callback<Menu_buttons_container, const touchgfx::AbstractButton&> buttonCallback;
-    	GenericCallback<uint8_t>* viewCallback;
-    	uint8_t type;
-
-
-    /*
-     * Callback Declarations
-     */
-   // touchgfx::Callback<Menu_buttons_container, const touchgfx::AbstractButton&> buttonCallback;
-
-    /*
-     * Callback Handler Declarations
-     */
-   // void buttonCallbackHandler(const touchgfx::AbstractButton& src);
+	//type of custom container
+	uint8_t type;
 
 };
 

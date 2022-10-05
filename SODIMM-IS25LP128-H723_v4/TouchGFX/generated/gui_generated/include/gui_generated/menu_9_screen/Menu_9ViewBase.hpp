@@ -37,7 +37,7 @@ protected:
      * Member Declarations
      */
     touchgfx::Box __background;
-    touchgfx::Image backgroud;
+    touchgfx::ClickListener< touchgfx::Image > backgroud;
     Menu_tree_title_container menu_tree_title_container1;
     Back_menu_container_1 back_menu_container_11;
     touchgfx::ClickListener< touchgfx::ScrollList > scrollList;

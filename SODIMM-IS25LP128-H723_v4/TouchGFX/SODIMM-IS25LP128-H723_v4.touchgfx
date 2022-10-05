@@ -60,7 +60,8 @@
             "Name": "backgroud",
             "Width": 480,
             "Height": 800,
-            "RelativeFilename": "background_black.png"
+            "RelativeFilename": "background_black.png",
+            "Clickable": true
           },
           {
             "Type": "CustomContainerInstance",
