@@ -55,6 +55,8 @@ void Menu_9View::BackElementClicked(Back_menu_container_1& element)
 {
 	//touchgfx_printf("Received callback from: %s\n", "1");
 
+
+
 	touchgfx_printf("name: %s\n", element.TGFX_back_elemnt.name);
 	touchgfx_printf("parent: %s\n", element.TGFX_back_elemnt.parent->name);
 
@@ -65,8 +67,8 @@ void Menu_9View::BackElementClicked(Back_menu_container_1& element)
 
 	else
 	{
-		touchgfx_printf("err name: %s\n", element.TGFX_back_elemnt.name);
-		touchgfx_printf("err parent: %s\n", element.TGFX_back_elemnt.parent->name);
+		//touchgfx_printf("err name: %s\n", element.TGFX_back_elemnt.name);
+		//("err parent: %s\n", element.TGFX_back_elemnt.parent->name);
 	}
 
 	//TGFX_Actual_menu = element.TGFX_menu_elemnt.child;
