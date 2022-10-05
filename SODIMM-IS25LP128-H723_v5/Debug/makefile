@@ -116,8 +116,8 @@ all: main-build
 main-build: SODIMM-IS25LP128-H723_v5.elf secondary-outputs
 
 # Tool invocations
-SODIMM-IS25LP128-H723_v5.elf SODIMM-IS25LP128-H723_v5.map: $(OBJS) $(USER_OBJS) D:\CUBE_IDE_WORK\SODIMM-IS25LP128-H723_v5\STM32H723ZGTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-g++ -o "SODIMM-IS25LP128-H723_v5.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m7 -T"D:\CUBE_IDE_WORK\SODIMM-IS25LP128-H723_v5\STM32H723ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="SODIMM-IS25LP128-H723_v5.map" -Wl,--gc-sections -static -L"D:\CUBE_IDE_WORK\SODIMM-IS25LP128-H723_v5\Middlewares\ST\touchgfx\lib\core\cortex_m7\gcc" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+SODIMM-IS25LP128-H723_v5.elf SODIMM-IS25LP128-H723_v5.map: $(OBJS) $(USER_OBJS) D:\CUBE_IDE_WORK\GIT\Irel_CubeIDE\SODIMM-IS25LP128-H723_v5\STM32H723ZGTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-g++ -o "SODIMM-IS25LP128-H723_v5.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m7 -T"D:\CUBE_IDE_WORK\GIT\Irel_CubeIDE\SODIMM-IS25LP128-H723_v5\STM32H723ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="SODIMM-IS25LP128-H723_v5.map" -Wl,--gc-sections -static -L"D:\CUBE_IDE_WORK\GIT\Irel_CubeIDE\SODIMM-IS25LP128-H723_v5\Middlewares\ST\touchgfx\lib\core\cortex_m7\gcc" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

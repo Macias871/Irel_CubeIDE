@@ -8,9 +8,9 @@
 
 
 //TGFX_menu_struct   {const char * name;TEXTS  Ttext;TGFX_Menu_t * next;TGFX_Menu_t * prev;TGFX_Menu_t * child;TGFX_Menu_t * parent;void (*menu_function)(void);};
-TGFX_Menu_t menu_9 = { "9. Menu", T_MENU_TITLE_9_1,NULL, NULL, &sub_menu_9_1, NULL, NULL};
+TGFX_Menu_t menu_9 = { "9. Menu", T_MENU_TITLE_9_1,NULL, NULL, &sub_menu_9_1, &menu_9, NULL};
 
-TGFX_Menu_t sub_menu_9_1 = { "9.1. Nastawy podstawowe", T_DEFAULT_SETTINGS , &sub_menu_9_2, NULL, &sub_menu_9_1_1, &sub_menu_9_1, NULL};
+TGFX_Menu_t sub_menu_9_1 = { "9.1. Nastawy podstawowe", T_DEFAULT_SETTINGS , &sub_menu_9_2, NULL, &sub_menu_9_1_1, &menu_9, NULL};
 
 	TGFX_Menu_t sub_menu_9_1_1 = { "9.1.1 Język"            , T_LANGUAGE     , &sub_menu_9_1_2, NULL, NULL, &sub_menu_9_1, NULL};
 	TGFX_Menu_t sub_menu_9_1_2 = { "9.1.2 Zał ogrz"         , T_SET_HEAT     , &sub_menu_9_1_3, &sub_menu_9_1_2, NULL, &sub_menu_9_1, NULL};
@@ -54,9 +54,20 @@ void Menu_9View::listElementClicked(Menu_buttons_container& element)
 void Menu_9View::BackElementClicked(Back_menu_container_1& element)
 {
 	//touchgfx_printf("Received callback from: %s\n", "1");
-	//fill_positions_menu(*element.TGFX_back_elemnt.parent);
+
 	touchgfx_printf("name: %s\n", element.TGFX_back_elemnt.name);
 	touchgfx_printf("parent: %s\n", element.TGFX_back_elemnt.parent->name);
+
+	if(element.TGFX_back_elemnt.parent != NULL)
+	{
+		fill_positions_menu(*element.TGFX_back_elemnt.parent);
+	}
+
+	else
+	{
+		touchgfx_printf("err name: %s\n", element.TGFX_back_elemnt.name);
+		touchgfx_printf("err parent: %s\n", element.TGFX_back_elemnt.parent->name);
+	}
 
 	//TGFX_Actual_menu = element.TGFX_menu_elemnt.child;
 
