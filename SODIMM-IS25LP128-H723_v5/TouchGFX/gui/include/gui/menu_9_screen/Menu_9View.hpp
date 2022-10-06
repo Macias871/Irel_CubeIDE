@@ -17,6 +17,28 @@ extern TGFX_Menu_t menu_9;
 extern TGFX_Menu_t sub_menu_9_1;
 	extern TGFX_Menu_t sub_menu_9_1_1;
 	extern TGFX_Menu_t sub_menu_9_1_2;
+
+	extern TGFX_Menu_t sub_menu_9_2_1 ;
+		extern TGFX_Menu_t sub_menu_9_2_1_1 ;
+		extern TGFX_Menu_t sub_menu_9_2_1_2 ;
+		extern TGFX_Menu_t sub_menu_9_2_1_3 ;
+			extern TGFX_Menu_t sub_menu_9_2_1_3_1;
+			extern TGFX_Menu_t sub_menu_9_2_1_3_2;
+			extern TGFX_Menu_t sub_menu_9_2_1_3_3;
+			extern TGFX_Menu_t sub_menu_9_2_1_3_4;
+			extern TGFX_Menu_t sub_menu_9_2_1_3_5;
+			extern TGFX_Menu_t sub_menu_9_2_1_3_6;
+			extern TGFX_Menu_t sub_menu_9_2_1_3_7;
+			extern TGFX_Menu_t sub_menu_9_2_1_3_8;
+			extern TGFX_Menu_t sub_menu_9_2_1_3_9;
+			extern TGFX_Menu_t sub_menu_9_2_1_3_10;
+			extern TGFX_Menu_t sub_menu_9_2_1_3_11;
+			extern TGFX_Menu_t sub_menu_9_2_1_3_12;
+			extern TGFX_Menu_t sub_menu_9_2_1_3_13;
+		extern TGFX_Menu_t sub_menu_9_2_1_4 ;
+	extern TGFX_Menu_t sub_menu_9_2_2;
+
+
 	extern TGFX_Menu_t sub_menu_9_1_3;
 	extern TGFX_Menu_t sub_menu_9_1_4;
 

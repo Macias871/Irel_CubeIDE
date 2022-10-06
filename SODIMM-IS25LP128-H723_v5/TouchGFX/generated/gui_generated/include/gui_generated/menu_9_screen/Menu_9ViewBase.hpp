@@ -40,7 +40,7 @@ protected:
     Menu_tree_title_container menu_tree_title_container1;
     Back_menu_container_1 back_menu_container_11;
     touchgfx::ClickListener< touchgfx::ScrollList > scrollList;
-    touchgfx::DrawableListItems<Menu_buttons_container, 12> scrollListListItems;
+    touchgfx::DrawableListItems<Menu_buttons_container, 8> scrollListListItems;
 
 private:
     touchgfx::Callback<Menu_9ViewBase, touchgfx::DrawableListItemsInterface*, int16_t, int16_t> updateItemCallback;

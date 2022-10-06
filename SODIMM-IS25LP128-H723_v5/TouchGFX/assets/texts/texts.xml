@@ -5,6 +5,94 @@
     <Language Id="PL" />
   </Languages>
   <Texts>
+    <TextGroup Id="Menu_9_2_1_3">
+      <Text Id="Work_time_install" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">Work time</Translation>
+        <Translation Language="PL">Czas pracy</Translation>
+      </Text>
+      <Text Id="PWM_Parameters" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">PWM parameters</Translation>
+        <Translation Language="PL">Parametry PWM</Translation>
+      </Text>
+      <Text Id="Slave_modules" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">Slave modules</Translation>
+        <Translation Language="PL">Moduły slave</Translation>
+      </Text>
+      <Text Id="Curve_correction" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">Temperature curve correction</Translation>
+        <Translation Language="PL">Korekta krzywej grzewczej</Translation>
+      </Text>
+      <Text Id="Log_reset" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">Logs reset</Translation>
+        <Translation Language="PL">Reset logów </Translation>
+      </Text>
+      <Text Id="Temp_sensor_calibration" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">Temperature sensor calibration</Translation>
+        <Translation Language="PL">Kalibracja czujników </Translation>
+      </Text>
+      <Text Id="Normal_input_states" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">Normal input states</Translation>
+        <Translation Language="PL">Normalne stany wejść</Translation>
+      </Text>
+      <Text Id="Delay_devices_time" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">Devices delay</Translation>
+        <Translation Language="PL">Czasy zwłoki urządzeń</Translation>
+      </Text>
+      <Text Id="Delay_input_times" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">Input delays</Translation>
+        <Translation Language="PL">Czasy zwłoki wejść</Translation>
+      </Text>
+      <Text Id="Temperature" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">Temperature</Translation>
+        <Translation Language="PL">Temperatura</Translation>
+      </Text>
+      <Text Id="Work_time_reset" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">Work time reset</Translation>
+        <Translation Language="PL">Reset czasów pracy</Translation>
+      </Text>
+      <Text Id="Check_time" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">Checking time</Translation>
+        <Translation Language="PL">Czas przeglądu</Translation>
+      </Text>
+      <Text Id="Default_values" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">Default values</Translation>
+        <Translation Language="PL">Nastawy fabryczne</Translation>
+      </Text>
+    </TextGroup>
+    <TextGroup Id="Menu_9_2_2">
+      <Text Id="Service_call" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">Call service</Translation>
+        <Translation Language="PL">Wezwij Serwis</Translation>
+      </Text>
+    </TextGroup>
+    <TextGroup Id="Menu_9_2_1">
+      <Text Id="Password_change" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">9.2.1.4 Change Password</Translation>
+        <Translation Language="PL">9.2.1.4 Zmień hasło</Translation>
+      </Text>
+      <Text Id="Installation" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">9.2.1.3 Installation</Translation>
+        <Translation Language="PL">9.2.1.3 Instalacja</Translation>
+      </Text>
+      <Text Id="Manual_test" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">9.2.1.2 Manual test</Translation>
+        <Translation Language="PL">9.2.1.2 Test ręczny</Translation>
+      </Text>
+      <Text Id="Integral" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">9.2.1.1 Integral</Translation>
+        <Translation Language="PL">9.2.1.1 Integral</Translation>
+      </Text>
+    </TextGroup>
+    <TextGroup Id="Menu_9_2">
+      <Text Id="Call_service" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">9.2.2. Call service</Translation>
+        <Translation Language="PL">9.2.2. Wezwij serwis</Translation>
+      </Text>
+      <Text Id="Menu_Service" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">9.2.1. Servive menu</Translation>
+        <Translation Language="PL">9.2.1. Menu serwisowe</Translation>
+      </Text>
+    </TextGroup>
     <TextGroup Id="Container_menu_text">
       <Text Id="Menu_button_title" Alignment="Left" TypographyId="Default">
         <Translation Language="GB">Button_title</Translation>

@@ -41,19 +41,19 @@
 ../TouchGFX/generated/gui_generated/include/gui_generated/menu_9_screen/Menu_9ViewBase.hpp:22:13:virtual Menu_9ViewBase::~Menu_9ViewBase()	16	static
 ../TouchGFX/generated/gui_generated/include/gui_generated/menu_9_screen/Menu_9ViewBase.hpp:25:18:virtual void Menu_9ViewBase::scrollListUpdateItem(Menu_buttons_container&, int16_t)	24	static
 ../TouchGFX/generated/gui_generated/include/gui_generated/menu_9_screen/Menu_9ViewBase.hpp:31:26:FrontendApplication& Menu_9ViewBase::application()	16	static
-../TouchGFX/gui/include/gui/menu_9_screen/Menu_9View.hpp:37:13:Menu_9View::~Menu_9View()	16	static
-../TouchGFX/gui/include/gui/menu_9_screen/Menu_9View.hpp:37:13:virtual Menu_9View::~Menu_9View()	16	static
-../TouchGFX/gui/src/menu_9_screen/Menu_9View.cpp:37:1:Menu_9View::Menu_9View()	32	static
-../TouchGFX/gui/src/menu_9_screen/Menu_9View.cpp:41:6:void Menu_9View::listElementClicked(Menu_buttons_container&)	40	static
-../TouchGFX/gui/src/menu_9_screen/Menu_9View.cpp:48:6:void Menu_9View::BackElementClicked(Back_menu_container_1&)	40	static
-../TouchGFX/gui/src/menu_9_screen/Menu_9View.cpp:66:6:virtual void Menu_9View::setupScreen()	40	static
-../TouchGFX/gui/src/menu_9_screen/Menu_9View.cpp:75:6:void Menu_9View::fill_positions_menu(TGFX_Menu_t)	64	static
-../TouchGFX/gui/src/menu_9_screen/Menu_9View.cpp:109:6:virtual void Menu_9View::tearDownScreen()	16	static
+../TouchGFX/gui/include/gui/menu_9_screen/Menu_9View.hpp:59:13:Menu_9View::~Menu_9View()	16	static
+../TouchGFX/gui/include/gui/menu_9_screen/Menu_9View.hpp:59:13:virtual Menu_9View::~Menu_9View()	16	static
+../TouchGFX/gui/src/menu_9_screen/Menu_9View.cpp:68:1:Menu_9View::Menu_9View()	32	static
+../TouchGFX/gui/src/menu_9_screen/Menu_9View.cpp:72:6:void Menu_9View::listElementClicked(Menu_buttons_container&)	40	static
+../TouchGFX/gui/src/menu_9_screen/Menu_9View.cpp:79:6:void Menu_9View::BackElementClicked(Back_menu_container_1&)	40	static
+../TouchGFX/gui/src/menu_9_screen/Menu_9View.cpp:97:6:virtual void Menu_9View::setupScreen()	40	static
+../TouchGFX/gui/src/menu_9_screen/Menu_9View.cpp:106:6:void Menu_9View::fill_positions_menu(TGFX_Menu_t)	64	static
+../TouchGFX/gui/src/menu_9_screen/Menu_9View.cpp:157:6:virtual void Menu_9View::tearDownScreen()	16	static
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:134:7:constexpr touchgfx::GenericCallback<Menu_buttons_container&>::GenericCallback()	16	static
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:373:5:touchgfx::Callback<dest_type, T1, void, void>::Callback(dest_type*, void (dest_type::*)(T1)) [with dest_type = Menu_9View; T1 = Menu_buttons_container&]	24	static
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:134:7:constexpr touchgfx::GenericCallback<Back_menu_container_1&>::GenericCallback()	16	static
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:373:5:touchgfx::Callback<dest_type, T1, void, void>::Callback(dest_type*, void (dest_type::*)(T1)) [with dest_type = Menu_9View; T1 = Back_menu_container_1&]	24	static
-../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/scrollers/DrawableList.hpp:95:11:TYPE& touchgfx::DrawableListItems<TYPE, SIZE>::operator[](int) [with TYPE = Menu_buttons_container; int SIZE = 12]	16	static
+../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/scrollers/DrawableList.hpp:95:11:TYPE& touchgfx::DrawableListItems<TYPE, SIZE>::operator[](int) [with TYPE = Menu_buttons_container; int SIZE = 8]	16	static
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:138:13:touchgfx::GenericCallback<T1, void, void>::~GenericCallback() [with T1 = Menu_buttons_container&]	16	static
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:138:13:touchgfx::GenericCallback<T1, void, void>::~GenericCallback() [with T1 = Menu_buttons_container&]	16	static
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:138:13:touchgfx::GenericCallback<T1, void, void>::~GenericCallback() [with T1 = Back_menu_container_1&]	16	static
@@ -78,8 +78,8 @@
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/scrollers/ScrollList.hpp:35:7:virtual touchgfx::ScrollList::~ScrollList()	16	static
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/mixins/ClickListener.hpp:33:7:touchgfx::ClickListener<touchgfx::ScrollList>::~ClickListener()	16	static
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/mixins/ClickListener.hpp:33:7:virtual touchgfx::ClickListener<touchgfx::ScrollList>::~ClickListener()	16	static
-../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/scrollers/DrawableList.hpp:79:7:touchgfx::DrawableListItems<Menu_buttons_container, 12>::~DrawableListItems()	24	static
-../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/scrollers/DrawableList.hpp:79:7:virtual touchgfx::DrawableListItems<Menu_buttons_container, 12>::~DrawableListItems()	16	static
+../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/scrollers/DrawableList.hpp:79:7:touchgfx::DrawableListItems<Menu_buttons_container, 8>::~DrawableListItems()	24	static
+../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/scrollers/DrawableList.hpp:79:7:virtual touchgfx::DrawableListItems<Menu_buttons_container, 8>::~DrawableListItems()	16	static
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:218:8:touchgfx::Callback<Menu_9ViewBase, touchgfx::DrawableListItemsInterface*, short int, short int>::~Callback()	16	static
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:218:8:virtual touchgfx::Callback<Menu_9ViewBase, touchgfx::DrawableListItemsInterface*, short int, short int>::~Callback()	16	static
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:386:18:void touchgfx::Callback<dest_type, T1, void, void>::execute(T1) [with dest_type = Menu_9View; T1 = Back_menu_container_1&]	16	static
@@ -91,6 +91,6 @@
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/mixins/ClickListener.hpp:49:18:void touchgfx::ClickListener<T>::handleClickEvent(const touchgfx::ClickEvent&) [with T = touchgfx::Image]	16	static
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:250:18:void touchgfx::Callback<dest_type, T1, T2, T3>::execute(T1, T2, T3) [with dest_type = Menu_9ViewBase; T1 = touchgfx::DrawableListItemsInterface*; T2 = short int; T3 = short int]	32	static
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:260:18:bool touchgfx::Callback<dest_type, T1, T2, T3>::isValid() const [with dest_type = Menu_9ViewBase; T1 = touchgfx::DrawableListItemsInterface*; T2 = short int; T3 = short int]	16	static
-../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/scrollers/DrawableList.hpp:82:23:touchgfx::Drawable* touchgfx::DrawableListItems<TYPE, SIZE>::getDrawable(int16_t) [with TYPE = Menu_buttons_container; int SIZE = 12]	16	static
-../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/scrollers/DrawableList.hpp:101:21:int16_t touchgfx::DrawableListItems<TYPE, SIZE>::getNumberOfDrawables() [with TYPE = Menu_buttons_container; int SIZE = 12]	16	static
+../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/scrollers/DrawableList.hpp:82:23:touchgfx::Drawable* touchgfx::DrawableListItems<TYPE, SIZE>::getDrawable(int16_t) [with TYPE = Menu_buttons_container; int SIZE = 8]	16	static
+../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/scrollers/DrawableList.hpp:101:21:int16_t touchgfx::DrawableListItems<TYPE, SIZE>::getNumberOfDrawables() [with TYPE = Menu_buttons_container; int SIZE = 8]	16	static
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/mixins/ClickListener.hpp:49:18:void touchgfx::ClickListener<T>::handleClickEvent(const touchgfx::ClickEvent&) [with T = touchgfx::ScrollList]	16	static
