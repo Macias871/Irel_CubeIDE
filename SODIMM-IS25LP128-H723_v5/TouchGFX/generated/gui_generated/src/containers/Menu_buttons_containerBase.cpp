@@ -18,7 +18,7 @@ Menu_buttons_containerBase::Menu_buttons_containerBase() :
     textarea.setXY(10, 14);
     textarea.setColor(touchgfx::Color::getColorFromRGB(31, 180, 194));
     textarea.setLinespacing(0);
-    textarea.setTypedText(touchgfx::TypedText(T_MENU_TITLE_9_1));
+    textarea.setTypedText(touchgfx::TypedText(T_MENU_TITLE));
 
     add(button1);
     add(textarea);

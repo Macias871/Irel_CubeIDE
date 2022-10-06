@@ -41,8 +41,8 @@
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Box.hpp:62:10:void touchgfx::Box::setColor(touchgfx::colortype)	16	static
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Image.hpp:50:5:touchgfx::Image::Image(const touchgfx::Bitmap&)	16	static
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Image.hpp:118:18:virtual void touchgfx::Image::invalidateContent() const	16	static
-../TouchGFX/gui/include/gui/containers/Menu_tree_title_container.hpp:10:13:Menu_tree_title_container::~Menu_tree_title_container()	16	static
-../TouchGFX/gui/include/gui/containers/Menu_tree_title_container.hpp:10:13:virtual Menu_tree_title_container::~Menu_tree_title_container()	16	static
+../TouchGFX/gui/include/gui/containers/Menu_tree_title_container.hpp:19:13:Menu_tree_title_container::~Menu_tree_title_container()	16	static
+../TouchGFX/gui/include/gui/containers/Menu_tree_title_container.hpp:19:13:virtual Menu_tree_title_container::~Menu_tree_title_container()	16	static
 ../TouchGFX/gui/include/gui/containers/Back_menu_container_1.hpp:18:13:Back_menu_container_1::~Back_menu_container_1()	16	static
 ../TouchGFX/gui/include/gui/containers/Back_menu_container_1.hpp:18:13:virtual Back_menu_container_1::~Back_menu_container_1()	16	static
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/scrollers/DrawableList.hpp:42:13:touchgfx::DrawableListItemsInterface::~DrawableListItemsInterface()	16	static

@@ -9,7 +9,11 @@
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:501:18:virtual void touchgfx::Drawable::handleTickEvent()	16	static
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:588:18:virtual void touchgfx::Drawable::moveTo(int16_t, int16_t)	16	static
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/Container.hpp:165:23:virtual touchgfx::Drawable* touchgfx::Container::getFirstChild()	16	static
-../TouchGFX/gui/include/gui/containers/Menu_tree_title_container.hpp:10:13:Menu_tree_title_container::~Menu_tree_title_container()	16	static
-../TouchGFX/gui/include/gui/containers/Menu_tree_title_container.hpp:10:13:virtual Menu_tree_title_container::~Menu_tree_title_container()	16	static
+../Middlewares/ST/touchgfx/framework/include/touchgfx/TypedText.hpp:59:5:touchgfx::TypedText::TypedText(touchgfx::TypedTextId)	16	static
+../Middlewares/ST/touchgfx/framework/include/touchgfx/TypedText.hpp:65:13:touchgfx::TypedText::~TypedText()	16	static
+../Middlewares/ST/touchgfx/framework/include/touchgfx/TypedText.hpp:65:13:virtual touchgfx::TypedText::~TypedText()	16	static
+../TouchGFX/gui/include/gui/containers/Menu_tree_title_container.hpp:19:13:Menu_tree_title_container::~Menu_tree_title_container()	16	static
+../TouchGFX/gui/include/gui/containers/Menu_tree_title_container.hpp:19:13:virtual Menu_tree_title_container::~Menu_tree_title_container()	16	static
 ../TouchGFX/gui/src/containers/Menu_tree_title_container.cpp:3:1:Menu_tree_title_container::Menu_tree_title_container()	16	static
-../TouchGFX/gui/src/containers/Menu_tree_title_container.cpp:8:6:virtual void Menu_tree_title_container::initialize()	16	static
+../TouchGFX/gui/src/containers/Menu_tree_title_container.cpp:9:6:void Menu_tree_title_container::Set_Title(TEXTS)	32	static
+../TouchGFX/gui/src/containers/Menu_tree_title_container.cpp:16:6:virtual void Menu_tree_title_container::initialize()	16	static

@@ -78,11 +78,11 @@ TouchGFX/target/generated/TouchGFXConfiguration.o: \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/AbstractPainterARGB8888.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/AbstractPainterColor.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp \
- ../TouchGFX/gui/include/gui/containers/Back_menu_container_1.hpp \
- ../TouchGFX/generated/gui_generated/include/gui_generated/containers/Back_menu_container_1Base.hpp \
  ../TouchGFX/generated/gui_generated/include/gui_generated/containers/Menu_buttons_containerBase.hpp \
  ../TouchGFX/generated/texts/include/texts/TextKeysAndLanguages.hpp \
  ../TouchGFX/gui/include/gui/containers/../Structures.h \
+ ../TouchGFX/gui/include/gui/containers/Back_menu_container_1.hpp \
+ ../TouchGFX/generated/gui_generated/include/gui_generated/containers/Back_menu_container_1Base.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/scrollers/ScrollList.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/scrollers/DrawableList.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/scrollers/ScrollBase.hpp \
@@ -221,11 +221,11 @@ TouchGFX/target/generated/TouchGFXConfiguration.o: \
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/AbstractPainterARGB8888.hpp:
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/AbstractPainterColor.hpp:
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp:
-../TouchGFX/gui/include/gui/containers/Back_menu_container_1.hpp:
-../TouchGFX/generated/gui_generated/include/gui_generated/containers/Back_menu_container_1Base.hpp:
 ../TouchGFX/generated/gui_generated/include/gui_generated/containers/Menu_buttons_containerBase.hpp:
 ../TouchGFX/generated/texts/include/texts/TextKeysAndLanguages.hpp:
 ../TouchGFX/gui/include/gui/containers/../Structures.h:
+../TouchGFX/gui/include/gui/containers/Back_menu_container_1.hpp:
+../TouchGFX/generated/gui_generated/include/gui_generated/containers/Back_menu_container_1Base.hpp:
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/scrollers/ScrollList.hpp:
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/scrollers/DrawableList.hpp:
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/scrollers/ScrollBase.hpp:

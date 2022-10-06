@@ -74,11 +74,11 @@ build/MINGW32_NT-6.2/generated/gui_generated/src/common/FrontendApplicationBase.
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/TypedText.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/Texts.hpp \
- gui/include/gui/containers/Back_menu_container_1.hpp \
- generated/gui_generated/include/gui_generated/containers/Back_menu_container_1Base.hpp \
  generated/gui_generated/include/gui_generated/containers/Menu_buttons_containerBase.hpp \
  generated/texts/include/texts/TextKeysAndLanguages.hpp \
  gui/include/gui/containers/../Structures.h \
+ gui/include/gui/containers/Back_menu_container_1.hpp \
+ generated/gui_generated/include/gui_generated/containers/Back_menu_container_1Base.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/scrollers/ScrollList.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/scrollers/DrawableList.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/scrollers/ScrollBase.hpp \
@@ -237,15 +237,15 @@ generated/gui_generated/include/gui_generated/containers/Menu_tree_title_contain
 
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/Texts.hpp:
 
-gui/include/gui/containers/Back_menu_container_1.hpp:
-
-generated/gui_generated/include/gui_generated/containers/Back_menu_container_1Base.hpp:
-
 generated/gui_generated/include/gui_generated/containers/Menu_buttons_containerBase.hpp:
 
 generated/texts/include/texts/TextKeysAndLanguages.hpp:
 
 gui/include/gui/containers/../Structures.h:
+
+gui/include/gui/containers/Back_menu_container_1.hpp:
+
+generated/gui_generated/include/gui_generated/containers/Back_menu_container_1Base.hpp:
 
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/scrollers/ScrollList.hpp:
 

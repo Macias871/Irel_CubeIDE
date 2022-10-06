@@ -62,13 +62,13 @@ TouchGFX/gui/src/menu_9_screen/Menu_9View.o: \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/TypedText.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/Texts.hpp \
- ../TouchGFX/gui/include/gui/containers/Back_menu_container_1.hpp \
- ../TouchGFX/generated/gui_generated/include/gui_generated/containers/Back_menu_container_1Base.hpp \
+ ../TouchGFX/generated/gui_generated/include/gui_generated/containers/Menu_buttons_containerBase.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Button.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/AbstractButton.hpp \
- ../TouchGFX/generated/gui_generated/include/gui_generated/containers/Menu_buttons_containerBase.hpp \
  ../TouchGFX/generated/texts/include/texts/TextKeysAndLanguages.hpp \
  ../TouchGFX/gui/include/gui/containers/../Structures.h \
+ ../TouchGFX/gui/include/gui/containers/Back_menu_container_1.hpp \
+ ../TouchGFX/generated/gui_generated/include/gui_generated/containers/Back_menu_container_1Base.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/scrollers/ScrollList.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/scrollers/DrawableList.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/scrollers/ScrollBase.hpp \
@@ -138,13 +138,13 @@ TouchGFX/gui/src/menu_9_screen/Menu_9View.o: \
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp:
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/TypedText.hpp:
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/Texts.hpp:
-../TouchGFX/gui/include/gui/containers/Back_menu_container_1.hpp:
-../TouchGFX/generated/gui_generated/include/gui_generated/containers/Back_menu_container_1Base.hpp:
+../TouchGFX/generated/gui_generated/include/gui_generated/containers/Menu_buttons_containerBase.hpp:
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Button.hpp:
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/AbstractButton.hpp:
-../TouchGFX/generated/gui_generated/include/gui_generated/containers/Menu_buttons_containerBase.hpp:
 ../TouchGFX/generated/texts/include/texts/TextKeysAndLanguages.hpp:
 ../TouchGFX/gui/include/gui/containers/../Structures.h:
+../TouchGFX/gui/include/gui/containers/Back_menu_container_1.hpp:
+../TouchGFX/generated/gui_generated/include/gui_generated/containers/Back_menu_container_1Base.hpp:
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/scrollers/ScrollList.hpp:
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/scrollers/DrawableList.hpp:
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/scrollers/ScrollBase.hpp:

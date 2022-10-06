@@ -54,7 +54,12 @@ build/MINGW32_NT-6.2/gui/src/containers/Menu_tree_title_container.o: \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/AbstractPainterColor.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/TypedText.hpp \
- ../Middlewares/ST/touchgfx/framework/include/touchgfx/Texts.hpp
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/Texts.hpp \
+ generated/gui_generated/include/gui_generated/containers/Menu_buttons_containerBase.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Button.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/AbstractButton.hpp \
+ generated/texts/include/texts/TextKeysAndLanguages.hpp \
+ gui/include/gui/containers/../Structures.h
 
 gui/include/gui/containers/Menu_tree_title_container.hpp:
 
@@ -165,3 +170,13 @@ gui/include/gui/model/Model.hpp:
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/TypedText.hpp:
 
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/Texts.hpp:
+
+generated/gui_generated/include/gui_generated/containers/Menu_buttons_containerBase.hpp:
+
+../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Button.hpp:
+
+../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/AbstractButton.hpp:
+
+generated/texts/include/texts/TextKeysAndLanguages.hpp:
+
+gui/include/gui/containers/../Structures.h:

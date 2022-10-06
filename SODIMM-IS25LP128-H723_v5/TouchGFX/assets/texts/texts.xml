@@ -28,10 +28,6 @@
         <Translation Language="GB">9.1.2. Set Heating</Translation>
         <Translation Language="PL">9.1.2. Załączenie ogrzewania</Translation>
       </Text>
-      <Text Id="Menu_title_9_1" Alignment="Left" TypographyId="Default">
-        <Translation Language="GB">9.1. Default Settings</Translation>
-        <Translation Language="PL">9.1. Nastawy podstawowe</Translation>
-      </Text>
       <Text Id="Language" Alignment="Left" TypographyId="Default">
         <Translation Language="GB">9.1.1. Language</Translation>
         <Translation Language="PL">9.1.1. Język</Translation>
@@ -55,19 +51,9 @@
         <Translation Language="PL">&lt;&gt;</Translation>
       </Text>
     </TextGroup>
-    <TextGroup Id="Group1">
-      <Text Id="ResourceId2" Alignment="Left" TypographyId="Default">
-        <Translation Language="GB">2</Translation>
-        <Translation Language="PL" />
-      </Text>
-      <Text Id="ResourceId1" Alignment="Left" TypographyId="Default">
-        <Translation Language="GB">1</Translation>
-        <Translation Language="PL" />
-      </Text>
-    </TextGroup>
     <TextGroup Id="Menu_9">
       <Text Id="Menu_title" Alignment="Left" TypographyId="Default">
-        <Translation Language="GB">Menu 9.1</Translation>
+        <Translation Language="GB">9. Menu</Translation>
         <Translation Language="PL">9. Menu</Translation>
       </Text>
       <Text Id="Service" Alignment="Left" TypographyId="Default">
@@ -97,12 +83,6 @@
       <Text Id="Wstecz" Alignment="Left" TypographyId="Default">
         <Translation Language="GB">Back</Translation>
         <Translation Language="PL">Wstecz</Translation>
-      </Text>
-    </TextGroup>
-    <TextGroup Id="Unsorted">
-      <Text Id="__SingleUse_ABEO" Alignment="Left" TypographyId="Default">
-        <Translation Language="GB">New Text</Translation>
-        <Translation Language="PL">New Text</Translation>
       </Text>
     </TextGroup>
   </Texts>

@@ -8,7 +8,7 @@
 
 
 //TGFX_menu_struct   {const char * name;TEXTS  Ttext;TGFX_Menu_t * next;TGFX_Menu_t * prev;TGFX_Menu_t * child;TGFX_Menu_t * parent;void (*menu_function)(void);};
-TGFX_Menu_t menu_9 = { "9. Menu", T_MENU_TITLE_9_1,NULL, NULL, &sub_menu_9_1, &menu_9, NULL};
+TGFX_Menu_t menu_9 = { "9. Menu", T_MENU_TITLE,NULL, NULL, &sub_menu_9_1, NULL, NULL};
 
 TGFX_Menu_t sub_menu_9_1 = { "9.1. Nastawy podstawowe", T_DEFAULT_SETTINGS , &sub_menu_9_2, NULL, &sub_menu_9_1_1, &menu_9, NULL};
 
@@ -40,44 +40,26 @@ Menu_9View::Menu_9View(): listElementClickedCallback(this, &Menu_9View::listElem
 
 void Menu_9View::listElementClicked(Menu_buttons_container& element)
 {
-	//touchgfx_printf("Received callback from: %s\n", element.TGFX_menu_elemnt.name);
-
-	//TGFX_Actual_menu = element.TGFX_menu_elemnt.child;
-
-	//Temp_menu = *element.TGFX_menu_elemnt.child;
-
-	fill_positions_menu(sub_menu_9_1);
-
+	Temp_menu = element.TGFX_menu_elemnt;
+	fill_positions_menu(Temp_menu);
 }
 
 
 void Menu_9View::BackElementClicked(Back_menu_container_1& element)
 {
-	//touchgfx_printf("Received callback from: %s\n", "1");
-
-
-
-	touchgfx_printf("name: %s\n", element.TGFX_back_elemnt.name);
-	touchgfx_printf("parent: %s\n", element.TGFX_back_elemnt.parent->name);
-
 	if(element.TGFX_back_elemnt.parent != NULL)
 	{
 		fill_positions_menu(*element.TGFX_back_elemnt.parent);
 	}
-
 	else
 	{
-		//touchgfx_printf("err name: %s\n", element.TGFX_back_elemnt.name);
-		//("err parent: %s\n", element.TGFX_back_elemnt.parent->name);
+		application().gotoMain_screenScreenNoTransition();
 	}
 
-	//TGFX_Actual_menu = element.TGFX_menu_elemnt.child;
-
-	//Temp_menu = *element.TGFX_back_elemnt.parent->name;
-
-
-
-	//fill_positions_menu(sub_menu_9_1);
+/*
+	touchgfx_printf("name: %s\n", element.TGFX_back_elemnt.name);
+	touchgfx_printf("parent: %s\n", element.TGFX_back_elemnt.parent->name);
+*/
 
 }
 
@@ -92,38 +74,35 @@ void Menu_9View::setupScreen()
 
 void Menu_9View::fill_positions_menu(TGFX_Menu_t Menu)
 {
-
 	uint8_t numbers_of_menu_lines = 0;
-
-
-
 	if(Menu.child != NULL)
 	{
 		Sub_menu = Menu.child;
+
+	    for(uint8_t position = 0; position < 30; position++)
+	    {
+	    	scrollListListItems[position].setupListElement( Sub_menu->Ttext, *Sub_menu);
+	    	scrollListListItems[position].setAction(listElementClickedCallback);
+	    	//touchgfx_printf("Received callback from: %s\n", Sub_menu->name);
+	    	Base_of_menu_struct_items[position] = Sub_menu;
+	    	numbers_of_menu_lines++;
+	    	if(Sub_menu->next == NULL)
+	    	{
+	    		break;
+	    	}
+	    	else
+	    	{
+	    		Sub_menu = Sub_menu->next;
+	    	}
+
+	    }
+
+	    back_menu_container_11.setBack(Menu,BackElementClickedCallback);
+	    menu_tree_title_container1.Set_Title(Menu.Ttext);
+	    scrollList.setNumberOfItems(numbers_of_menu_lines);
+	    scrollList.invalidate();
+
 	}
-
-    for(uint8_t position = 0; position < 30; position++)
-    {
-    	scrollListListItems[position].setupListElement( Sub_menu->Ttext, *Sub_menu);
-    	scrollListListItems[position].setAction(listElementClickedCallback);
-    	//touchgfx_printf("Received callback from: %s\n", Sub_menu->name);
-    	Base_of_menu_struct_items[position] = Sub_menu;
-    	numbers_of_menu_lines++;
-    	if(Sub_menu->next == NULL)
-    	{
-    		break;
-    	}
-    	else
-    	{
-    		Sub_menu = Sub_menu->next;
-    	}
-
-    }
-
-    back_menu_container_11.setBack(Menu,BackElementClickedCallback);
-    scrollList.setNumberOfItems(numbers_of_menu_lines);
-    scrollList.invalidate();
-
 }
 
 
