@@ -9,8 +9,10 @@
 #include <gui/menu_9_screen/Menu_9Presenter.hpp>
 #include <touchgfx/widgets/Box.hpp>
 #include <touchgfx/widgets/Image.hpp>
+#include <touchgfx/containers/Container.hpp>
+#include <gui/containers/Test_container.hpp>
 #include <gui/containers/Menu_tree_title_container.hpp>
-#include <gui/containers/Back_menu_container_1.hpp>
+#include <gui/containers/Back_menu_container.hpp>
 #include <touchgfx/containers/ScrollableContainer.hpp>
 #include <touchgfx/containers/ListLayout.hpp>
 #include <touchgfx/mixins/ClickListener.hpp>
@@ -32,8 +34,10 @@ protected:
      */
     touchgfx::Box __background;
     touchgfx::ClickListener< touchgfx::Image > backgroud;
-    Menu_tree_title_container menu_tree_title_container1;
-    Back_menu_container_1 back_menu_container_11;
+    touchgfx::Container Sub_menu_cont;
+    Test_container test_container1;
+    Menu_tree_title_container menu_tree_title_cont;
+    Back_menu_container back_menu_cont;
     touchgfx::ScrollableContainer scrollcnt;
     touchgfx::ListLayout list;
 

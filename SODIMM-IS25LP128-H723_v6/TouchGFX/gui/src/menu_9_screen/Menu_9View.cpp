@@ -1,9 +1,8 @@
 #include <gui/menu_9_screen/Menu_9View.hpp>
 #include <texts/TextKeysAndLanguages.hpp>
 #include <BitmapDatabase.hpp>
+#include <gui/containers/Back_menu_container.hpp>
 #include <gui/containers/Menu_buttons_container.hpp>
-#include <gui/containers/Back_menu_container_1.hpp>
-#include <gui/menu_test_screen/MENU_TESTView.hpp>
 #include <gui_generated/common/FrontendApplicationBase.hpp>
 
 
@@ -25,9 +24,9 @@ TGFX_Menu_t sub_menu_9_2 = { "9.2. Serwis"            , T_SERVICE          , &su
 
 	TGFX_Menu_t sub_menu_9_2_1 = { "9.2.1. Menu ser"   , T_MENU_SERVICE  , &sub_menu_9_2_2, NULL, &sub_menu_9_2_1_1, &sub_menu_9_2, NULL};
 
-		TGFX_Menu_t sub_menu_9_2_1_1 = { "9.2.1.1 Integral"   , T_INTEGRAL         , &sub_menu_9_2_1_2, NULL, NULL, &sub_menu_9_2_1, NULL};
-		TGFX_Menu_t sub_menu_9_2_1_2 = { "9.2.1.2 Test recz." , T_MANUAL_TEST      , &sub_menu_9_2_1_3, &sub_menu_9_2_1_1, NULL, &sub_menu_9_2_1, Change_screen};
-		TGFX_Menu_t sub_menu_9_2_1_3 = { "9.2.1.3 Instalacja" , T_INSTALLATION     , &sub_menu_9_2_1_4, &sub_menu_9_2_1_2, &sub_menu_9_2_1_3_1, &sub_menu_9_2_1, NULL};
+		TGFX_Menu_t sub_menu_9_2_1_1 = { "9.2.1.1 Integral"   , T_INTEGRAL         , &sub_menu_9_2_1_2, 			 NULL, NULL					, &sub_menu_9_2_1, NULL};
+		TGFX_Menu_t sub_menu_9_2_1_2 = { "9.2.1.2 Test recz." , T_MANUAL_TEST      , &sub_menu_9_2_1_3, &sub_menu_9_2_1_1, NULL					, &sub_menu_9_2_1, Change_screen};
+		TGFX_Menu_t sub_menu_9_2_1_3 = { "9.2.1.3 Instalacja" , T_INSTALLATION     , &sub_menu_9_2_1_4, &sub_menu_9_2_1_2, &sub_menu_9_2_1_3_1  , &sub_menu_9_2_1, NULL};
 
 			TGFX_Menu_t sub_menu_9_2_1_3_1 = {"9.2.1.3.1 Nastawy",T_DEFAULT_VALUES   , &sub_menu_9_2_1_3_2, NULL, NULL, &sub_menu_9_2_1_3, NULL};
 			TGFX_Menu_t sub_menu_9_2_1_3_2 = {"9.2.1.3.2 Czas prz",T_CHECK_TIME      , &sub_menu_9_2_1_3_3, &sub_menu_9_2_1_3_1, NULL, &sub_menu_9_2_1_3, NULL};
@@ -90,19 +89,20 @@ void Menu_9View::listElementClicked(Menu_buttons_container& element)
 	{
 		Temp_menu = element.TGFX_menu_elemnt;
 		fill_positions_menu(Temp_menu);
+		scrollcnt.setVisible(1);
+		Sub_menu_cont.setVisible(0);
+		invalidate();
 
 	}
 	else
 	{
-		back_menu_container_11.setBack(element.TGFX_menu_elemnt,BackElementClickedCallback);
-		application().gotoMENU_TESTScreenNoTransition();
+		scrollcnt.setVisible(0);
+		Sub_menu_cont.setVisible(1);
+		//Sub_menu_cont.setVisible(1);
+		Open_callback_menu(element.TGFX_menu_elemnt);
 
-		//if(element.TGFX_menu_elemnt == *sub_menu_9_2_1_2 )
-		//{
-			//application()
-		//}
-	    //touchgfx::makeTransition<Main_screenView, Main_screenPresenter, touchgfx::NoTransition, Model >(&currentScreen, &currentPresenter, frontendHeap, &currentTransition, &model);
-
+		back_menu_cont.setBack(element.TGFX_menu_elemnt,BackElementClickedCallback);
+		invalidate();
 
 	}
 
@@ -110,19 +110,24 @@ void Menu_9View::listElementClicked(Menu_buttons_container& element)
 }
 
 
-void Menu_9View::BackElementClicked(Back_menu_container_1& element)
+void Menu_9View::BackElementClicked(Back_menu_container& element)
 {
 	//application().gotoMenu_9ScreenNoTransition();
 
+	//touchgfx_printf("name: %s\n", "main");
 
 	if(element.TGFX_back_elemnt.parent != NULL)
 	{
+
+		scrollcnt.setVisible(1);
+		Sub_menu_cont.setVisible(0);
+
 
 		fill_positions_menu(*element.TGFX_back_elemnt.parent);
 	}
 	else
 	{
-		//application().gotoMain_screenScreenNoTransition();
+		application().gotoMain_screenScreenNoTransition();
 
 	}
 
@@ -133,10 +138,23 @@ void Menu_9View::BackElementClicked(Back_menu_container_1& element)
 
 }
 
+
+void Menu_9View::Open_callback_menu(TGFX_Menu_t Menu)
+{
+
+
+
+}
 void Menu_9View::setupScreen()
 {
-    menu_tree_title_container1.initialize();
-    back_menu_container_11.initialize();
+	//touchgfx_printf("name: %s\n", "setup menu");
+
+
+	//Test_cont.setVisible(0);
+	Sub_menu_cont.setVisible(0);
+
+    menu_tree_title_cont.initialize();
+    back_menu_cont.initialize();
     fill_positions_menu(menu_9);
 
 }
@@ -173,8 +191,8 @@ void Menu_9View::fill_positions_menu(TGFX_Menu_t Menu)
 	    	}
 
 	    }
-	    back_menu_container_11.setBack(Menu,BackElementClickedCallback);
-	    menu_tree_title_container1.Set_Title(Menu.Ttext);
+	    back_menu_cont.setBack(Menu,BackElementClickedCallback);
+	    menu_tree_title_cont.Set_Title(Menu.Ttext);
 
 	}
 }

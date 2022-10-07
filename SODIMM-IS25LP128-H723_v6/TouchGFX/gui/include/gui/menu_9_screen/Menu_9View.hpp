@@ -70,7 +70,7 @@ extern TGFX_Menu_t sub_menu_9_6;
 
 extern TGFX_Menu_t *Sub_menu;
 extern TGFX_Menu_t Temp_menu;
-extern TGFX_Menu_t *TGFX_Actual_menu;
+
 
 void Change_screen(void);
 
@@ -88,9 +88,9 @@ public:
     void fill_positions_menu(TGFX_Menu_t Menu);
 
 
-
+    void Open_callback_menu(TGFX_Menu_t Menu);
     void listElementClicked(Menu_buttons_container& element);
-    void BackElementClicked(Back_menu_container_1& element);
+    void BackElementClicked(Back_menu_container& element);
 
 
 protected:
@@ -102,7 +102,7 @@ protected:
 
 
     Callback<Menu_9View, Menu_buttons_container&> listElementClickedCallback;
-    Callback<Menu_9View, Back_menu_container_1&> BackElementClickedCallback;
+    Callback<Menu_9View, Back_menu_container&> BackElementClickedCallback;
 
 };
 

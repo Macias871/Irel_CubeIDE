@@ -17,8 +17,6 @@
     <ClCompile Include="$(TouchGFXReleasePath)\framework\source\platform\hal\simulator\sdl2\OSWrappers.cpp"/>
     <ClCompile Include="$(ApplicationRoot)\simulator\main.cpp"/>
     <ClCompile Include="$(ApplicationRoot)\generated\simulator\src\mainBase.cpp"/>
-    <ClCompile Include="..\..\gui\src\containers\Back_menu_container_1.cpp"/>
-    <ClCompile Include="..\..\generated\gui_generated\src\containers\Back_menu_container_1Base.cpp"/>
     <ClCompile Include="..\..\gui\src\common\FrontendApplication.cpp"/>
     <ClCompile Include="..\..\generated\gui_generated\src\common\FrontendApplicationBase.cpp"/>
     <ClCompile Include="..\..\gui\src\main_screen_screen\Main_screenPresenter.cpp"/>
@@ -33,9 +31,10 @@
     <ClCompile Include="..\..\generated\gui_generated\src\containers\Menu_tree_title_containerBase.cpp"/>
     <ClCompile Include="..\..\gui\src\model\Model.cpp"/>
     <ClCompile Include="..\..\generated\simulator\src\video\SoftwareMJPEGDecoder.cpp"/>
-    <ClCompile Include="..\..\gui\src\menu_test_screen\MENU_TESTPresenter.cpp"/>
-    <ClCompile Include="..\..\gui\src\menu_test_screen\MENU_TESTView.cpp"/>
-    <ClCompile Include="..\..\generated\gui_generated\src\menu_test_screen\MENU_TESTViewBase.cpp"/>
+    <ClCompile Include="..\..\gui\src\containers\Back_menu_container.cpp"/>
+    <ClCompile Include="..\..\generated\gui_generated\src\containers\Back_menu_containerBase.cpp"/>
+    <ClCompile Include="..\..\gui\src\containers\Test_container.cpp"/>
+    <ClCompile Include="..\..\generated\gui_generated\src\containers\Test_containerBase.cpp"/>
   </ItemGroup>
   <ItemGroup>
     <None Include="$(ApplicationRoot)\assets\texts\texts.xml"/>
@@ -176,8 +175,6 @@
     <ClInclude Include="$(TouchGFXReleasePath)\framework\include\touchgfx\widgets\TouchArea.hpp"/>
     <ClInclude Include="$(TouchGFXReleasePath)\framework\include\touchgfx\widgets\Widget.hpp"/>
     <ClInclude Include="$(ApplicationRoot)\generated\simulator\include\simulator\mainBase.hpp"/>
-    <ClInclude Include="..\..\gui\include\gui\containers\Back_menu_container_1.hpp"/>
-    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\containers\Back_menu_container_1Base.hpp"/>
     <ClInclude Include="..\..\generated\simulator\include\simulator\video\DirectFrameBufferVideoController.hpp"/>
     <ClInclude Include="..\..\gui\include\gui\common\FrontendApplication.hpp"/>
     <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\common\FrontendApplicationBase.hpp"/>
@@ -199,9 +196,10 @@
     <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\common\SimConstants.hpp"/>
     <ClInclude Include="..\..\generated\simulator\include\simulator\video\SoftwareMJPEGDecoder.hpp"/>
     <ClInclude Include="..\..\gui\include\gui\Structures.h"/>
-    <ClInclude Include="..\..\gui\include\gui\menu_test_screen\MENU_TESTPresenter.hpp"/>
-    <ClInclude Include="..\..\gui\include\gui\menu_test_screen\MENU_TESTView.hpp"/>
-    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\menu_test_screen\MENU_TESTViewBase.hpp"/>
+    <ClInclude Include="..\..\gui\include\gui\containers\Back_menu_container.hpp"/>
+    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\containers\Back_menu_containerBase.hpp"/>
+    <ClInclude Include="..\..\gui\include\gui\containers\Test_container.hpp"/>
+    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\containers\Test_containerBase.hpp"/>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="$(ApplicationRoot)\generated\simulator\touchgfx.rc"/>

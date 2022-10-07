@@ -5,19 +5,25 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 CPP_SRCS += \
-../TouchGFX/gui/src/containers/Back_menu_container_1.cpp \
+../TouchGFX/gui/src/containers/Back_menu_container.cpp \
 ../TouchGFX/gui/src/containers/Menu_buttons_container.cpp \
-../TouchGFX/gui/src/containers/Menu_tree_title_container.cpp 
+../TouchGFX/gui/src/containers/Menu_tree_title_container.cpp \
+../TouchGFX/gui/src/containers/Sub_menu_container.cpp \
+../TouchGFX/gui/src/containers/Test_container.cpp 
 
 OBJS += \
-./TouchGFX/gui/src/containers/Back_menu_container_1.o \
+./TouchGFX/gui/src/containers/Back_menu_container.o \
 ./TouchGFX/gui/src/containers/Menu_buttons_container.o \
-./TouchGFX/gui/src/containers/Menu_tree_title_container.o 
+./TouchGFX/gui/src/containers/Menu_tree_title_container.o \
+./TouchGFX/gui/src/containers/Sub_menu_container.o \
+./TouchGFX/gui/src/containers/Test_container.o 
 
 CPP_DEPS += \
-./TouchGFX/gui/src/containers/Back_menu_container_1.d \
+./TouchGFX/gui/src/containers/Back_menu_container.d \
 ./TouchGFX/gui/src/containers/Menu_buttons_container.d \
-./TouchGFX/gui/src/containers/Menu_tree_title_container.d 
+./TouchGFX/gui/src/containers/Menu_tree_title_container.d \
+./TouchGFX/gui/src/containers/Sub_menu_container.d \
+./TouchGFX/gui/src/containers/Test_container.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes
@@ -27,7 +33,7 @@ TouchGFX/gui/src/containers/%.o TouchGFX/gui/src/containers/%.su: ../TouchGFX/gu
 clean: clean-TouchGFX-2f-gui-2f-src-2f-containers
 
 clean-TouchGFX-2f-gui-2f-src-2f-containers:
-	-$(RM) ./TouchGFX/gui/src/containers/Back_menu_container_1.d ./TouchGFX/gui/src/containers/Back_menu_container_1.o ./TouchGFX/gui/src/containers/Back_menu_container_1.su ./TouchGFX/gui/src/containers/Menu_buttons_container.d ./TouchGFX/gui/src/containers/Menu_buttons_container.o ./TouchGFX/gui/src/containers/Menu_buttons_container.su ./TouchGFX/gui/src/containers/Menu_tree_title_container.d ./TouchGFX/gui/src/containers/Menu_tree_title_container.o ./TouchGFX/gui/src/containers/Menu_tree_title_container.su
+	-$(RM) ./TouchGFX/gui/src/containers/Back_menu_container.d ./TouchGFX/gui/src/containers/Back_menu_container.o ./TouchGFX/gui/src/containers/Back_menu_container.su ./TouchGFX/gui/src/containers/Menu_buttons_container.d ./TouchGFX/gui/src/containers/Menu_buttons_container.o ./TouchGFX/gui/src/containers/Menu_buttons_container.su ./TouchGFX/gui/src/containers/Menu_tree_title_container.d ./TouchGFX/gui/src/containers/Menu_tree_title_container.o ./TouchGFX/gui/src/containers/Menu_tree_title_container.su ./TouchGFX/gui/src/containers/Sub_menu_container.d ./TouchGFX/gui/src/containers/Sub_menu_container.o ./TouchGFX/gui/src/containers/Sub_menu_container.su ./TouchGFX/gui/src/containers/Test_container.d ./TouchGFX/gui/src/containers/Test_container.o ./TouchGFX/gui/src/containers/Test_container.su
 
 .PHONY: clean-TouchGFX-2f-gui-2f-src-2f-containers
 

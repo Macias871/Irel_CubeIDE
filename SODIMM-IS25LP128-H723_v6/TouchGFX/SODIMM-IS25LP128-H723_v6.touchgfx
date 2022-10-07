@@ -64,27 +64,42 @@
             "Clickable": true
           },
           {
+            "Type": "Container",
+            "Name": "Sub_menu_cont",
+            "Y": 68,
+            "Width": 480,
+            "Height": 664,
+            "Components": [
+              {
+                "Type": "CustomContainerInstance",
+                "Name": "test_container1",
+                "Width": 480,
+                "Height": 800,
+                "CustomContainerDefinitionName": "Test_container"
+              }
+            ]
+          },
+          {
             "Type": "CustomContainerInstance",
-            "Name": "menu_tree_title_container1",
+            "Name": "menu_tree_title_cont",
             "Width": 480,
             "Height": 68,
             "CustomContainerDefinitionName": "Menu_tree_title_container"
           },
           {
             "Type": "CustomContainerInstance",
-            "Name": "back_menu_container_11",
+            "Name": "back_menu_cont",
             "Y": 732,
             "Width": 480,
             "Height": 68,
-            "CustomContainerDefinitionName": "Back_menu_container_1"
+            "CustomContainerDefinitionName": "Back_menu_container"
           },
           {
             "Type": "ScrollableContainer",
             "Name": "scrollcnt",
-            "X": 11,
-            "Y": 62,
-            "Width": 456,
-            "Height": 678,
+            "Y": 68,
+            "Width": 480,
+            "Height": 664,
             "HorizontalScrollEnabled": true,
             "VerticalScrollEnabled": true,
             "ScrollbarsVisible": true,
@@ -99,7 +114,7 @@
               {
                 "Type": "ListLayout",
                 "Name": "list",
-                "X": 104,
+                "X": 115,
                 "Width": 250,
                 "Height": 250,
                 "Direction": "South",
@@ -109,58 +124,6 @@
           }
         ],
         "Interactions": []
-      },
-      {
-        "Name": "MENU_TEST",
-        "CanvasBufferSize": 7200,
-        "Components": [
-          {
-            "Type": "Image",
-            "Name": "image1",
-            "Width": 480,
-            "Height": 800,
-            "RelativeFilename": "background_black.png"
-          },
-          {
-            "Type": "CustomContainerInstance",
-            "Name": "back_menu_container_11",
-            "Y": 732,
-            "Width": 480,
-            "Height": 68,
-            "CustomContainerDefinitionName": "Back_menu_container_1"
-          },
-          {
-            "Type": "CustomContainerInstance",
-            "Name": "menu_tree_title_container1",
-            "Width": 480,
-            "Height": 68,
-            "CustomContainerDefinitionName": "Menu_tree_title_container"
-          },
-          {
-            "Type": "Button",
-            "Name": "button1",
-            "X": 134,
-            "Y": 459,
-            "Width": 234,
-            "Height": 42,
-            "Pressed": "button_small_in_menu_on.png",
-            "Released": "button_small_in_menu_off.png"
-          }
-        ],
-        "Interactions": [
-          {
-            "InteractionName": "Interaction1",
-            "Trigger": {
-              "Type": "TriggerClicked",
-              "TriggerComponent": "button1"
-            },
-            "Action": {
-              "Type": "ActionGotoScreen",
-              "ScreenTransitionType": "ScreenTransitionNone",
-              "ActionComponent": "MENU_TEST"
-            }
-          }
-        ]
       }
     ],
     "CustomContainerDefinitions": [
@@ -209,7 +172,7 @@
         "Interactions": []
       },
       {
-        "Name": "Back_menu_container_1",
+        "Name": "Back_menu_container",
         "X": 160,
         "Y": 572,
         "Width": 480,
@@ -248,7 +211,7 @@
             "Name": "textArea1",
             "X": 194,
             "Y": 30,
-            "Width": 48,
+            "Width": 71,
             "Height": 24,
             "TextId": "Wstecz",
             "TextRotation": "0",
@@ -276,15 +239,16 @@
       },
       {
         "Name": "Menu_buttons_container",
-        "X": 171,
+        "X": 160,
         "Y": -102,
-        "Width": 440,
-        "Height": 52,
+        "Width": 480,
+        "Height": 54,
         "Components": [
           {
             "Type": "Button",
             "Name": "button1",
-            "Y": 5,
+            "X": 20,
+            "Y": 6,
             "Width": 440,
             "Height": 42,
             "Pressed": "button_in_menu_on.png",
@@ -293,8 +257,8 @@
           {
             "Type": "TextArea",
             "Name": "textarea",
-            "X": 10,
-            "Y": 14,
+            "X": 36,
+            "Y": 15,
             "Width": 81,
             "Height": 24,
             "TextId": "Menu_title",
@@ -320,6 +284,51 @@
             }
           }
         ]
+      },
+      {
+        "Name": "Test_container",
+        "X": 160,
+        "Y": -160,
+        "Width": 480,
+        "Height": 800,
+        "Components": [
+          {
+            "Type": "ScrollableContainer",
+            "Name": "scrollableContainer1",
+            "Y": 61,
+            "Width": 480,
+            "Height": 649,
+            "HorizontalScrollEnabled": true,
+            "VerticalScrollEnabled": true,
+            "ScrollbarsVisible": true,
+            "ScrollbarsVisibleOnPressed": true,
+            "ScrollbarsColor": {
+              "Red": 47,
+              "Green": 138,
+              "Blue": 150
+            },
+            "ScrollbarsAlpha": 255,
+            "Components": []
+          },
+          {
+            "Type": "Container",
+            "Name": "container1",
+            "Width": 480,
+            "Height": 61,
+            "Components": [
+              {
+                "Type": "Image",
+                "Name": "image1",
+                "X": 7,
+                "Y": 5,
+                "Width": 50,
+                "Height": 50,
+                "RelativeFilename": "OFF_toggle_button_00.png"
+              }
+            ]
+          }
+        ],
+        "Interactions": []
       }
     ],
     "Name": "MyApplication",

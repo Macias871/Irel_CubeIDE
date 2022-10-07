@@ -225,6 +225,7 @@
         <Translation Language="PL">Wstecz</Translation>
       </Text>
     </TextGroup>
+    <TextGroup Id="Unsorted" />
   </Texts>
   <Typographies>
     <Typography Id="Default" Font="verdana.ttf" Size="20" Bpp="4" Direction="LTR" FallbackCharacter="?" />

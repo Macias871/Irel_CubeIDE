@@ -13,8 +13,6 @@
 #include <gui/main_screen_screen/Main_screenPresenter.hpp>
 #include <gui/menu_9_screen/Menu_9View.hpp>
 #include <gui/menu_9_screen/Menu_9Presenter.hpp>
-#include <gui/menu_test_screen/MENU_TESTView.hpp>
-#include <gui/menu_test_screen/MENU_TESTPresenter.hpp>
 
 using namespace touchgfx;
 
@@ -57,17 +55,4 @@ void FrontendApplicationBase::gotoMenu_9ScreenNoTransition()
 void FrontendApplicationBase::gotoMenu_9ScreenNoTransitionImpl()
 {
     touchgfx::makeTransition<Menu_9View, Menu_9Presenter, touchgfx::NoTransition, Model >(&currentScreen, &currentPresenter, frontendHeap, &currentTransition, &model);
-}
-
-// MENU_TEST
-
-void FrontendApplicationBase::gotoMENU_TESTScreenNoTransition()
-{
-    transitionCallback = touchgfx::Callback<FrontendApplicationBase>(this, &FrontendApplication::gotoMENU_TESTScreenNoTransitionImpl);
-    pendingScreenTransitionCallback = &transitionCallback;
-}
-
-void FrontendApplicationBase::gotoMENU_TESTScreenNoTransitionImpl()
-{
-    touchgfx::makeTransition<MENU_TESTView, MENU_TESTPresenter, touchgfx::NoTransition, Model >(&currentScreen, &currentPresenter, frontendHeap, &currentTransition, &model);
 }

@@ -18,27 +18,34 @@ Menu_9ViewBase::Menu_9ViewBase()
     backgroud.setXY(0, 0);
     backgroud.setBitmap(touchgfx::Bitmap(BITMAP_BACKGROUND_BLACK_ID));
 
-    menu_tree_title_container1.setXY(0, 0);
+    Sub_menu_cont.setPosition(0, 68, 480, 664);
 
-    back_menu_container_11.setXY(0, 732);
+    test_container1.setXY(0, 0);
+    Sub_menu_cont.add(test_container1);
 
-    scrollcnt.setPosition(11, 62, 456, 678);
+    menu_tree_title_cont.setXY(0, 0);
+
+    back_menu_cont.setXY(0, 732);
+
+    scrollcnt.setPosition(0, 68, 480, 664);
     scrollcnt.setScrollbarsColor(touchgfx::Color::getColorFromRGB(49, 192, 224));
 
     list.setDirection(touchgfx::SOUTH);
-    list.setPosition(104, 0, 250, 250);
+    list.setPosition(115, 0, 250, 250);
     scrollcnt.add(list);
     scrollcnt.setScrollbarsPermanentlyVisible();
 
     add(__background);
     add(backgroud);
-    add(menu_tree_title_container1);
-    add(back_menu_container_11);
+    add(Sub_menu_cont);
+    add(menu_tree_title_cont);
+    add(back_menu_cont);
     add(scrollcnt);
 }
 
 void Menu_9ViewBase::setupScreen()
 {
-    menu_tree_title_container1.initialize();
-    back_menu_container_11.initialize();
+    test_container1.initialize();
+    menu_tree_title_cont.initialize();
+    back_menu_cont.initialize();
 }

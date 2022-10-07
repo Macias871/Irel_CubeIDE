@@ -10,6 +10,10 @@ O_SRCS += \
 ../TouchGFX/build/MINGW32_NT-6.2/generated/images/src/image_DZ_img_02.o \
 ../TouchGFX/build/MINGW32_NT-6.2/generated/images/src/image_DZ_img_03.o \
 ../TouchGFX/build/MINGW32_NT-6.2/generated/images/src/image_Main_screen_2.o \
+../TouchGFX/build/MINGW32_NT-6.2/generated/images/src/image_NOK.o \
+../TouchGFX/build/MINGW32_NT-6.2/generated/images/src/image_OFF_toggle_button_00.o \
+../TouchGFX/build/MINGW32_NT-6.2/generated/images/src/image_OK.o \
+../TouchGFX/build/MINGW32_NT-6.2/generated/images/src/image_ON_toggle_button_selected_00.o \
 ../TouchGFX/build/MINGW32_NT-6.2/generated/images/src/image_Pompa1p.o \
 ../TouchGFX/build/MINGW32_NT-6.2/generated/images/src/image_SG_img_01.o \
 ../TouchGFX/build/MINGW32_NT-6.2/generated/images/src/image_SG_img_02.o \

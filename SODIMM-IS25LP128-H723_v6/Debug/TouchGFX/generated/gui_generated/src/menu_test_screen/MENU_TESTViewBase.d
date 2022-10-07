@@ -43,8 +43,8 @@ TouchGFX/generated/gui_generated/src/menu_test_screen/MENU_TESTViewBase.o: \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Box.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Widget.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Image.hpp \
- ../TouchGFX/gui/include/gui/containers/Back_menu_container_1.hpp \
- ../TouchGFX/generated/gui_generated/include/gui_generated/containers/Back_menu_container_1Base.hpp \
+ ../TouchGFX/gui/include/gui/containers/Back_menu_container.hpp \
+ ../TouchGFX/generated/gui_generated/include/gui_generated/containers/Back_menu_containerBase.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/Line.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/CWRUtil.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/Utils.hpp \
@@ -63,11 +63,11 @@ TouchGFX/generated/gui_generated/src/menu_test_screen/MENU_TESTViewBase.o: \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/TypedText.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/Texts.hpp \
+ ../TouchGFX/gui/include/gui/containers/Menu_tree_title_container.hpp \
+ ../TouchGFX/generated/gui_generated/include/gui_generated/containers/Menu_tree_title_containerBase.hpp \
  ../TouchGFX/generated/gui_generated/include/gui_generated/containers/Menu_buttons_containerBase.hpp \
  ../TouchGFX/generated/texts/include/texts/TextKeysAndLanguages.hpp \
  ../TouchGFX/gui/include/gui/containers/../Structures.h \
- ../TouchGFX/gui/include/gui/containers/Menu_tree_title_container.hpp \
- ../TouchGFX/generated/gui_generated/include/gui_generated/containers/Menu_tree_title_containerBase.hpp \
  ../TouchGFX/generated/images/include/BitmapDatabase.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/canvas_widget_renderer/CanvasWidgetRenderer.hpp
 ../TouchGFX/generated/gui_generated/include/gui_generated/menu_test_screen/MENU_TESTViewBase.hpp:
@@ -113,8 +113,8 @@ TouchGFX/generated/gui_generated/src/menu_test_screen/MENU_TESTViewBase.o: \
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Box.hpp:
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Widget.hpp:
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Image.hpp:
-../TouchGFX/gui/include/gui/containers/Back_menu_container_1.hpp:
-../TouchGFX/generated/gui_generated/include/gui_generated/containers/Back_menu_container_1Base.hpp:
+../TouchGFX/gui/include/gui/containers/Back_menu_container.hpp:
+../TouchGFX/generated/gui_generated/include/gui_generated/containers/Back_menu_containerBase.hpp:
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/Line.hpp:
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/CWRUtil.hpp:
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/Utils.hpp:
@@ -133,10 +133,10 @@ TouchGFX/generated/gui_generated/src/menu_test_screen/MENU_TESTViewBase.o: \
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp:
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/TypedText.hpp:
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/Texts.hpp:
+../TouchGFX/gui/include/gui/containers/Menu_tree_title_container.hpp:
+../TouchGFX/generated/gui_generated/include/gui_generated/containers/Menu_tree_title_containerBase.hpp:
 ../TouchGFX/generated/gui_generated/include/gui_generated/containers/Menu_buttons_containerBase.hpp:
 ../TouchGFX/generated/texts/include/texts/TextKeysAndLanguages.hpp:
 ../TouchGFX/gui/include/gui/containers/../Structures.h:
-../TouchGFX/gui/include/gui/containers/Menu_tree_title_container.hpp:
-../TouchGFX/generated/gui_generated/include/gui_generated/containers/Menu_tree_title_containerBase.hpp:
 ../TouchGFX/generated/images/include/BitmapDatabase.hpp:
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/canvas_widget_renderer/CanvasWidgetRenderer.hpp:

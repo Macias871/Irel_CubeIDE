@@ -40,22 +40,20 @@
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Box.hpp:62:10:void touchgfx::Box::setColor(touchgfx::colortype)	16	static
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Image.hpp:50:5:touchgfx::Image::Image(const touchgfx::Bitmap&)	16	static
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/AbstractButton.hpp:36:5:touchgfx::AbstractButton::AbstractButton()	16	static
-../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/AbstractButton.hpp:63:10:void touchgfx::AbstractButton::setAction(touchgfx::GenericCallback<const touchgfx::AbstractButton&>&)	16	static
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/AbstractButton.hpp:32:7:touchgfx::AbstractButton::~AbstractButton()	16	static
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/AbstractButton.hpp:32:7:virtual touchgfx::AbstractButton::~AbstractButton()	16	static
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Button.hpp:34:5:touchgfx::Button::Button()	16	static
-../TouchGFX/gui/include/gui/containers/Back_menu_container_1.hpp:18:13:Back_menu_container_1::~Back_menu_container_1()	16	static
-../TouchGFX/gui/include/gui/containers/Back_menu_container_1.hpp:18:13:virtual Back_menu_container_1::~Back_menu_container_1()	16	static
+../TouchGFX/gui/include/gui/containers/Back_menu_container.hpp:10:13:Back_menu_container::~Back_menu_container()	16	static
+../TouchGFX/gui/include/gui/containers/Back_menu_container.hpp:10:13:virtual Back_menu_container::~Back_menu_container()	16	static
 ../TouchGFX/gui/include/gui/containers/Menu_tree_title_container.hpp:19:13:Menu_tree_title_container::~Menu_tree_title_container()	16	static
 ../TouchGFX/gui/include/gui/containers/Menu_tree_title_container.hpp:19:13:virtual Menu_tree_title_container::~Menu_tree_title_container()	16	static
 ../Middlewares/ST/touchgfx/framework/include/mvp/View.hpp:36:7:touchgfx::View<MENU_TESTPresenter>::~View()	16	static
 ../Middlewares/ST/touchgfx/framework/include/mvp/View.hpp:36:7:virtual touchgfx::View<MENU_TESTPresenter>::~View()	16	static
 ../TouchGFX/generated/gui_generated/include/gui_generated/menu_test_screen/MENU_TESTViewBase.hpp:20:13:MENU_TESTViewBase::~MENU_TESTViewBase()	16	static
 ../TouchGFX/generated/gui_generated/include/gui_generated/menu_test_screen/MENU_TESTViewBase.hpp:20:13:virtual MENU_TESTViewBase::~MENU_TESTViewBase()	16	static
-../TouchGFX/generated/gui_generated/include/gui_generated/menu_test_screen/MENU_TESTViewBase.hpp:24:26:FrontendApplication& MENU_TESTViewBase::application()	16	static
 ../TouchGFX/generated/gui_generated/src/menu_test_screen/MENU_TESTViewBase.cpp:10:1:MENU_TESTViewBase::MENU_TESTViewBase()	64	static
-../TouchGFX/generated/gui_generated/src/menu_test_screen/MENU_TESTViewBase.cpp:37:6:virtual void MENU_TESTViewBase::setupScreen()	16	static
-../TouchGFX/generated/gui_generated/src/menu_test_screen/MENU_TESTViewBase.cpp:43:6:void MENU_TESTViewBase::buttonCallbackHandler(const touchgfx::AbstractButton&)	16	static
+../TouchGFX/generated/gui_generated/src/menu_test_screen/MENU_TESTViewBase.cpp:36:6:virtual void MENU_TESTViewBase::setupScreen()	16	static
+../TouchGFX/generated/gui_generated/src/menu_test_screen/MENU_TESTViewBase.cpp:42:6:void MENU_TESTViewBase::buttonCallbackHandler(const touchgfx::AbstractButton&)	16	static
 ../Middlewares/ST/touchgfx/framework/include/mvp/View.hpp:39:5:touchgfx::View<T>::View() [with T = MENU_TESTPresenter]	16	static
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:134:7:constexpr touchgfx::GenericCallback<const touchgfx::AbstractButton&>::GenericCallback()	16	static
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:373:5:touchgfx::Callback<dest_type, T1, void, void>::Callback(dest_type*, void (dest_type::*)(T1)) [with dest_type = MENU_TESTViewBase; T1 = const touchgfx::AbstractButton&]	24	static

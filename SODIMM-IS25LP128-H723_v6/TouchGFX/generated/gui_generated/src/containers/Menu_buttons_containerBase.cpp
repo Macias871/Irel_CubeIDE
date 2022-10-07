@@ -9,13 +9,13 @@
 Menu_buttons_containerBase::Menu_buttons_containerBase() :
     buttonCallback(this, &Menu_buttons_containerBase::buttonCallbackHandler)
 {
-    setWidth(440);
-    setHeight(52);
-    button1.setXY(0, 5);
+    setWidth(480);
+    setHeight(54);
+    button1.setXY(20, 6);
     button1.setBitmaps(touchgfx::Bitmap(BITMAP_BUTTON_IN_MENU_OFF_ID), touchgfx::Bitmap(BITMAP_BUTTON_IN_MENU_ON_ID));
     button1.setAction(buttonCallback);
 
-    textarea.setXY(10, 14);
+    textarea.setXY(36, 15);
     textarea.setColor(touchgfx::Color::getColorFromRGB(31, 180, 194));
     textarea.setLinespacing(0);
     textarea.setTypedText(touchgfx::TypedText(T_MENU_TITLE));

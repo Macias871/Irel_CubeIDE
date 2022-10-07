@@ -26,9 +26,6 @@ public:
     // Menu_9
     void gotoMenu_9ScreenNoTransition();
 
-    // MENU_TEST
-    void gotoMENU_TESTScreenNoTransition();
-
 protected:
     touchgfx::Callback<FrontendApplicationBase> transitionCallback;
     FrontendHeap& frontendHeap;
@@ -39,9 +36,6 @@ protected:
 
     // Menu_9
     void gotoMenu_9ScreenNoTransitionImpl();
-
-    // MENU_TEST
-    void gotoMENU_TESTScreenNoTransitionImpl();
 };
 
 #endif // FRONTENDAPPLICATIONBASE_HPP

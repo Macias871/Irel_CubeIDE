@@ -26,4 +26,7 @@ struct TGFX_menu_struct {
 
 };
 
+
+extern TGFX_Menu_t *TGFX_Actual_menu;
+
 #endif /* GUI_INCLUDE_GUI_STRUCTURES_H_ */

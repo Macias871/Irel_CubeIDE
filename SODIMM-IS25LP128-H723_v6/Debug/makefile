@@ -14,14 +14,12 @@ RM := rm -rf
 -include TouchGFX/target/generated/subdir.mk
 -include TouchGFX/target/subdir.mk
 -include TouchGFX/gui/src/model/subdir.mk
--include TouchGFX/gui/src/menu_test_screen/subdir.mk
 -include TouchGFX/gui/src/menu_9_screen/subdir.mk
 -include TouchGFX/gui/src/main_screen_screen/subdir.mk
 -include TouchGFX/gui/src/containers/subdir.mk
 -include TouchGFX/gui/src/common/subdir.mk
 -include TouchGFX/generated/texts/src/subdir.mk
 -include TouchGFX/generated/images/src/subdir.mk
--include TouchGFX/generated/gui_generated/src/menu_test_screen/subdir.mk
 -include TouchGFX/generated/gui_generated/src/menu_9_screen/subdir.mk
 -include TouchGFX/generated/gui_generated/src/main_screen_screen/subdir.mk
 -include TouchGFX/generated/gui_generated/src/containers/subdir.mk
@@ -31,7 +29,6 @@ RM := rm -rf
 -include TouchGFX/build/MINGW32_NT-6.2/touchgfx/framework/source/platform/driver/touch/subdir.mk
 -include TouchGFX/build/MINGW32_NT-6.2/simulator/subdir.mk
 -include TouchGFX/build/MINGW32_NT-6.2/gui/src/model/subdir.mk
--include TouchGFX/build/MINGW32_NT-6.2/gui/src/menu_test_screen/subdir.mk
 -include TouchGFX/build/MINGW32_NT-6.2/gui/src/menu_9_screen/subdir.mk
 -include TouchGFX/build/MINGW32_NT-6.2/gui/src/main_screen_screen/subdir.mk
 -include TouchGFX/build/MINGW32_NT-6.2/gui/src/containers/subdir.mk
@@ -39,8 +36,8 @@ RM := rm -rf
 -include TouchGFX/build/MINGW32_NT-6.2/generated/texts/src/subdir.mk
 -include TouchGFX/build/MINGW32_NT-6.2/generated/simulator/src/video/subdir.mk
 -include TouchGFX/build/MINGW32_NT-6.2/generated/simulator/src/subdir.mk
+-include TouchGFX/build/MINGW32_NT-6.2/generated/images/src/__designer/subdir.mk
 -include TouchGFX/build/MINGW32_NT-6.2/generated/images/src/subdir.mk
--include TouchGFX/build/MINGW32_NT-6.2/generated/gui_generated/src/menu_test_screen/subdir.mk
 -include TouchGFX/build/MINGW32_NT-6.2/generated/gui_generated/src/menu_9_screen/subdir.mk
 -include TouchGFX/build/MINGW32_NT-6.2/generated/gui_generated/src/main_screen_screen/subdir.mk
 -include TouchGFX/build/MINGW32_NT-6.2/generated/gui_generated/src/containers/subdir.mk
@@ -120,8 +117,8 @@ all: main-build
 main-build: SODIMM-IS25LP128-H723_v6.elf secondary-outputs
 
 # Tool invocations
-SODIMM-IS25LP128-H723_v6.elf SODIMM-IS25LP128-H723_v6.map: $(OBJS) $(USER_OBJS) D:\CUBE_IDE_WORK\SODIMM-IS25LP128-H723_v6\STM32H723ZGTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-g++ -o "SODIMM-IS25LP128-H723_v6.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m7 -T"D:\CUBE_IDE_WORK\SODIMM-IS25LP128-H723_v6\STM32H723ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="SODIMM-IS25LP128-H723_v6.map" -Wl,--gc-sections -static -L"D:\CUBE_IDE_WORK\SODIMM-IS25LP128-H723_v6\Middlewares\ST\touchgfx\lib\core\cortex_m7\gcc" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+SODIMM-IS25LP128-H723_v6.elf SODIMM-IS25LP128-H723_v6.map: $(OBJS) $(USER_OBJS) D:\CUBE_IDE_WORK\GIT\Irel_CubeIDE\SODIMM-IS25LP128-H723_v6\STM32H723ZGTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-g++ -o "SODIMM-IS25LP128-H723_v6.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m7 -T"D:\CUBE_IDE_WORK\GIT\Irel_CubeIDE\SODIMM-IS25LP128-H723_v6\STM32H723ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="SODIMM-IS25LP128-H723_v6.map" -Wl,--gc-sections -static -L"D:\CUBE_IDE_WORK\GIT\Irel_CubeIDE\SODIMM-IS25LP128-H723_v6\Middlewares\ST\touchgfx\lib\core\cortex_m7\gcc" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
