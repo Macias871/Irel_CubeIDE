@@ -35,7 +35,7 @@ struct TGFX_menu_struct {
 
 #define Menu_items 30
 
-
+extern TGFX_Menu_t menu_;
 
 extern TGFX_Menu_t menu_9;
 extern TGFX_Menu_t sub_menu_9_1;

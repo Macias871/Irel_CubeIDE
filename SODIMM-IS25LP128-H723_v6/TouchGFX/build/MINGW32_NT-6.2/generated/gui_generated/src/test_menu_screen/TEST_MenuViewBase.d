@@ -69,6 +69,9 @@ build/MINGW32_NT-6.2/generated/gui_generated/src/test_menu_screen/TEST_MenuViewB
  gui/include/gui/containers/Back_menu_container.hpp \
  generated/gui_generated/include/gui_generated/containers/Back_menu_containerBase.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/ScrollableContainer.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/ToggleButton.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/RadioButton.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/RadioButtonGroup.hpp \
  generated/images/include/BitmapDatabase.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/canvas_widget_renderer/CanvasWidgetRenderer.hpp
 
@@ -209,6 +212,12 @@ gui/include/gui/containers/Back_menu_container.hpp:
 generated/gui_generated/include/gui_generated/containers/Back_menu_containerBase.hpp:
 
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/ScrollableContainer.hpp:
+
+../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/ToggleButton.hpp:
+
+../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/RadioButton.hpp:
+
+../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/RadioButtonGroup.hpp:
 
 generated/images/include/BitmapDatabase.hpp:
 

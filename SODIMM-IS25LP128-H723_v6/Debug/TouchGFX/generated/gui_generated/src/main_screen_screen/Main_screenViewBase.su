@@ -50,12 +50,13 @@
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/AnimatedImage.hpp:70:5:touchgfx::AnimatedImage::AnimatedImage(const uint8_t&)	32	static
 ../Middlewares/ST/touchgfx/framework/include/mvp/View.hpp:36:7:touchgfx::View<Main_screenPresenter>::~View()	16	static
 ../Middlewares/ST/touchgfx/framework/include/mvp/View.hpp:36:7:virtual touchgfx::View<Main_screenPresenter>::~View()	16	static
-../TouchGFX/generated/gui_generated/include/gui_generated/main_screen_screen/Main_screenViewBase.hpp:21:13:Main_screenViewBase::~Main_screenViewBase()	16	static
-../TouchGFX/generated/gui_generated/include/gui_generated/main_screen_screen/Main_screenViewBase.hpp:21:13:virtual Main_screenViewBase::~Main_screenViewBase()	16	static
-../TouchGFX/generated/gui_generated/include/gui_generated/main_screen_screen/Main_screenViewBase.hpp:25:26:FrontendApplication& Main_screenViewBase::application()	16	static
-../TouchGFX/generated/gui_generated/src/main_screen_screen/Main_screenViewBase.cpp:8:1:Main_screenViewBase::Main_screenViewBase()	64	static
-../TouchGFX/generated/gui_generated/src/main_screen_screen/Main_screenViewBase.cpp:33:6:virtual void Main_screenViewBase::setupScreen()	16	static
-../TouchGFX/generated/gui_generated/src/main_screen_screen/Main_screenViewBase.cpp:38:6:void Main_screenViewBase::buttonCallbackHandler(const touchgfx::AbstractButton&)	16	static
+../TouchGFX/generated/gui_generated/include/gui_generated/main_screen_screen/Main_screenViewBase.hpp:22:13:Main_screenViewBase::~Main_screenViewBase()	16	static
+../TouchGFX/generated/gui_generated/include/gui_generated/main_screen_screen/Main_screenViewBase.hpp:22:13:virtual Main_screenViewBase::~Main_screenViewBase()	16	static
+../TouchGFX/generated/gui_generated/include/gui_generated/main_screen_screen/Main_screenViewBase.hpp:28:18:virtual void Main_screenViewBase::shortcut_goto_test()	16	static
+../TouchGFX/generated/gui_generated/include/gui_generated/main_screen_screen/Main_screenViewBase.hpp:34:26:FrontendApplication& Main_screenViewBase::application()	16	static
+../TouchGFX/generated/gui_generated/src/main_screen_screen/Main_screenViewBase.cpp:8:1:Main_screenViewBase::Main_screenViewBase()	104	static
+../TouchGFX/generated/gui_generated/src/main_screen_screen/Main_screenViewBase.cpp:52:6:virtual void Main_screenViewBase::setupScreen()	16	static
+../TouchGFX/generated/gui_generated/src/main_screen_screen/Main_screenViewBase.cpp:57:6:void Main_screenViewBase::buttonCallbackHandler(const touchgfx::AbstractButton&)	16	static
 ../Middlewares/ST/touchgfx/framework/include/mvp/View.hpp:39:5:touchgfx::View<T>::View() [with T = Main_screenPresenter]	16	static
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/AnimatedImage.hpp:33:7:touchgfx::AnimatedImage::~AnimatedImage()	16	static
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/AnimatedImage.hpp:33:7:virtual touchgfx::AnimatedImage::~AnimatedImage()	16	static

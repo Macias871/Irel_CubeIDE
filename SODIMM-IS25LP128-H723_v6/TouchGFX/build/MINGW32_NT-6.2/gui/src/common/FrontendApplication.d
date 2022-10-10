@@ -70,6 +70,9 @@ build/MINGW32_NT-6.2/gui/src/common/FrontendApplication.o: \
  gui/include/gui/containers/Back_menu_container.hpp \
  generated/gui_generated/include/gui_generated/containers/Back_menu_containerBase.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/ScrollableContainer.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/ToggleButton.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/RadioButton.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/RadioButtonGroup.hpp \
  gui/include/gui/menu_9_screen/Menu_9Presenter.hpp \
  gui/include/gui/containers/Menu_buttons_container.hpp \
  generated/images/include/BitmapDatabase.hpp \
@@ -83,6 +86,7 @@ build/MINGW32_NT-6.2/gui/src/common/FrontendApplication.o: \
  generated/gui_generated/include/gui_generated/main_screen_screen/Main_screenViewBase.hpp \
  gui/include/gui/main_screen_screen/Main_screenPresenter.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/AnimatedImage.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/SlideMenu.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/EasingEquations.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/mixins/MoveAnimator.hpp \
  gui/include/gui/main_screen_screen/../Structures.h \
@@ -234,6 +238,12 @@ generated/gui_generated/include/gui_generated/containers/Back_menu_containerBase
 
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/ScrollableContainer.hpp:
 
+../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/ToggleButton.hpp:
+
+../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/RadioButton.hpp:
+
+../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/RadioButtonGroup.hpp:
+
 gui/include/gui/menu_9_screen/Menu_9Presenter.hpp:
 
 gui/include/gui/containers/Menu_buttons_container.hpp:
@@ -259,6 +269,8 @@ generated/gui_generated/include/gui_generated/main_screen_screen/Main_screenView
 gui/include/gui/main_screen_screen/Main_screenPresenter.hpp:
 
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/AnimatedImage.hpp:
+
+../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/SlideMenu.hpp:
 
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/EasingEquations.hpp:
 

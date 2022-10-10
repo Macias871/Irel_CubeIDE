@@ -33,14 +33,16 @@
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Image.hpp:38:7:virtual touchgfx::Image::~Image()	16	static
 ../Middlewares/ST/touchgfx/framework/include/mvp/View.hpp:36:7:touchgfx::View<Main_screenPresenter>::~View()	16	static
 ../Middlewares/ST/touchgfx/framework/include/mvp/View.hpp:36:7:virtual touchgfx::View<Main_screenPresenter>::~View()	16	static
-../TouchGFX/generated/gui_generated/include/gui_generated/main_screen_screen/Main_screenViewBase.hpp:21:13:Main_screenViewBase::~Main_screenViewBase()	16	static
-../TouchGFX/generated/gui_generated/include/gui_generated/main_screen_screen/Main_screenViewBase.hpp:21:13:virtual Main_screenViewBase::~Main_screenViewBase()	16	static
+../TouchGFX/generated/gui_generated/include/gui_generated/main_screen_screen/Main_screenViewBase.hpp:22:13:Main_screenViewBase::~Main_screenViewBase()	16	static
+../TouchGFX/generated/gui_generated/include/gui_generated/main_screen_screen/Main_screenViewBase.hpp:22:13:virtual Main_screenViewBase::~Main_screenViewBase()	16	static
+../TouchGFX/generated/gui_generated/include/gui_generated/main_screen_screen/Main_screenViewBase.hpp:34:26:FrontendApplication& Main_screenViewBase::application()	16	static
 ../TouchGFX/gui/include/gui/main_screen_screen/Main_screenView.hpp:14:13:Main_screenView::~Main_screenView()	16	static
 ../TouchGFX/gui/include/gui/main_screen_screen/Main_screenView.hpp:14:13:virtual Main_screenView::~Main_screenView()	16	static
 ../TouchGFX/gui/src/main_screen_screen/Main_screenView.cpp:58:6:void Change_screen()	4	static
-../TouchGFX/gui/src/main_screen_screen/Main_screenView.cpp:63:1:Main_screenView::Main_screenView()	16	static
-../TouchGFX/gui/src/main_screen_screen/Main_screenView.cpp:68:6:virtual void Main_screenView::setupScreen()	24	static
-../TouchGFX/gui/src/main_screen_screen/Main_screenView.cpp:74:6:virtual void Main_screenView::tearDownScreen()	16	static
+../TouchGFX/gui/src/main_screen_screen/Main_screenView.cpp:63:6:virtual void Main_screenView::shortcut_goto_test()	24	static
+../TouchGFX/gui/src/main_screen_screen/Main_screenView.cpp:70:1:Main_screenView::Main_screenView()	16	static
+../TouchGFX/gui/src/main_screen_screen/Main_screenView.cpp:75:6:virtual void Main_screenView::setupScreen()	24	static
+../TouchGFX/gui/src/main_screen_screen/Main_screenView.cpp:81:6:virtual void Main_screenView::tearDownScreen()	16	static
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/Container.hpp:40:7:touchgfx::Container::~Container()	16	static
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/Container.hpp:40:7:virtual touchgfx::Container::~Container()	16	static
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Box.hpp:29:7:touchgfx::Box::~Box()	16	static

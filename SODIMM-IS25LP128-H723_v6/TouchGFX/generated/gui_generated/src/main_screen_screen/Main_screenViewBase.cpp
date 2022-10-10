@@ -24,10 +24,29 @@ Main_screenViewBase::Main_screenViewBase() :
     Image_Wifi.setUpdateTicksInterval(30);
     Image_Wifi.startAnimation(false, true, true);
 
+    slideMenu1.setup(touchgfx::SlideMenu::WEST,
+        touchgfx::Bitmap(BITMAP_RIGHT_SLIDE_MENU_BACKGROUND_BLACK_ID),
+        touchgfx::Bitmap(BITMAP_RIGHT_SLIDE_MENU_BUTTON_ID),
+        touchgfx::Bitmap(BITMAP_RIGHT_SLIDE_MENU_BUTTON_ID),
+        23, 0, 0, 110);
+    slideMenu1.setState(touchgfx::SlideMenu::COLLAPSED);
+    slideMenu1.setVisiblePixelsWhenCollapsed(25);
+    slideMenu1.setHiddenPixelsWhenExpanded(0);
+    slideMenu1.setAnimationEasingEquation(touchgfx::EasingEquations::cubicEaseInOut);
+    slideMenu1.setAnimationDuration(18);
+    slideMenu1.setExpandedStateTimeout(180);
+    slideMenu1.setXY(383, 457);
+
+    Test_shortcut.setXY(39, 46);
+    Test_shortcut.setBitmaps(touchgfx::Bitmap(BITMAP_MENU_BUTTON_PRESSED_01_ID), touchgfx::Bitmap(BITMAP_MENU_BUTTON_PRESSED_01_ID));
+    Test_shortcut.setAction(buttonCallback);
+    slideMenu1.add(Test_shortcut);
+
     add(__background);
     add(Image_main_screen);
     add(btn_menu);
     add(Image_Wifi);
+    add(slideMenu1);
 }
 
 void Main_screenViewBase::setupScreen()
@@ -43,5 +62,12 @@ void Main_screenViewBase::buttonCallbackHandler(const touchgfx::AbstractButton& 
         //When btn_menu clicked change screen to Menu_9
         //Go to Menu_9 with no screen transition
         application().gotoMenu_9ScreenNoTransition();
+    }
+    else if (&src == &Test_shortcut)
+    {
+        //Test_clk
+        //When Test_shortcut clicked call virtual function
+        //Call shortcut_goto_test
+        shortcut_goto_test();
     }
 }

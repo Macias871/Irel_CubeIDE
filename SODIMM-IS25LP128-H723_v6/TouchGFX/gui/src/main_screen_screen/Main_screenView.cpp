@@ -1,6 +1,6 @@
 #include <gui/main_screen_screen/Main_screenView.hpp>
 
-
+TGFX_Menu_t menu_ = { NULL, T_MENU_TITLE,NULL, NULL, NULL, NULL, NULL};
 //TGFX_menu_struct   {const char * name;TEXTS  Ttext;TGFX_Menu_t * next;TGFX_Menu_t * prev;TGFX_Menu_t * child;TGFX_Menu_t * parent;void (*menu_function)(void);};
 TGFX_Menu_t menu_9 = { "9. Menu", T_MENU_TITLE,NULL, NULL, &sub_menu_9_1, NULL, NULL};
 
@@ -58,6 +58,13 @@ TGFX_Menu_t TGFX_Sub_menu;
 void Change_screen()
 {
 
+}
+
+void Main_screenView::shortcut_goto_test()
+{
+
+	TGFX_Actual_menu = menu_;
+	application().Test_menu_ScreenNoTransition();
 }
 
 Main_screenView::Main_screenView()

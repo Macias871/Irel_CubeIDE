@@ -5,6 +5,68 @@
     <Language Id="PL" />
   </Languages>
   <Texts>
+    <TextGroup Id="Menu_Test">
+      <Text Id="Ico_wedo_t" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">External input</Translation>
+        <Translation Language="PL">Wejcie dodatkowe</Translation>
+      </Text>
+      <Text Id="Ico_cmot_t" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">Compressor engine</Translation>
+        <Translation Language="PL">Silnik sprężarki</Translation>
+      </Text>
+      <Text Id="Ico_pwr_t" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">Power</Translation>
+        <Translation Language="PL">Zasilanie</Translation>
+      </Text>
+      <Text Id="Ico_pwc_t" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">Pressostat WC</Translation>
+        <Translation Language="PL">Presostat WC</Translation>
+      </Text>
+      <Text Id="Ico_pop_t" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">Pressostat OP</Translation>
+        <Translation Language="PL">Presostat OP</Translation>
+      </Text>
+      <Text Id="Ico_pnc_t" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">Pressostat NC</Translation>
+        <Translation Language="PL">Presostat NC</Translation>
+      </Text>
+      <Text Id="Ico_wpr_t" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">Flow switch</Translation>
+        <Translation Language="PL">Wył. przepływowy</Translation>
+      </Text>
+      <Text Id="Btn_zz" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">Ext. source</Translation>
+        <Translation Language="PL">Zewnętrzne źródło</Translation>
+      </Text>
+      <Text Id="Btn_gr2_t" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">Heater 2</Translation>
+        <Translation Language="PL">Grzałka 2</Translation>
+      </Text>
+      <Text Id="Btn_gr1_t" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">Heater 1</Translation>
+        <Translation Language="PL">Grzałka 1</Translation>
+      </Text>
+      <Text Id="Btn_3dv_t" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">3D Valve</Translation>
+        <Translation Language="PL">Zawór 3D</Translation>
+      </Text>
+      <Text Id="Btn_pcwu_t" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">CWU Pump</Translation>
+        <Translation Language="PL">Pompa CWU</Translation>
+      </Text>
+      <Text Id="Btn_pco_t" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">CO Pump</Translation>
+        <Translation Language="PL">Pompa CO</Translation>
+      </Text>
+      <Text Id="Btn_pdz_t" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">Ground Source Pump</Translation>
+        <Translation Language="PL">Pompa DŹ</Translation>
+      </Text>
+      <Text Id="Btn_spr_t" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">Compressor</Translation>
+        <Translation Language="PL">Sprężarka</Translation>
+      </Text>
+    </TextGroup>
     <TextGroup Id="Menu_9_6">
       <Text Id="Overheating" Alignment="Left" TypographyId="Default">
         <Translation Language="GB">9.6.6. Overheating</Translation>
@@ -225,7 +287,32 @@
         <Translation Language="PL">Wstecz</Translation>
       </Text>
     </TextGroup>
-    <TextGroup Id="Unsorted" />
+    <TextGroup Id="Unsorted">
+      <Text Id="__SingleUse_3OQQ" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">New Text</Translation>
+        <Translation Language="PL">6</Translation>
+      </Text>
+      <Text Id="__SingleUse_D2CB" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">New Text</Translation>
+        <Translation Language="PL">5</Translation>
+      </Text>
+      <Text Id="__SingleUse_D0NX" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">New Text</Translation>
+        <Translation Language="PL">4</Translation>
+      </Text>
+      <Text Id="__SingleUse_H379" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">New Text</Translation>
+        <Translation Language="PL">3</Translation>
+      </Text>
+      <Text Id="__SingleUse_QM4U" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">New Text</Translation>
+        <Translation Language="PL">2</Translation>
+      </Text>
+      <Text Id="__SingleUse_N0ZN" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">New Text</Translation>
+        <Translation Language="PL">1</Translation>
+      </Text>
+    </TextGroup>
   </Texts>
   <Typographies>
     <Typography Id="Default" Font="verdana.ttf" Size="20" Bpp="4" Direction="LTR" FallbackCharacter="?" />

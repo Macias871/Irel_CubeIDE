@@ -69,6 +69,7 @@ TouchGFX/generated/gui_generated/src/main_screen_screen \
 TouchGFX/generated/gui_generated/src/menu_9_screen \
 TouchGFX/generated/gui_generated/src/test_menu_screen \
 TouchGFX/generated/images/src \
+TouchGFX/generated/images/src/__designer \
 TouchGFX/generated/texts/src \
 TouchGFX/gui/src/common \
 TouchGFX/gui/src/containers \

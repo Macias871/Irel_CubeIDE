@@ -28,10 +28,18 @@ O_SRCS += \
 ../TouchGFX/build/MINGW32_NT-6.2/generated/images/src/image_button_frame_on.o \
 ../TouchGFX/build/MINGW32_NT-6.2/generated/images/src/image_button_in_menu_off.o \
 ../TouchGFX/build/MINGW32_NT-6.2/generated/images/src/image_button_in_menu_on.o \
+../TouchGFX/build/MINGW32_NT-6.2/generated/images/src/image_button_small_in_menu_green.o \
 ../TouchGFX/build/MINGW32_NT-6.2/generated/images/src/image_button_small_in_menu_off.o \
+../TouchGFX/build/MINGW32_NT-6.2/generated/images/src/image_button_small_in_menu_off_red.o \
 ../TouchGFX/build/MINGW32_NT-6.2/generated/images/src/image_button_small_in_menu_on.o \
+../TouchGFX/build/MINGW32_NT-6.2/generated/images/src/image_button_small_in_menu_on_green.o \
+../TouchGFX/build/MINGW32_NT-6.2/generated/images/src/image_button_small_in_menu_red.o \
 ../TouchGFX/build/MINGW32_NT-6.2/generated/images/src/image_img_Wifi_01.o \
 ../TouchGFX/build/MINGW32_NT-6.2/generated/images/src/image_img_Wifi_02.o \
+../TouchGFX/build/MINGW32_NT-6.2/generated/images/src/image_menu_button_pressed_01.o \
+../TouchGFX/build/MINGW32_NT-6.2/generated/images/src/image_right_slide_menu_background.o \
+../TouchGFX/build/MINGW32_NT-6.2/generated/images/src/image_right_slide_menu_background_black.o \
+../TouchGFX/build/MINGW32_NT-6.2/generated/images/src/image_right_slide_menu_button.o \
 ../TouchGFX/build/MINGW32_NT-6.2/generated/images/src/image_top_slide_menu_background_mod.o \
 ../TouchGFX/build/MINGW32_NT-6.2/generated/images/src/image_top_slide_menu_background_mod_on.o 
 

@@ -77,6 +77,9 @@ TouchGFX/gui/src/menu_9_screen/Menu_9Presenter.o: \
  ../TouchGFX/gui/include/gui/test_menu_screen/TEST_MenuView.hpp \
  ../TouchGFX/generated/gui_generated/include/gui_generated/test_menu_screen/TEST_MenuViewBase.hpp \
  ../TouchGFX/gui/include/gui/test_menu_screen/TEST_MenuPresenter.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/ToggleButton.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/RadioButton.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/RadioButtonGroup.hpp \
  ../TouchGFX/gui/include/gui/test_menu_screen/../Structures.h \
  ../TouchGFX/gui/include/gui/menu_9_screen/../Structures.h
 ../TouchGFX/gui/include/gui/menu_9_screen/Menu_9View.hpp:
@@ -156,5 +159,8 @@ TouchGFX/gui/src/menu_9_screen/Menu_9Presenter.o: \
 ../TouchGFX/gui/include/gui/test_menu_screen/TEST_MenuView.hpp:
 ../TouchGFX/generated/gui_generated/include/gui_generated/test_menu_screen/TEST_MenuViewBase.hpp:
 ../TouchGFX/gui/include/gui/test_menu_screen/TEST_MenuPresenter.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/ToggleButton.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/RadioButton.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/RadioButtonGroup.hpp:
 ../TouchGFX/gui/include/gui/test_menu_screen/../Structures.h:
 ../TouchGFX/gui/include/gui/menu_9_screen/../Structures.h:

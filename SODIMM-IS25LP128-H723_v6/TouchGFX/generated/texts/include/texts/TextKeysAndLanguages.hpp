@@ -13,6 +13,21 @@ enum LANGUAGES
 
 enum TEXTS
 {
+    T_ICO_WEDO_T,
+    T_ICO_CMOT_T,
+    T_ICO_PWR_T,
+    T_ICO_PWC_T,
+    T_ICO_POP_T,
+    T_ICO_PNC_T,
+    T_ICO_WPR_T,
+    T_BTN_ZZ,
+    T_BTN_GR2_T,
+    T_BTN_GR1_T,
+    T_BTN_3DV_T,
+    T_BTN_PCWU_T,
+    T_BTN_PCO_T,
+    T_BTN_PDZ_T,
+    T_BTN_SPR_T,
     T_OVERHEATING,
     T_SET_PROGRAMMS,
     T_VACATION,
@@ -63,6 +78,12 @@ enum TEXTS
     T_DIAGNSTIC,
     T_DEFAULT_SETTINGS,
     T_WSTECZ,
+    T___SINGLEUSE_3OQQ,
+    T___SINGLEUSE_D2CB,
+    T___SINGLEUSE_D0NX,
+    T___SINGLEUSE_H379,
+    T___SINGLEUSE_QM4U,
+    T___SINGLEUSE_N0ZN,
     NUMBER_OF_TEXT_KEYS
 };
 

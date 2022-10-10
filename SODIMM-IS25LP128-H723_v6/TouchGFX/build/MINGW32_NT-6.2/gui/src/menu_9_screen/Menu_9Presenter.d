@@ -77,6 +77,9 @@ build/MINGW32_NT-6.2/gui/src/menu_9_screen/Menu_9Presenter.o: \
  gui/include/gui/test_menu_screen/TEST_MenuView.hpp \
  generated/gui_generated/include/gui_generated/test_menu_screen/TEST_MenuViewBase.hpp \
  gui/include/gui/test_menu_screen/TEST_MenuPresenter.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/ToggleButton.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/RadioButton.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/RadioButtonGroup.hpp \
  gui/include/gui/test_menu_screen/../Structures.h \
  gui/include/gui/menu_9_screen/../Structures.h
 
@@ -233,6 +236,12 @@ gui/include/gui/test_menu_screen/TEST_MenuView.hpp:
 generated/gui_generated/include/gui_generated/test_menu_screen/TEST_MenuViewBase.hpp:
 
 gui/include/gui/test_menu_screen/TEST_MenuPresenter.hpp:
+
+../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/ToggleButton.hpp:
+
+../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/RadioButton.hpp:
+
+../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/RadioButtonGroup.hpp:
 
 gui/include/gui/test_menu_screen/../Structures.h:
 

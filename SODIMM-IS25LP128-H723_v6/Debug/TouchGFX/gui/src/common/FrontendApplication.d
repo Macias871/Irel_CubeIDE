@@ -70,6 +70,9 @@ TouchGFX/gui/src/common/FrontendApplication.o: \
  ../TouchGFX/gui/include/gui/containers/Back_menu_container.hpp \
  ../TouchGFX/generated/gui_generated/include/gui_generated/containers/Back_menu_containerBase.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/ScrollableContainer.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/ToggleButton.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/RadioButton.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/RadioButtonGroup.hpp \
  ../TouchGFX/gui/include/gui/menu_9_screen/Menu_9Presenter.hpp \
  ../TouchGFX/gui/include/gui/containers/Menu_buttons_container.hpp \
  ../TouchGFX/generated/images/include/BitmapDatabase.hpp \
@@ -83,6 +86,7 @@ TouchGFX/gui/src/common/FrontendApplication.o: \
  ../TouchGFX/generated/gui_generated/include/gui_generated/main_screen_screen/Main_screenViewBase.hpp \
  ../TouchGFX/gui/include/gui/main_screen_screen/Main_screenPresenter.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/AnimatedImage.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/SlideMenu.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/EasingEquations.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/mixins/MoveAnimator.hpp \
  ../TouchGFX/gui/include/gui/main_screen_screen/../Structures.h \
@@ -163,6 +167,9 @@ TouchGFX/gui/src/common/FrontendApplication.o: \
 ../TouchGFX/gui/include/gui/containers/Back_menu_container.hpp:
 ../TouchGFX/generated/gui_generated/include/gui_generated/containers/Back_menu_containerBase.hpp:
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/ScrollableContainer.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/ToggleButton.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/RadioButton.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/RadioButtonGroup.hpp:
 ../TouchGFX/gui/include/gui/menu_9_screen/Menu_9Presenter.hpp:
 ../TouchGFX/gui/include/gui/containers/Menu_buttons_container.hpp:
 ../TouchGFX/generated/images/include/BitmapDatabase.hpp:
@@ -176,6 +183,7 @@ TouchGFX/gui/src/common/FrontendApplication.o: \
 ../TouchGFX/generated/gui_generated/include/gui_generated/main_screen_screen/Main_screenViewBase.hpp:
 ../TouchGFX/gui/include/gui/main_screen_screen/Main_screenPresenter.hpp:
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/AnimatedImage.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/SlideMenu.hpp:
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/EasingEquations.hpp:
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/mixins/MoveAnimator.hpp:
 ../TouchGFX/gui/include/gui/main_screen_screen/../Structures.h:

@@ -17,6 +17,31 @@ public:
     virtual void tearDownScreen();
     TGFX_Menu_t TGFX_menu_elemnt;
     void BackClicked(Back_menu_container& element);
+
+
+    /*
+     * Virtual Action Handlers
+     */
+
+    /*
+     * Virtual Action Handlers
+     */
+    virtual void btn_spr_clicked();
+
+    virtual void btn_pdz_clicked();
+
+    virtual void btn_pco_clicked();
+
+    virtual void btn_pcwu_clicked();
+
+    virtual void btn_3d_clicked();
+
+    virtual void btn_gr1_clicked();
+
+    virtual void btn_gr2_clicked();
+
+    virtual void btn_zz_clicked();
+
 protected:
 
     Callback<TEST_MenuView, Back_menu_container&> BackClickedCallback;

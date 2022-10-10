@@ -34,6 +34,39 @@
             "StartOnLoad": true,
             "LoopEnabled": true,
             "Moveable": true
+          },
+          {
+            "Type": "SlideMenu",
+            "Name": "slideMenu1",
+            "X": 383,
+            "Y": 457,
+            "Width": 97,
+            "Height": 273,
+            "FileNameBackground": "right_slide_menu_background_black.png",
+            "BackgroundX": 23,
+            "UseButton": true,
+            "FileNameButtonPressed": "right_slide_menu_button.png",
+            "FileNameButtonReleased": "right_slide_menu_button.png",
+            "ButtonY": 110,
+            "State": "Collapsed",
+            "ExpandDirection": "West",
+            "Easing": "Cubic",
+            "EasingOption": "InOut",
+            "AnimationDuration": 300,
+            "VisiblePixelsWhenCollapsed": 25,
+            "ExpandedStateTimeout": 3000,
+            "Components": [
+              {
+                "Type": "Button",
+                "Name": "Test_shortcut",
+                "X": 39,
+                "Y": 46,
+                "Width": 50,
+                "Height": 50,
+                "Pressed": "menu_button_pressed_01.png",
+                "Released": "menu_button_pressed_01.png"
+              }
+            ]
           }
         ],
         "Interactions": [
@@ -47,6 +80,17 @@
               "Type": "ActionGotoScreen",
               "ScreenTransitionType": "ScreenTransitionNone",
               "ActionComponent": "Menu_9"
+            }
+          },
+          {
+            "InteractionName": "Test_clk",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "Test_shortcut"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "shortcut_goto_test"
             }
           }
         ]
@@ -138,18 +182,658 @@
           {
             "Type": "ScrollableContainer",
             "Name": "Test_menu_scroll",
-            "Y": 68,
+            "Y": 151,
             "Width": 480,
-            "Height": 664,
+            "Height": 581,
             "HorizontalScrollEnabled": true,
             "VerticalScrollEnabled": true,
             "ScrollbarsVisible": true,
             "ScrollbarsVisibleOnPressed": true,
             "ScrollbarsAlpha": 255,
-            "Components": []
+            "Components": [
+              {
+                "Type": "Image",
+                "Name": "I1_wyp_ico",
+                "X": 240,
+                "Y": 30,
+                "Width": 234,
+                "Height": 42,
+                "RelativeFilename": "button_small_in_menu_red.png"
+              },
+              {
+                "Type": "Image",
+                "Name": "I2_pnc_ico",
+                "X": 240,
+                "Y": 80,
+                "Width": 234,
+                "Height": 42,
+                "RelativeFilename": "button_small_in_menu_red.png"
+              },
+              {
+                "Type": "Image",
+                "Name": "I3_pop_ico",
+                "X": 240,
+                "Y": 130,
+                "Width": 234,
+                "Height": 42,
+                "RelativeFilename": "button_small_in_menu_red.png"
+              },
+              {
+                "Type": "Image",
+                "Name": "I4_pwc_ico",
+                "X": 240,
+                "Y": 180,
+                "Width": 234,
+                "Height": 42,
+                "RelativeFilename": "button_small_in_menu_red.png"
+              },
+              {
+                "Type": "Image",
+                "Name": "I5_zas_ico",
+                "X": 240,
+                "Y": 230,
+                "Width": 234,
+                "Height": 42,
+                "RelativeFilename": "button_small_in_menu_red.png"
+              },
+              {
+                "Type": "Image",
+                "Name": "I6_sspr_ico",
+                "X": 240,
+                "Y": 280,
+                "Width": 234,
+                "Height": 42,
+                "RelativeFilename": "button_small_in_menu_red.png"
+              },
+              {
+                "Type": "Image",
+                "Name": "I7_wedo_ico",
+                "X": 240,
+                "Y": 330,
+                "Width": 234,
+                "Height": 42,
+                "RelativeFilename": "button_small_in_menu_red.png"
+              },
+              {
+                "Type": "TextArea",
+                "Name": "WPR_lab",
+                "X": 246,
+                "Y": 39,
+                "Width": 181,
+                "Height": 24,
+                "TextId": "Ico_wpr_t",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 46,
+                  "Green": 147,
+                  "Blue": 209
+                },
+                "AutoSize": true
+              },
+              {
+                "Type": "TextArea",
+                "Name": "PNC_lab",
+                "X": 246,
+                "Y": 89,
+                "Width": 129,
+                "Height": 24,
+                "TextId": "Ico_pnc_t",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 46,
+                  "Green": 147,
+                  "Blue": 209
+                },
+                "AutoSize": true
+              },
+              {
+                "Type": "TextArea",
+                "Name": "POP_lab",
+                "X": 246,
+                "Y": 139,
+                "Width": 128,
+                "Height": 24,
+                "TextId": "Ico_pop_t",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 46,
+                  "Green": 147,
+                  "Blue": 209
+                },
+                "AutoSize": true
+              },
+              {
+                "Type": "TextArea",
+                "Name": "PWC_lab",
+                "X": 246,
+                "Y": 189,
+                "Width": 134,
+                "Height": 24,
+                "TextId": "Ico_pwc_t",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 46,
+                  "Green": 147,
+                  "Blue": 209
+                },
+                "AutoSize": true
+              },
+              {
+                "Type": "TextArea",
+                "Name": "PWR_lab",
+                "X": 246,
+                "Y": 239,
+                "Width": 89,
+                "Height": 24,
+                "TextId": "Ico_pwr_t",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 46,
+                  "Green": 147,
+                  "Blue": 209
+                },
+                "AutoSize": true
+              },
+              {
+                "Type": "TextArea",
+                "Name": "SPR_lab",
+                "X": 246,
+                "Y": 290,
+                "Width": 153,
+                "Height": 24,
+                "TextId": "Ico_cmot_t",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 46,
+                  "Green": 147,
+                  "Blue": 209
+                },
+                "AutoSize": true
+              },
+              {
+                "Type": "TextArea",
+                "Name": "EXTIN_lab",
+                "X": 246,
+                "Y": 339,
+                "Width": 181,
+                "Height": 24,
+                "TextId": "Ico_wedo_t",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 46,
+                  "Green": 147,
+                  "Blue": 209
+                },
+                "AutoSize": true
+              },
+              {
+                "Type": "ToggleButton",
+                "Name": "Btn_Spr",
+                "X": 2,
+                "Y": 30,
+                "Width": 234,
+                "Height": 42,
+                "Pressed": "button_small_in_menu_on.png",
+                "Released": "button_small_in_menu_off.png"
+              },
+              {
+                "Type": "ToggleButton",
+                "Name": "Btn_Pdz",
+                "X": 2,
+                "Y": 80,
+                "Width": 234,
+                "Height": 42,
+                "Pressed": "button_small_in_menu_on.png",
+                "Released": "button_small_in_menu_off.png"
+              },
+              {
+                "Type": "ToggleButton",
+                "Name": "Btn_Pco",
+                "X": 2,
+                "Y": 130,
+                "Width": 234,
+                "Height": 42,
+                "Pressed": "button_small_in_menu_on.png",
+                "Released": "button_small_in_menu_off.png"
+              },
+              {
+                "Type": "ToggleButton",
+                "Name": "Btn_Pcwu",
+                "X": 2,
+                "Y": 180,
+                "Width": 234,
+                "Height": 42,
+                "Pressed": "button_small_in_menu_on.png",
+                "Released": "button_small_in_menu_off.png"
+              },
+              {
+                "Type": "ToggleButton",
+                "Name": "Btn_3d",
+                "X": 2,
+                "Y": 230,
+                "Width": 234,
+                "Height": 42,
+                "Pressed": "button_small_in_menu_on.png",
+                "Released": "button_small_in_menu_off.png"
+              },
+              {
+                "Type": "ToggleButton",
+                "Name": "Btn_Gr1",
+                "X": 2,
+                "Y": 280,
+                "Width": 234,
+                "Height": 42,
+                "Pressed": "button_small_in_menu_on.png",
+                "Released": "button_small_in_menu_off.png"
+              },
+              {
+                "Type": "ToggleButton",
+                "Name": "Btn_Gr2",
+                "X": 2,
+                "Y": 330,
+                "Width": 234,
+                "Height": 42,
+                "Pressed": "button_small_in_menu_on.png",
+                "Released": "button_small_in_menu_off.png"
+              },
+              {
+                "Type": "ToggleButton",
+                "Name": "Btn_Zz",
+                "X": 2,
+                "Y": 380,
+                "Width": 234,
+                "Height": 42,
+                "Pressed": "button_small_in_menu_on.png",
+                "Released": "button_small_in_menu_off.png"
+              },
+              {
+                "Type": "TextArea",
+                "Name": "Bt2",
+                "X": 8,
+                "Y": 89,
+                "Width": 104,
+                "Height": 24,
+                "TextId": "Btn_pdz_t",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 46,
+                  "Green": 147,
+                  "Blue": 209
+                },
+                "AutoSize": true
+              },
+              {
+                "Type": "TextArea",
+                "Name": "Bt1",
+                "X": 8,
+                "Y": 39,
+                "Width": 101,
+                "Height": 24,
+                "TextId": "Btn_spr_t",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 46,
+                  "Green": 147,
+                  "Blue": 209
+                },
+                "AutoSize": true
+              },
+              {
+                "Type": "TextArea",
+                "Name": "Bt3",
+                "X": 8,
+                "Y": 139,
+                "Width": 104,
+                "Height": 24,
+                "TextId": "Btn_pco_t",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 46,
+                  "Green": 147,
+                  "Blue": 209
+                },
+                "AutoSize": true
+              },
+              {
+                "Type": "TextArea",
+                "Name": "Bt4",
+                "X": 8,
+                "Y": 189,
+                "Width": 123,
+                "Height": 24,
+                "TextId": "Btn_pcwu_t",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 46,
+                  "Green": 147,
+                  "Blue": 209
+                },
+                "AutoSize": true
+              },
+              {
+                "Type": "TextArea",
+                "Name": "Bt5",
+                "X": 8,
+                "Y": 239,
+                "Width": 97,
+                "Height": 24,
+                "TextId": "Btn_3dv_t",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 46,
+                  "Green": 147,
+                  "Blue": 209
+                },
+                "AutoSize": true
+              },
+              {
+                "Type": "TextArea",
+                "Name": "Bt6",
+                "X": 8,
+                "Y": 290,
+                "Width": 96,
+                "Height": 24,
+                "TextId": "Btn_gr1_t",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 46,
+                  "Green": 147,
+                  "Blue": 209
+                },
+                "AutoSize": true
+              },
+              {
+                "Type": "TextArea",
+                "Name": "Bt7",
+                "X": 8,
+                "Y": 339,
+                "Width": 96,
+                "Height": 24,
+                "TextId": "Btn_gr2_t",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 46,
+                  "Green": 147,
+                  "Blue": 209
+                },
+                "AutoSize": true
+              },
+              {
+                "Type": "TextArea",
+                "Name": "Bt8",
+                "X": 8,
+                "Y": 389,
+                "Width": 186,
+                "Height": 24,
+                "TextId": "Btn_zz",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 46,
+                  "Green": 147,
+                  "Blue": 209
+                },
+                "AutoSize": true
+              }
+            ]
+          },
+          {
+            "Type": "ScrollableContainer",
+            "Name": "Slave_scroll_cont",
+            "Y": 68,
+            "Width": 480,
+            "Height": 83,
+            "ScrollbarsColor": {
+              "Red": 39,
+              "Green": 183,
+              "Blue": 219
+            },
+            "ScrollbarsAlpha": 255,
+            "Components": [
+              {
+                "Type": "RadioButton",
+                "Name": "Btn1",
+                "X": 14,
+                "Y": 19,
+                "Width": 44,
+                "Height": 44,
+                "Selected": true,
+                "Deselectable": true,
+                "FileNameSelected": "__designer\\Blue_Radio_buttons_Radio_button_active.png",
+                "FileNameSelectedPressed": "__designer\\Blue_Radio_buttons_Radio_button_normal.png",
+                "FileNameUnselected": "__designer\\Blue_Radio_buttons_Radio_button_inactive.png",
+                "FileNameUnselectedPressed": "__designer\\Blue_Radio_buttons_Radio_button_pressed.png",
+                "RadioButtonGroup": "radioButtonGroup1",
+                "Style": "Style1"
+              },
+              {
+                "Type": "RadioButton",
+                "Name": "Btn2",
+                "X": 97,
+                "Y": 19,
+                "Width": 44,
+                "Height": 44,
+                "FileNameSelected": "__designer\\Blue_Radio_buttons_Radio_button_active.png",
+                "FileNameSelectedPressed": "__designer\\Blue_Radio_buttons_Radio_button_normal.png",
+                "FileNameUnselected": "__designer\\Blue_Radio_buttons_Radio_button_inactive.png",
+                "FileNameUnselectedPressed": "__designer\\Blue_Radio_buttons_Radio_button_pressed.png",
+                "RadioButtonGroup": "radioButtonGroup1",
+                "Style": "Style1"
+              },
+              {
+                "Type": "RadioButton",
+                "Name": "Btn3",
+                "X": 181,
+                "Y": 19,
+                "Width": 44,
+                "Height": 44,
+                "FileNameSelected": "__designer\\Blue_Radio_buttons_Radio_button_active.png",
+                "FileNameSelectedPressed": "__designer\\Blue_Radio_buttons_Radio_button_normal.png",
+                "FileNameUnselected": "__designer\\Blue_Radio_buttons_Radio_button_inactive.png",
+                "FileNameUnselectedPressed": "__designer\\Blue_Radio_buttons_Radio_button_pressed.png",
+                "RadioButtonGroup": "radioButtonGroup1",
+                "Style": "Style1"
+              },
+              {
+                "Type": "RadioButton",
+                "Name": "Btn4",
+                "X": 263,
+                "Y": 19,
+                "Width": 44,
+                "Height": 44,
+                "FileNameSelected": "__designer\\Blue_Radio_buttons_Radio_button_active.png",
+                "FileNameSelectedPressed": "__designer\\Blue_Radio_buttons_Radio_button_normal.png",
+                "FileNameUnselected": "__designer\\Blue_Radio_buttons_Radio_button_inactive.png",
+                "FileNameUnselectedPressed": "__designer\\Blue_Radio_buttons_Radio_button_pressed.png",
+                "RadioButtonGroup": "radioButtonGroup1",
+                "Style": "Style1"
+              },
+              {
+                "Type": "RadioButton",
+                "Name": "Btn5",
+                "X": 347,
+                "Y": 19,
+                "Width": 44,
+                "Height": 44,
+                "FileNameSelected": "__designer\\Blue_Radio_buttons_Radio_button_active.png",
+                "FileNameSelectedPressed": "__designer\\Blue_Radio_buttons_Radio_button_normal.png",
+                "FileNameUnselected": "__designer\\Blue_Radio_buttons_Radio_button_inactive.png",
+                "FileNameUnselectedPressed": "__designer\\Blue_Radio_buttons_Radio_button_pressed.png",
+                "RadioButtonGroup": "radioButtonGroup1",
+                "Style": "Style1"
+              },
+              {
+                "Type": "RadioButton",
+                "Name": "Btn6",
+                "X": 422,
+                "Y": 19,
+                "Width": 44,
+                "Height": 44,
+                "FileNameSelected": "__designer\\Blue_Radio_buttons_Radio_button_active.png",
+                "FileNameSelectedPressed": "__designer\\Blue_Radio_buttons_Radio_button_normal.png",
+                "FileNameUnselected": "__designer\\Blue_Radio_buttons_Radio_button_inactive.png",
+                "FileNameUnselectedPressed": "__designer\\Blue_Radio_buttons_Radio_button_pressed.png",
+                "RadioButtonGroup": "radioButtonGroup1",
+                "Style": "Style1"
+              },
+              {
+                "Type": "TextArea",
+                "Name": "T6",
+                "X": 438,
+                "Y": 29,
+                "Width": 13,
+                "Height": 24,
+                "TextId": "__SingleUse_3OQQ",
+                "TextRotation": "0",
+                "AutoSize": true
+              },
+              {
+                "Type": "TextArea",
+                "Name": "T5",
+                "X": 363,
+                "Y": 29,
+                "Width": 13,
+                "Height": 24,
+                "TextId": "__SingleUse_D2CB",
+                "TextRotation": "0",
+                "AutoSize": true
+              },
+              {
+                "Type": "TextArea",
+                "Name": "T4",
+                "X": 279,
+                "Y": 29,
+                "Width": 13,
+                "Height": 24,
+                "TextId": "__SingleUse_D0NX",
+                "TextRotation": "0",
+                "AutoSize": true
+              },
+              {
+                "Type": "TextArea",
+                "Name": "T3",
+                "X": 197,
+                "Y": 29,
+                "Width": 13,
+                "Height": 24,
+                "TextId": "__SingleUse_H379",
+                "TextRotation": "0",
+                "AutoSize": true
+              },
+              {
+                "Type": "TextArea",
+                "Name": "T2",
+                "X": 113,
+                "Y": 29,
+                "Width": 13,
+                "Height": 24,
+                "TextId": "__SingleUse_QM4U",
+                "TextRotation": "0",
+                "AutoSize": true
+              },
+              {
+                "Type": "TextArea",
+                "Name": "T1",
+                "X": 30,
+                "Y": 29,
+                "Width": 13,
+                "Height": 24,
+                "TextId": "__SingleUse_N0ZN",
+                "TextRotation": "0",
+                "AutoSize": true
+              }
+            ]
           }
         ],
-        "Interactions": []
+        "Interactions": [
+          {
+            "InteractionName": "spr_clk",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "Btn_Spr"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "btn_spr_clicked"
+            }
+          },
+          {
+            "InteractionName": "pdz_clk",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "Btn_Pdz"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "btn_pdz_clicked"
+            }
+          },
+          {
+            "InteractionName": "pco_clk",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "Btn_Pco"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "btn_pco_clicked"
+            }
+          },
+          {
+            "InteractionName": "pcwu_clk",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "Btn_Pcwu"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "btn_pcwu_clicked"
+            }
+          },
+          {
+            "InteractionName": "z3d_clk",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "Btn_3d"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "btn_3d_clicked"
+            }
+          },
+          {
+            "InteractionName": "gr1_clk",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "Btn_Gr1"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "btn_gr1_clicked"
+            }
+          },
+          {
+            "InteractionName": "gr2_clk",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "Btn_Gr2"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "btn_gr2_clicked"
+            }
+          },
+          {
+            "InteractionName": "zz_clk",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "Btn_Zz"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "btn_zz_clicked"
+            }
+          }
+        ]
       }
     ],
     "CustomContainerDefinitions": [

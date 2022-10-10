@@ -11,6 +11,7 @@
 #include <touchgfx/widgets/Image.hpp>
 #include <touchgfx/widgets/Button.hpp>
 #include <touchgfx/widgets/AnimatedImage.hpp>
+#include <touchgfx/containers/SlideMenu.hpp>
 #include <touchgfx/EasingEquations.hpp>
 #include <touchgfx/mixins/MoveAnimator.hpp>
 
@@ -20,6 +21,14 @@ public:
     Main_screenViewBase();
     virtual ~Main_screenViewBase() {}
     virtual void setupScreen();
+
+    /*
+     * Virtual Action Handlers
+     */
+    virtual void shortcut_goto_test()
+    {
+        // Override and implement this function in Main_screen
+    }
 
 protected:
     FrontendApplication& application() {
@@ -33,6 +42,8 @@ protected:
     touchgfx::Image Image_main_screen;
     touchgfx::Button btn_menu;
     touchgfx::MoveAnimator< touchgfx::AnimatedImage > Image_Wifi;
+    touchgfx::SlideMenu slideMenu1;
+    touchgfx::Button Test_shortcut;
 
 private:
 

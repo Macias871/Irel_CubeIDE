@@ -14,6 +14,7 @@ public:
     virtual ~Main_screenView() {}
     virtual void setupScreen();
     virtual void tearDownScreen();
+    virtual void shortcut_goto_test();
 protected:
 };
 

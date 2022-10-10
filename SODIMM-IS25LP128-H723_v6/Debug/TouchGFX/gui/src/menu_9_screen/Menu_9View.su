@@ -47,8 +47,8 @@
 ../TouchGFX/gui/src/menu_9_screen/Menu_9View.cpp:42:6:void Menu_9View::BackElementClicked(Back_menu_container&)	40	static
 ../TouchGFX/gui/src/menu_9_screen/Menu_9View.cpp:71:6:void Menu_9View::Open_callback_menu(TGFX_Menu_t)	24	static
 ../TouchGFX/gui/src/menu_9_screen/Menu_9View.cpp:87:6:virtual void Menu_9View::setupScreen()	40	static
-../TouchGFX/gui/src/menu_9_screen/Menu_9View.cpp:103:6:void Menu_9View::fill_positions_menu(TGFX_Menu_t)	64	static
-../TouchGFX/gui/src/menu_9_screen/Menu_9View.cpp:139:6:virtual void Menu_9View::tearDownScreen()	16	static
+../TouchGFX/gui/src/menu_9_screen/Menu_9View.cpp:104:6:void Menu_9View::fill_positions_menu(TGFX_Menu_t)	64	static
+../TouchGFX/gui/src/menu_9_screen/Menu_9View.cpp:140:6:virtual void Menu_9View::tearDownScreen()	16	static
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:134:7:constexpr touchgfx::GenericCallback<Menu_buttons_container&>::GenericCallback()	16	static
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:373:5:touchgfx::Callback<dest_type, T1, void, void>::Callback(dest_type*, void (dest_type::*)(T1)) [with dest_type = Menu_9View; T1 = Menu_buttons_container&]	24	static
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:134:7:constexpr touchgfx::GenericCallback<Back_menu_container&>::GenericCallback()	16	static

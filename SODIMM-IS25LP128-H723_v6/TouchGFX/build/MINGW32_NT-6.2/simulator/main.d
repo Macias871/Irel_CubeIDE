@@ -75,6 +75,7 @@ build/MINGW32_NT-6.2/simulator/main.o: simulator/main.cpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Button.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/AbstractButton.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/AnimatedImage.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/SlideMenu.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/EasingEquations.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/mixins/MoveAnimator.hpp \
  gui/include/gui/main_screen_screen/../Structures.h \
@@ -109,6 +110,9 @@ build/MINGW32_NT-6.2/simulator/main.o: simulator/main.cpp \
  gui/include/gui/test_menu_screen/TEST_MenuView.hpp \
  generated/gui_generated/include/gui_generated/test_menu_screen/TEST_MenuViewBase.hpp \
  gui/include/gui/test_menu_screen/TEST_MenuPresenter.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/ToggleButton.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/RadioButton.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/RadioButtonGroup.hpp \
  gui/include/gui/test_menu_screen/../Structures.h \
  gui/include/gui/menu_9_screen/../Structures.h \
  generated/gui_generated/include/gui_generated/common/SimConstants.hpp \
@@ -267,6 +271,8 @@ gui/include/gui/model/ModelListener.hpp:
 
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/AnimatedImage.hpp:
 
+../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/SlideMenu.hpp:
+
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/EasingEquations.hpp:
 
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/mixins/MoveAnimator.hpp:
@@ -334,6 +340,12 @@ gui/include/gui/test_menu_screen/TEST_MenuView.hpp:
 generated/gui_generated/include/gui_generated/test_menu_screen/TEST_MenuViewBase.hpp:
 
 gui/include/gui/test_menu_screen/TEST_MenuPresenter.hpp:
+
+../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/ToggleButton.hpp:
+
+../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/RadioButton.hpp:
+
+../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/RadioButtonGroup.hpp:
 
 gui/include/gui/test_menu_screen/../Structures.h:
 

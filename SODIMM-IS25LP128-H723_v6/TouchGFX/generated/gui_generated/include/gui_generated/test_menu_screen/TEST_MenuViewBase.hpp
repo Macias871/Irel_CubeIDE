@@ -12,6 +12,10 @@
 #include <gui/containers/Menu_tree_title_container.hpp>
 #include <gui/containers/Back_menu_container.hpp>
 #include <touchgfx/containers/ScrollableContainer.hpp>
+#include <touchgfx/widgets/TextArea.hpp>
+#include <touchgfx/widgets/ToggleButton.hpp>
+#include <touchgfx/widgets/RadioButton.hpp>
+#include <touchgfx/widgets/RadioButtonGroup.hpp>
 
 class TEST_MenuViewBase : public touchgfx::View<TEST_MenuPresenter>
 {
@@ -19,6 +23,49 @@ public:
     TEST_MenuViewBase();
     virtual ~TEST_MenuViewBase() {}
     virtual void setupScreen();
+
+    /*
+     * Virtual Action Handlers
+     */
+    virtual void btn_spr_clicked()
+    {
+        // Override and implement this function in TEST_Menu
+    }
+
+    virtual void btn_pdz_clicked()
+    {
+        // Override and implement this function in TEST_Menu
+    }
+
+    virtual void btn_pco_clicked()
+    {
+        // Override and implement this function in TEST_Menu
+    }
+
+    virtual void btn_pcwu_clicked()
+    {
+        // Override and implement this function in TEST_Menu
+    }
+
+    virtual void btn_3d_clicked()
+    {
+        // Override and implement this function in TEST_Menu
+    }
+
+    virtual void btn_gr1_clicked()
+    {
+        // Override and implement this function in TEST_Menu
+    }
+
+    virtual void btn_gr2_clicked()
+    {
+        // Override and implement this function in TEST_Menu
+    }
+
+    virtual void btn_zz_clicked()
+    {
+        // Override and implement this function in TEST_Menu
+    }
 
 protected:
     FrontendApplication& application() {
@@ -33,8 +80,62 @@ protected:
     Menu_tree_title_container Test_menu_tree_title;
     Back_menu_container Test_menu_back_cont;
     touchgfx::ScrollableContainer Test_menu_scroll;
+    touchgfx::Image I1_wyp_ico;
+    touchgfx::Image I2_pnc_ico;
+    touchgfx::Image I3_pop_ico;
+    touchgfx::Image I4_pwc_ico;
+    touchgfx::Image I5_zas_ico;
+    touchgfx::Image I6_sspr_ico;
+    touchgfx::Image I7_wedo_ico;
+    touchgfx::TextArea WPR_lab;
+    touchgfx::TextArea PNC_lab;
+    touchgfx::TextArea POP_lab;
+    touchgfx::TextArea PWC_lab;
+    touchgfx::TextArea PWR_lab;
+    touchgfx::TextArea SPR_lab;
+    touchgfx::TextArea EXTIN_lab;
+    touchgfx::ToggleButton Btn_Spr;
+    touchgfx::ToggleButton Btn_Pdz;
+    touchgfx::ToggleButton Btn_Pco;
+    touchgfx::ToggleButton Btn_Pcwu;
+    touchgfx::ToggleButton Btn_3d;
+    touchgfx::ToggleButton Btn_Gr1;
+    touchgfx::ToggleButton Btn_Gr2;
+    touchgfx::ToggleButton Btn_Zz;
+    touchgfx::TextArea Bt2;
+    touchgfx::TextArea Bt1;
+    touchgfx::TextArea Bt3;
+    touchgfx::TextArea Bt4;
+    touchgfx::TextArea Bt5;
+    touchgfx::TextArea Bt6;
+    touchgfx::TextArea Bt7;
+    touchgfx::TextArea Bt8;
+    touchgfx::ScrollableContainer Slave_scroll_cont;
+    touchgfx::RadioButton Btn1;
+    touchgfx::RadioButton Btn2;
+    touchgfx::RadioButton Btn3;
+    touchgfx::RadioButton Btn4;
+    touchgfx::RadioButton Btn5;
+    touchgfx::RadioButton Btn6;
+    touchgfx::TextArea T6;
+    touchgfx::TextArea T5;
+    touchgfx::TextArea T4;
+    touchgfx::TextArea T3;
+    touchgfx::TextArea T2;
+    touchgfx::TextArea T1;
+    touchgfx::RadioButtonGroup<6> radioButtonGroup1;
 
 private:
+
+    /*
+     * Callback Declarations
+     */
+    touchgfx::Callback<TEST_MenuViewBase, const touchgfx::AbstractButton&> buttonCallback;
+
+    /*
+     * Callback Handler Declarations
+     */
+    void buttonCallbackHandler(const touchgfx::AbstractButton& src);
 
     /*
      * Canvas Buffer Size

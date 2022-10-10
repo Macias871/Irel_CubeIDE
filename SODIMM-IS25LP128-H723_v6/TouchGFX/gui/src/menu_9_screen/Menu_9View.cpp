@@ -92,6 +92,7 @@ void Menu_9View::setupScreen()
 	//Test_cont.setVisible(0);
 //	Sub_menu_cont.setVisible(0);
 
+
     menu_tree_title_cont.initialize();
     back_menu_cont.initialize();
     fill_positions_menu(TGFX_Actual_menu);
