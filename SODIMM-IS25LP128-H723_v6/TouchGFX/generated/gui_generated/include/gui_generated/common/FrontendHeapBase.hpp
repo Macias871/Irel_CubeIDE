@@ -16,6 +16,8 @@
 #include <gui/main_screen_screen/Main_screenPresenter.hpp>
 #include <gui/menu_9_screen/Menu_9View.hpp>
 #include <gui/menu_9_screen/Menu_9Presenter.hpp>
+#include <gui/test_menu_screen/TEST_MenuView.hpp>
+#include <gui/test_menu_screen/TEST_MenuPresenter.hpp>
 
 
 /**
@@ -40,7 +42,8 @@ public:
      */
     typedef touchgfx::meta::TypeList< Main_screenView,
             touchgfx::meta::TypeList< Menu_9View,
-            touchgfx::meta::Nil >
+            touchgfx::meta::TypeList< TEST_MenuView,
+            touchgfx::meta::Nil > >
             > GeneratedViewTypes;
 
     /**
@@ -54,7 +57,8 @@ public:
      */
     typedef touchgfx::meta::TypeList< Main_screenPresenter,
             touchgfx::meta::TypeList< Menu_9Presenter,
-            touchgfx::meta::Nil >
+            touchgfx::meta::TypeList< TEST_MenuPresenter,
+            touchgfx::meta::Nil > >
             > GeneratedPresenterTypes;
 
     /**

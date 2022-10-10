@@ -7,23 +7,17 @@
 CPP_SRCS += \
 ../TouchGFX/generated/gui_generated/src/containers/Back_menu_containerBase.cpp \
 ../TouchGFX/generated/gui_generated/src/containers/Menu_buttons_containerBase.cpp \
-../TouchGFX/generated/gui_generated/src/containers/Menu_tree_title_containerBase.cpp \
-../TouchGFX/generated/gui_generated/src/containers/Sub_menu_containerBase.cpp \
-../TouchGFX/generated/gui_generated/src/containers/Test_containerBase.cpp 
+../TouchGFX/generated/gui_generated/src/containers/Menu_tree_title_containerBase.cpp 
 
 OBJS += \
 ./TouchGFX/generated/gui_generated/src/containers/Back_menu_containerBase.o \
 ./TouchGFX/generated/gui_generated/src/containers/Menu_buttons_containerBase.o \
-./TouchGFX/generated/gui_generated/src/containers/Menu_tree_title_containerBase.o \
-./TouchGFX/generated/gui_generated/src/containers/Sub_menu_containerBase.o \
-./TouchGFX/generated/gui_generated/src/containers/Test_containerBase.o 
+./TouchGFX/generated/gui_generated/src/containers/Menu_tree_title_containerBase.o 
 
 CPP_DEPS += \
 ./TouchGFX/generated/gui_generated/src/containers/Back_menu_containerBase.d \
 ./TouchGFX/generated/gui_generated/src/containers/Menu_buttons_containerBase.d \
-./TouchGFX/generated/gui_generated/src/containers/Menu_tree_title_containerBase.d \
-./TouchGFX/generated/gui_generated/src/containers/Sub_menu_containerBase.d \
-./TouchGFX/generated/gui_generated/src/containers/Test_containerBase.d 
+./TouchGFX/generated/gui_generated/src/containers/Menu_tree_title_containerBase.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes
@@ -33,7 +27,7 @@ TouchGFX/generated/gui_generated/src/containers/%.o TouchGFX/generated/gui_gener
 clean: clean-TouchGFX-2f-generated-2f-gui_generated-2f-src-2f-containers
 
 clean-TouchGFX-2f-generated-2f-gui_generated-2f-src-2f-containers:
-	-$(RM) ./TouchGFX/generated/gui_generated/src/containers/Back_menu_containerBase.d ./TouchGFX/generated/gui_generated/src/containers/Back_menu_containerBase.o ./TouchGFX/generated/gui_generated/src/containers/Back_menu_containerBase.su ./TouchGFX/generated/gui_generated/src/containers/Menu_buttons_containerBase.d ./TouchGFX/generated/gui_generated/src/containers/Menu_buttons_containerBase.o ./TouchGFX/generated/gui_generated/src/containers/Menu_buttons_containerBase.su ./TouchGFX/generated/gui_generated/src/containers/Menu_tree_title_containerBase.d ./TouchGFX/generated/gui_generated/src/containers/Menu_tree_title_containerBase.o ./TouchGFX/generated/gui_generated/src/containers/Menu_tree_title_containerBase.su ./TouchGFX/generated/gui_generated/src/containers/Sub_menu_containerBase.d ./TouchGFX/generated/gui_generated/src/containers/Sub_menu_containerBase.o ./TouchGFX/generated/gui_generated/src/containers/Sub_menu_containerBase.su ./TouchGFX/generated/gui_generated/src/containers/Test_containerBase.d ./TouchGFX/generated/gui_generated/src/containers/Test_containerBase.o ./TouchGFX/generated/gui_generated/src/containers/Test_containerBase.su
+	-$(RM) ./TouchGFX/generated/gui_generated/src/containers/Back_menu_containerBase.d ./TouchGFX/generated/gui_generated/src/containers/Back_menu_containerBase.o ./TouchGFX/generated/gui_generated/src/containers/Back_menu_containerBase.su ./TouchGFX/generated/gui_generated/src/containers/Menu_buttons_containerBase.d ./TouchGFX/generated/gui_generated/src/containers/Menu_buttons_containerBase.o ./TouchGFX/generated/gui_generated/src/containers/Menu_buttons_containerBase.su ./TouchGFX/generated/gui_generated/src/containers/Menu_tree_title_containerBase.d ./TouchGFX/generated/gui_generated/src/containers/Menu_tree_title_containerBase.o ./TouchGFX/generated/gui_generated/src/containers/Menu_tree_title_containerBase.su
 
 .PHONY: clean-TouchGFX-2f-generated-2f-gui_generated-2f-src-2f-containers
 

@@ -58,8 +58,8 @@ TouchGFX/gui/src/containers/Menu_tree_title_container.o: \
  ../TouchGFX/generated/gui_generated/include/gui_generated/containers/Menu_buttons_containerBase.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Button.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/AbstractButton.hpp \
- ../TouchGFX/generated/texts/include/texts/TextKeysAndLanguages.hpp \
- ../TouchGFX/gui/include/gui/containers/../Structures.h
+ ../TouchGFX/gui/include/gui/containers/../Structures.h \
+ ../TouchGFX/generated/texts/include/texts/TextKeysAndLanguages.hpp
 ../TouchGFX/gui/include/gui/containers/Menu_tree_title_container.hpp:
 ../TouchGFX/generated/gui_generated/include/gui_generated/containers/Menu_tree_title_containerBase.hpp:
 ../TouchGFX/gui/include/gui/common/FrontendApplication.hpp:
@@ -118,5 +118,5 @@ TouchGFX/gui/src/containers/Menu_tree_title_container.o: \
 ../TouchGFX/generated/gui_generated/include/gui_generated/containers/Menu_buttons_containerBase.hpp:
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Button.hpp:
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/AbstractButton.hpp:
-../TouchGFX/generated/texts/include/texts/TextKeysAndLanguages.hpp:
 ../TouchGFX/gui/include/gui/containers/../Structures.h:
+../TouchGFX/generated/texts/include/texts/TextKeysAndLanguages.hpp:

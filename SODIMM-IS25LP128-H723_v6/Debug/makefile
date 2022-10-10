@@ -13,6 +13,7 @@ RM := rm -rf
 -include USB_DEVICE/App/subdir.mk
 -include TouchGFX/target/generated/subdir.mk
 -include TouchGFX/target/subdir.mk
+-include TouchGFX/gui/src/test_menu_screen/subdir.mk
 -include TouchGFX/gui/src/model/subdir.mk
 -include TouchGFX/gui/src/menu_9_screen/subdir.mk
 -include TouchGFX/gui/src/main_screen_screen/subdir.mk
@@ -20,6 +21,7 @@ RM := rm -rf
 -include TouchGFX/gui/src/common/subdir.mk
 -include TouchGFX/generated/texts/src/subdir.mk
 -include TouchGFX/generated/images/src/subdir.mk
+-include TouchGFX/generated/gui_generated/src/test_menu_screen/subdir.mk
 -include TouchGFX/generated/gui_generated/src/menu_9_screen/subdir.mk
 -include TouchGFX/generated/gui_generated/src/main_screen_screen/subdir.mk
 -include TouchGFX/generated/gui_generated/src/containers/subdir.mk
@@ -28,6 +30,7 @@ RM := rm -rf
 -include TouchGFX/build/MINGW32_NT-6.2/touchgfx/framework/source/platform/hal/simulator/sdl2/subdir.mk
 -include TouchGFX/build/MINGW32_NT-6.2/touchgfx/framework/source/platform/driver/touch/subdir.mk
 -include TouchGFX/build/MINGW32_NT-6.2/simulator/subdir.mk
+-include TouchGFX/build/MINGW32_NT-6.2/gui/src/test_menu_screen/subdir.mk
 -include TouchGFX/build/MINGW32_NT-6.2/gui/src/model/subdir.mk
 -include TouchGFX/build/MINGW32_NT-6.2/gui/src/menu_9_screen/subdir.mk
 -include TouchGFX/build/MINGW32_NT-6.2/gui/src/main_screen_screen/subdir.mk
@@ -38,6 +41,7 @@ RM := rm -rf
 -include TouchGFX/build/MINGW32_NT-6.2/generated/simulator/src/subdir.mk
 -include TouchGFX/build/MINGW32_NT-6.2/generated/images/src/__designer/subdir.mk
 -include TouchGFX/build/MINGW32_NT-6.2/generated/images/src/subdir.mk
+-include TouchGFX/build/MINGW32_NT-6.2/generated/gui_generated/src/test_menu_screen/subdir.mk
 -include TouchGFX/build/MINGW32_NT-6.2/generated/gui_generated/src/menu_9_screen/subdir.mk
 -include TouchGFX/build/MINGW32_NT-6.2/generated/gui_generated/src/main_screen_screen/subdir.mk
 -include TouchGFX/build/MINGW32_NT-6.2/generated/gui_generated/src/containers/subdir.mk

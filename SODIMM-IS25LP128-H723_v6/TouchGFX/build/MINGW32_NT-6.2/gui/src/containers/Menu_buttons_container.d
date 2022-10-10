@@ -44,11 +44,11 @@ build/MINGW32_NT-6.2/gui/src/containers/Menu_buttons_container.o: \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/TypedText.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/Texts.hpp \
- generated/texts/include/texts/TextKeysAndLanguages.hpp \
+ generated/images/include/BitmapDatabase.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/Color.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/Utils.hpp \
  gui/include/gui/containers/../Structures.h \
- generated/images/include/BitmapDatabase.hpp \
- ../Middlewares/ST/touchgfx/framework/include/touchgfx/Color.hpp
+ generated/texts/include/texts/TextKeysAndLanguages.hpp
 
 gui/include/gui/containers/Menu_buttons_container.hpp:
 
@@ -138,12 +138,12 @@ gui/include/gui/model/Model.hpp:
 
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/Texts.hpp:
 
-generated/texts/include/texts/TextKeysAndLanguages.hpp:
+generated/images/include/BitmapDatabase.hpp:
+
+../Middlewares/ST/touchgfx/framework/include/touchgfx/Color.hpp:
 
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/Utils.hpp:
 
 gui/include/gui/containers/../Structures.h:
 
-generated/images/include/BitmapDatabase.hpp:
-
-../Middlewares/ST/touchgfx/framework/include/touchgfx/Color.hpp:
+generated/texts/include/texts/TextKeysAndLanguages.hpp:

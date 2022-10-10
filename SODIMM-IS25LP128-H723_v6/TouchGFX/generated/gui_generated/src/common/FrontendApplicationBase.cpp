@@ -13,6 +13,8 @@
 #include <gui/main_screen_screen/Main_screenPresenter.hpp>
 #include <gui/menu_9_screen/Menu_9View.hpp>
 #include <gui/menu_9_screen/Menu_9Presenter.hpp>
+#include <gui/test_menu_screen/TEST_MenuView.hpp>
+#include <gui/test_menu_screen/TEST_MenuPresenter.hpp>
 
 using namespace touchgfx;
 

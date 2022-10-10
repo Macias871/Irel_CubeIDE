@@ -18,11 +18,6 @@ Menu_9ViewBase::Menu_9ViewBase()
     backgroud.setXY(0, 0);
     backgroud.setBitmap(touchgfx::Bitmap(BITMAP_BACKGROUND_BLACK_ID));
 
-    Sub_menu_cont.setPosition(0, 68, 480, 664);
-
-    test_container1.setXY(0, 0);
-    Sub_menu_cont.add(test_container1);
-
     menu_tree_title_cont.setXY(0, 0);
 
     back_menu_cont.setXY(0, 732);
@@ -37,7 +32,6 @@ Menu_9ViewBase::Menu_9ViewBase()
 
     add(__background);
     add(backgroud);
-    add(Sub_menu_cont);
     add(menu_tree_title_cont);
     add(back_menu_cont);
     add(scrollcnt);
@@ -45,7 +39,6 @@ Menu_9ViewBase::Menu_9ViewBase()
 
 void Menu_9ViewBase::setupScreen()
 {
-    test_container1.initialize();
     menu_tree_title_cont.initialize();
     back_menu_cont.initialize();
 }

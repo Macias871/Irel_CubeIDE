@@ -40,8 +40,6 @@ build/MINGW32_NT-6.2/generated/gui_generated/src/containers/Test_containerBase.o
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/ScrollableContainer.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Box.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Widget.hpp \
- ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Button.hpp \
- ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/AbstractButton.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Image.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/Color.hpp \
  generated/images/include/BitmapDatabase.hpp
@@ -125,10 +123,6 @@ gui/include/gui/model/Model.hpp:
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Box.hpp:
 
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Widget.hpp:
-
-../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Button.hpp:
-
-../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/AbstractButton.hpp:
 
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Image.hpp:
 

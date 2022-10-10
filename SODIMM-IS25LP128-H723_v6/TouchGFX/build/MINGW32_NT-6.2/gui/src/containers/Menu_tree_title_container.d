@@ -58,8 +58,8 @@ build/MINGW32_NT-6.2/gui/src/containers/Menu_tree_title_container.o: \
  generated/gui_generated/include/gui_generated/containers/Menu_buttons_containerBase.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Button.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/AbstractButton.hpp \
- generated/texts/include/texts/TextKeysAndLanguages.hpp \
- gui/include/gui/containers/../Structures.h
+ gui/include/gui/containers/../Structures.h \
+ generated/texts/include/texts/TextKeysAndLanguages.hpp
 
 gui/include/gui/containers/Menu_tree_title_container.hpp:
 
@@ -177,6 +177,6 @@ generated/gui_generated/include/gui_generated/containers/Menu_buttons_containerB
 
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/AbstractButton.hpp:
 
-generated/texts/include/texts/TextKeysAndLanguages.hpp:
-
 gui/include/gui/containers/../Structures.h:
+
+generated/texts/include/texts/TextKeysAndLanguages.hpp:

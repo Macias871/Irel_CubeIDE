@@ -208,6 +208,18 @@
     <Filter Include="Header Files\generated\simulator\include\simulator\video">
       <UniqueIdentifier>31934706-A28D-F7F0-CEE4-44EA4CB23753</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\gui\test_menu_screen">
+      <UniqueIdentifier>6858C992-98F0-58C9-2E9E-07D6B0F22441</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\gui\test_menu_screen">
+      <UniqueIdentifier>3997D0F0-4D86-946E-FA48-F5CD58A87EB5</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\generated\gui_generated\test_menu_screen">
+      <UniqueIdentifier>E4D30BF7-8710-E108-5E3F-B084A3BB2CD1</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\generated\gui_generated\test_menu_screen">
+      <UniqueIdentifier>5CD6C5C7-72FA-1050-A6B0-E5B14A9B3EAC</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="$(TouchGFXReleasePath)\framework\source\platform\driver\touch\SDL2TouchController.cpp">
@@ -276,11 +288,14 @@
     <ClCompile Include="..\..\generated\gui_generated\src\containers\Back_menu_containerBase.cpp">
       <Filter>Source Files\generated\gui_generated\containers</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\gui\src\containers\Test_container.cpp">
-      <Filter>Source Files\gui\containers</Filter>
+    <ClCompile Include="..\..\gui\src\test_menu_screen\TEST_MenuPresenter.cpp">
+      <Filter>Source Files\gui\test_menu_screen</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\generated\gui_generated\src\containers\Test_containerBase.cpp">
-      <Filter>Source Files\generated\gui_generated\containers</Filter>
+    <ClCompile Include="..\..\gui\src\test_menu_screen\TEST_MenuView.cpp">
+      <Filter>Source Files\gui\test_menu_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\generated\gui_generated\src\test_menu_screen\TEST_MenuViewBase.cpp">
+      <Filter>Source Files\generated\gui_generated\test_menu_screen</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -763,11 +778,14 @@
     <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\containers\Back_menu_containerBase.hpp">
       <Filter>Header Files\generated\gui_generated\containers</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gui\include\gui\containers\Test_container.hpp">
-      <Filter>Header Files\gui\containers</Filter>
+    <ClInclude Include="..\..\gui\include\gui\test_menu_screen\TEST_MenuPresenter.hpp">
+      <Filter>Header Files\gui\test_menu_screen</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\containers\Test_containerBase.hpp">
-      <Filter>Header Files\generated\gui_generated\containers</Filter>
+    <ClInclude Include="..\..\gui\include\gui\test_menu_screen\TEST_MenuView.hpp">
+      <Filter>Header Files\gui\test_menu_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\test_menu_screen\TEST_MenuViewBase.hpp">
+      <Filter>Header Files\generated\gui_generated\test_menu_screen</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

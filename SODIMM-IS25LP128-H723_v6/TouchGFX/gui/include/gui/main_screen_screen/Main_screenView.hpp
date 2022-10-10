@@ -3,6 +3,9 @@
 
 #include <gui_generated/main_screen_screen/Main_screenViewBase.hpp>
 #include <gui/main_screen_screen/Main_screenPresenter.hpp>
+#include "../Structures.h"
+
+void Change_screen();
 
 class Main_screenView : public Main_screenViewBase
 {

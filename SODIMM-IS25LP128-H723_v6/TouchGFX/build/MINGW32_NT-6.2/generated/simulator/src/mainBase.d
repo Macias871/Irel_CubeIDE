@@ -78,12 +78,12 @@ build/MINGW32_NT-6.2/generated/simulator/src/mainBase.o: \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/AnimatedImage.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/EasingEquations.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/mixins/MoveAnimator.hpp \
+ gui/include/gui/main_screen_screen/../Structures.h \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp \
+ generated/texts/include/texts/TextKeysAndLanguages.hpp \
  gui/include/gui/menu_9_screen/Menu_9View.hpp \
  generated/gui_generated/include/gui_generated/menu_9_screen/Menu_9ViewBase.hpp \
  gui/include/gui/menu_9_screen/Menu_9Presenter.hpp \
- gui/include/gui/containers/Test_container.hpp \
- generated/gui_generated/include/gui_generated/containers/Test_containerBase.hpp \
- ../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/ScrollableContainer.hpp \
  gui/include/gui/containers/Menu_tree_title_container.hpp \
  generated/gui_generated/include/gui_generated/containers/Menu_tree_title_containerBase.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/Line.hpp \
@@ -99,15 +99,19 @@ build/MINGW32_NT-6.2/generated/simulator/src/mainBase.o: \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/Color.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/AbstractPainterARGB8888.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/AbstractPainterColor.hpp \
- ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp \
  generated/gui_generated/include/gui_generated/containers/Menu_buttons_containerBase.hpp \
- generated/texts/include/texts/TextKeysAndLanguages.hpp \
  gui/include/gui/containers/../Structures.h \
  gui/include/gui/containers/Back_menu_container.hpp \
  generated/gui_generated/include/gui_generated/containers/Back_menu_containerBase.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/ScrollableContainer.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/ListLayout.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/mixins/ClickListener.hpp \
  gui/include/gui/containers/Menu_buttons_container.hpp \
+ gui/include/gui/test_menu_screen/TEST_MenuView.hpp \
+ generated/gui_generated/include/gui_generated/test_menu_screen/TEST_MenuViewBase.hpp \
+ gui/include/gui/test_menu_screen/TEST_MenuPresenter.hpp \
+ gui/include/gui/test_menu_screen/../Structures.h \
+ gui/include/gui/menu_9_screen/../Structures.h \
  ../Middlewares/ST/touchgfx/framework/include/platform/driver/lcd/LCD32bpp.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/lcd/LCD32DebugPrinter.hpp
 
@@ -267,17 +271,17 @@ gui/include/gui/model/ModelListener.hpp:
 
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/mixins/MoveAnimator.hpp:
 
+gui/include/gui/main_screen_screen/../Structures.h:
+
+../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp:
+
+generated/texts/include/texts/TextKeysAndLanguages.hpp:
+
 gui/include/gui/menu_9_screen/Menu_9View.hpp:
 
 generated/gui_generated/include/gui_generated/menu_9_screen/Menu_9ViewBase.hpp:
 
 gui/include/gui/menu_9_screen/Menu_9Presenter.hpp:
-
-gui/include/gui/containers/Test_container.hpp:
-
-generated/gui_generated/include/gui_generated/containers/Test_containerBase.hpp:
-
-../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/ScrollableContainer.hpp:
 
 gui/include/gui/containers/Menu_tree_title_container.hpp:
 
@@ -309,11 +313,7 @@ generated/gui_generated/include/gui_generated/containers/Menu_tree_title_contain
 
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/AbstractPainterColor.hpp:
 
-../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp:
-
 generated/gui_generated/include/gui_generated/containers/Menu_buttons_containerBase.hpp:
-
-generated/texts/include/texts/TextKeysAndLanguages.hpp:
 
 gui/include/gui/containers/../Structures.h:
 
@@ -321,11 +321,23 @@ gui/include/gui/containers/Back_menu_container.hpp:
 
 generated/gui_generated/include/gui_generated/containers/Back_menu_containerBase.hpp:
 
+../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/ScrollableContainer.hpp:
+
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/ListLayout.hpp:
 
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/mixins/ClickListener.hpp:
 
 gui/include/gui/containers/Menu_buttons_container.hpp:
+
+gui/include/gui/test_menu_screen/TEST_MenuView.hpp:
+
+generated/gui_generated/include/gui_generated/test_menu_screen/TEST_MenuViewBase.hpp:
+
+gui/include/gui/test_menu_screen/TEST_MenuPresenter.hpp:
+
+gui/include/gui/test_menu_screen/../Structures.h:
+
+gui/include/gui/menu_9_screen/../Structures.h:
 
 ../Middlewares/ST/touchgfx/framework/include/platform/driver/lcd/LCD32bpp.hpp:
 

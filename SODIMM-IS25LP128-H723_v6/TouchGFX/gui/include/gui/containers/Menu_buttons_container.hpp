@@ -6,7 +6,9 @@
 #include <touchgfx/containers/Container.hpp>
 #include <touchgfx/widgets/Button.hpp>
 #include <touchgfx/widgets/TextArea.hpp>
-#include <texts/TextKeysAndLanguages.hpp>
+#include <BitmapDatabase.hpp>
+#include <touchgfx/Color.hpp>
+//#include <texts/TextKeysAndLanguages.hpp>
 #include <touchgfx/Utils.hpp>
 #include "../Structures.h"
 

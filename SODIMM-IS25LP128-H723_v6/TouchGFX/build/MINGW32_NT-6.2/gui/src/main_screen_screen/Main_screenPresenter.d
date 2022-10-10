@@ -48,7 +48,12 @@ build/MINGW32_NT-6.2/gui/src/main_screen_screen/Main_screenPresenter.o: \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/AbstractButton.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/AnimatedImage.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/EasingEquations.hpp \
- ../Middlewares/ST/touchgfx/framework/include/touchgfx/mixins/MoveAnimator.hpp
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/mixins/MoveAnimator.hpp \
+ gui/include/gui/main_screen_screen/../Structures.h \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/TypedText.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/Texts.hpp \
+ generated/texts/include/texts/TextKeysAndLanguages.hpp
 
 gui/include/gui/main_screen_screen/Main_screenView.hpp:
 
@@ -147,3 +152,13 @@ gui/include/gui/model/ModelListener.hpp:
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/EasingEquations.hpp:
 
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/mixins/MoveAnimator.hpp:
+
+gui/include/gui/main_screen_screen/../Structures.h:
+
+../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp:
+
+../Middlewares/ST/touchgfx/framework/include/touchgfx/TypedText.hpp:
+
+../Middlewares/ST/touchgfx/framework/include/touchgfx/Texts.hpp:
+
+generated/texts/include/texts/TextKeysAndLanguages.hpp:

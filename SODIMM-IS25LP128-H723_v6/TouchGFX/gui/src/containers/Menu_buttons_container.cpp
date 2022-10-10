@@ -1,8 +1,6 @@
 #include <gui/containers/Menu_buttons_container.hpp>
-#include <BitmapDatabase.hpp>
-#include <texts/TextKeysAndLanguages.hpp>
-#include <touchgfx/Color.hpp>
-#include <texts/TextKeysAndLanguages.hpp>
+
+
 
 
 Menu_buttons_container::Menu_buttons_container():

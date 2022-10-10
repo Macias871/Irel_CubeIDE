@@ -64,22 +64,6 @@
             "Clickable": true
           },
           {
-            "Type": "Container",
-            "Name": "Sub_menu_cont",
-            "Y": 68,
-            "Width": 480,
-            "Height": 664,
-            "Components": [
-              {
-                "Type": "CustomContainerInstance",
-                "Name": "test_container1",
-                "Width": 480,
-                "Height": 800,
-                "CustomContainerDefinitionName": "Test_container"
-              }
-            ]
-          },
-          {
             "Type": "CustomContainerInstance",
             "Name": "menu_tree_title_cont",
             "Width": 480,
@@ -121,6 +105,48 @@
                 "Components": []
               }
             ]
+          }
+        ],
+        "Interactions": []
+      },
+      {
+        "Name": "TEST_Menu",
+        "CanvasBufferSize": 7200,
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "image1",
+            "Width": 480,
+            "Height": 800,
+            "RelativeFilename": "background_black.png"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "Test_menu_tree_title",
+            "Width": 480,
+            "Height": 68,
+            "CustomContainerDefinitionName": "Menu_tree_title_container"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "Test_menu_back_cont",
+            "Y": 732,
+            "Width": 480,
+            "Height": 68,
+            "CustomContainerDefinitionName": "Back_menu_container"
+          },
+          {
+            "Type": "ScrollableContainer",
+            "Name": "Test_menu_scroll",
+            "Y": 68,
+            "Width": 480,
+            "Height": 664,
+            "HorizontalScrollEnabled": true,
+            "VerticalScrollEnabled": true,
+            "ScrollbarsVisible": true,
+            "ScrollbarsVisibleOnPressed": true,
+            "ScrollbarsAlpha": 255,
+            "Components": []
           }
         ],
         "Interactions": []
@@ -284,51 +310,6 @@
             }
           }
         ]
-      },
-      {
-        "Name": "Test_container",
-        "X": 160,
-        "Y": -160,
-        "Width": 480,
-        "Height": 800,
-        "Components": [
-          {
-            "Type": "ScrollableContainer",
-            "Name": "scrollableContainer1",
-            "Y": 61,
-            "Width": 480,
-            "Height": 649,
-            "HorizontalScrollEnabled": true,
-            "VerticalScrollEnabled": true,
-            "ScrollbarsVisible": true,
-            "ScrollbarsVisibleOnPressed": true,
-            "ScrollbarsColor": {
-              "Red": 47,
-              "Green": 138,
-              "Blue": 150
-            },
-            "ScrollbarsAlpha": 255,
-            "Components": []
-          },
-          {
-            "Type": "Container",
-            "Name": "container1",
-            "Width": 480,
-            "Height": 61,
-            "Components": [
-              {
-                "Type": "Image",
-                "Name": "image1",
-                "X": 7,
-                "Y": 5,
-                "Width": 50,
-                "Height": 50,
-                "RelativeFilename": "OFF_toggle_button_00.png"
-              }
-            ]
-          }
-        ],
-        "Interactions": []
       }
     ],
     "Name": "MyApplication",
