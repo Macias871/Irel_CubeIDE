@@ -6,6 +6,34 @@
   </Languages>
   <Texts>
     <TextGroup Id="Menu_Test">
+      <Text Id="__SingleUse_N0ZN" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">New Text</Translation>
+        <Translation Language="PL">1</Translation>
+      </Text>
+      <Text Id="__SingleUse_QM4U" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">New Text</Translation>
+        <Translation Language="PL">2</Translation>
+      </Text>
+      <Text Id="__SingleUse_H379" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">New Text</Translation>
+        <Translation Language="PL">3</Translation>
+      </Text>
+      <Text Id="__SingleUse_D0NX" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">New Text</Translation>
+        <Translation Language="PL">4</Translation>
+      </Text>
+      <Text Id="__SingleUse_D2CB" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">New Text</Translation>
+        <Translation Language="PL">5</Translation>
+      </Text>
+      <Text Id="__SingleUse_3OQQ" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">New Text</Translation>
+        <Translation Language="PL">6</Translation>
+      </Text>
+      <Text Id="__SingleUse_HX4O" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">&lt;&gt;</Translation>
+        <Translation Language="PL">&lt;&gt;</Translation>
+      </Text>
       <Text Id="Ico_wedo_t" Alignment="Left" TypographyId="Default">
         <Translation Language="GB">External input</Translation>
         <Translation Language="PL">Wejcie dodatkowe</Translation>
@@ -236,21 +264,21 @@
       </Text>
     </TextGroup>
     <TextGroup Id="Main_screen">
+      <Text Id="WC1" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">&lt;number&gt;</Translation>
+        <Translation Language="PL">&lt;number&gt;</Translation>
+      </Text>
+      <Text Id="Set_clock" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">Set clock</Translation>
+        <Translation Language="PL">Ustawienie czasu</Translation>
+      </Text>
       <Text Id="__SingleUse_QYE9" Alignment="Center" TypographyId="Default">
         <Translation Language="GB">Menu</Translation>
-        <Translation Language="PL" />
-      </Text>
-      <Text Id="__SingleUse_YB6R" Alignment="Left" TypographyId="Default">
-        <Translation Language="GB">New Text</Translation>
-        <Translation Language="PL" />
+        <Translation Language="PL">Menu</Translation>
       </Text>
       <Text Id="__SingleUse_XH5A" Alignment="Left" TypographyId="Default">
         <Translation Language="GB">Work mode</Translation>
         <Translation Language="PL">Tryb pracy:</Translation>
-      </Text>
-      <Text Id="__SingleUse_UKU5" Alignment="Left" TypographyId="Default">
-        <Translation Language="GB">&lt;&gt;</Translation>
-        <Translation Language="PL">&lt;&gt;</Translation>
       </Text>
     </TextGroup>
     <TextGroup Id="Menu_9">
@@ -287,36 +315,11 @@
         <Translation Language="PL">Wstecz</Translation>
       </Text>
     </TextGroup>
-    <TextGroup Id="Unsorted">
-      <Text Id="__SingleUse_3OQQ" Alignment="Left" TypographyId="Default">
-        <Translation Language="GB">New Text</Translation>
-        <Translation Language="PL">6</Translation>
-      </Text>
-      <Text Id="__SingleUse_D2CB" Alignment="Left" TypographyId="Default">
-        <Translation Language="GB">New Text</Translation>
-        <Translation Language="PL">5</Translation>
-      </Text>
-      <Text Id="__SingleUse_D0NX" Alignment="Left" TypographyId="Default">
-        <Translation Language="GB">New Text</Translation>
-        <Translation Language="PL">4</Translation>
-      </Text>
-      <Text Id="__SingleUse_H379" Alignment="Left" TypographyId="Default">
-        <Translation Language="GB">New Text</Translation>
-        <Translation Language="PL">3</Translation>
-      </Text>
-      <Text Id="__SingleUse_QM4U" Alignment="Left" TypographyId="Default">
-        <Translation Language="GB">New Text</Translation>
-        <Translation Language="PL">2</Translation>
-      </Text>
-      <Text Id="__SingleUse_N0ZN" Alignment="Left" TypographyId="Default">
-        <Translation Language="GB">New Text</Translation>
-        <Translation Language="PL">1</Translation>
-      </Text>
-    </TextGroup>
+    <TextGroup Id="Unsorted" />
   </Texts>
   <Typographies>
-    <Typography Id="Default" Font="verdana.ttf" Size="20" Bpp="4" Direction="LTR" FallbackCharacter="?" />
-    <Typography Id="Large" Font="verdana.ttf" Size="40" Bpp="4" Direction="LTR" FallbackCharacter="?" />
-    <Typography Id="Small" Font="verdana.ttf" Size="10" Bpp="4" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Default" Font="verdana.ttf" Size="20" Bpp="4" Direction="LTR" FallbackCharacter="?" WildcardCharacters="0123456789" WidgetWildcardCharacters="0123456789 :APM" />
+    <Typography Id="Large" Font="verdana.ttf" Size="40" Bpp="4" Direction="LTR" FallbackCharacter="?" WildcardCharacters="0123456789" />
+    <Typography Id="Small" Font="verdana.ttf" Size="10" Bpp="4" Direction="LTR" FallbackCharacter="?" WildcardCharacters="0123456789" />
   </Typographies>
 </TextDatabase>

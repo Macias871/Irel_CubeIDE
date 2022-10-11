@@ -12,6 +12,7 @@
 #include <touchgfx/widgets/Button.hpp>
 #include <touchgfx/widgets/AnimatedImage.hpp>
 #include <touchgfx/containers/SlideMenu.hpp>
+#include <touchgfx/containers/clock/DigitalClock.hpp>
 #include <touchgfx/EasingEquations.hpp>
 #include <touchgfx/mixins/MoveAnimator.hpp>
 
@@ -30,6 +31,11 @@ public:
         // Override and implement this function in Main_screen
     }
 
+    virtual void Set_date_time()
+    {
+        // Override and implement this function in Main_screen
+    }
+
 protected:
     FrontendApplication& application() {
         return *static_cast<FrontendApplication*>(touchgfx::Application::getInstance());
@@ -44,6 +50,8 @@ protected:
     touchgfx::MoveAnimator< touchgfx::AnimatedImage > Image_Wifi;
     touchgfx::SlideMenu slideMenu1;
     touchgfx::Button Test_shortcut;
+    touchgfx::Button btn_set_time;
+    touchgfx::DigitalClock digitalClock1;
 
 private:
 

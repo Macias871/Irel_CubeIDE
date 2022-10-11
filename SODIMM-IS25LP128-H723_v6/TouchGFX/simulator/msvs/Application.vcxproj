@@ -36,6 +36,11 @@
     <ClCompile Include="..\..\gui\src\test_menu_screen\TEST_MenuPresenter.cpp"/>
     <ClCompile Include="..\..\gui\src\test_menu_screen\TEST_MenuView.cpp"/>
     <ClCompile Include="..\..\generated\gui_generated\src\test_menu_screen\TEST_MenuViewBase.cpp"/>
+    <ClCompile Include="..\..\gui\src\clock_settings_screen\Clock_settingsPresenter.cpp"/>
+    <ClCompile Include="..\..\gui\src\clock_settings_screen\Clock_settingsView.cpp"/>
+    <ClCompile Include="..\..\generated\gui_generated\src\clock_settings_screen\Clock_settingsViewBase.cpp"/>
+    <ClCompile Include="..\..\gui\src\containers\Reg_container.cpp"/>
+    <ClCompile Include="..\..\generated\gui_generated\src\containers\Reg_containerBase.cpp"/>
   </ItemGroup>
   <ItemGroup>
     <None Include="$(ApplicationRoot)\assets\texts\texts.xml"/>
@@ -202,6 +207,11 @@
     <ClInclude Include="..\..\gui\include\gui\test_menu_screen\TEST_MenuPresenter.hpp"/>
     <ClInclude Include="..\..\gui\include\gui\test_menu_screen\TEST_MenuView.hpp"/>
     <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\test_menu_screen\TEST_MenuViewBase.hpp"/>
+    <ClInclude Include="..\..\gui\include\gui\clock_settings_screen\Clock_settingsPresenter.hpp"/>
+    <ClInclude Include="..\..\gui\include\gui\clock_settings_screen\Clock_settingsView.hpp"/>
+    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\clock_settings_screen\Clock_settingsViewBase.hpp"/>
+    <ClInclude Include="..\..\gui\include\gui\containers\Reg_container.hpp"/>
+    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\containers\Reg_containerBase.hpp"/>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="$(ApplicationRoot)\generated\simulator\touchgfx.rc"/>

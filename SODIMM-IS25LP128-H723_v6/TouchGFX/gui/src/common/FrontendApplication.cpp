@@ -14,6 +14,9 @@
 #include <gui/test_menu_screen/TEST_MenuView.hpp>
 #include <gui/test_menu_screen/TEST_MenuPresenter.hpp>
 
+#include <gui/clock_settings_screen/Clock_settingsView.hpp>
+#include <gui/clock_settings_screen/Clock_settingsPresenter.hpp>
+
 FrontendApplication::FrontendApplication(Model& m, FrontendHeap& heap)
     : FrontendApplicationBase(m, heap)
 {
@@ -30,4 +33,18 @@ void FrontendApplication::Test_menu_ScreenNoTransition()
 void FrontendApplication::Test_menu_ScreenNoTransitionImpl()
 {
     touchgfx::makeTransition<TEST_MenuView, TEST_MenuPresenter, touchgfx::NoTransition, Model >(&currentScreen, &currentPresenter, frontendHeap, &currentTransition, &model);
+}
+
+
+
+
+void FrontendApplication::Set_Date_ScreenNoTransition()
+{
+    transitionCallback = touchgfx::Callback<FrontendApplication>(this, &FrontendApplication::Set_Date_ScreenNoTransitionImpl);
+    pendingScreenTransitionCallback = &transitionCallback;
+}
+
+void FrontendApplication::Set_Date_ScreenNoTransitionImpl()
+{
+    touchgfx::makeTransition<Clock_settingsView, Clock_settingsPresenter, touchgfx::NoTransition, Model >(&currentScreen, &currentPresenter, frontendHeap, &currentTransition, &model);
 }

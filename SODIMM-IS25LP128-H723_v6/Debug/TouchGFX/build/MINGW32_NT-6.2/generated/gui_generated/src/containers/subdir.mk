@@ -8,9 +8,7 @@ O_SRCS += \
 ../TouchGFX/build/MINGW32_NT-6.2/generated/gui_generated/src/containers/Back_menu_containerBase.o \
 ../TouchGFX/build/MINGW32_NT-6.2/generated/gui_generated/src/containers/Menu_buttons_containerBase.o \
 ../TouchGFX/build/MINGW32_NT-6.2/generated/gui_generated/src/containers/Menu_tree_title_containerBase.o \
-../TouchGFX/build/MINGW32_NT-6.2/generated/gui_generated/src/containers/Sub_containerBase.o \
-../TouchGFX/build/MINGW32_NT-6.2/generated/gui_generated/src/containers/Sub_menu_containerBase.o \
-../TouchGFX/build/MINGW32_NT-6.2/generated/gui_generated/src/containers/Test_containerBase.o 
+../TouchGFX/build/MINGW32_NT-6.2/generated/gui_generated/src/containers/Reg_containerBase.o 
 
 
 # Each subdirectory must supply rules for building sources it contributes

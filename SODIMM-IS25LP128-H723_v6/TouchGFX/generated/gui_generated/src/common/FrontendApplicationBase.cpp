@@ -15,6 +15,8 @@
 #include <gui/menu_9_screen/Menu_9Presenter.hpp>
 #include <gui/test_menu_screen/TEST_MenuView.hpp>
 #include <gui/test_menu_screen/TEST_MenuPresenter.hpp>
+#include <gui/clock_settings_screen/Clock_settingsView.hpp>
+#include <gui/clock_settings_screen/Clock_settingsPresenter.hpp>
 
 using namespace touchgfx;
 

@@ -15,6 +15,7 @@ public:
     virtual void setupScreen();
     virtual void tearDownScreen();
     virtual void shortcut_goto_test();
+    virtual void Set_date_time();
 protected:
 };
 

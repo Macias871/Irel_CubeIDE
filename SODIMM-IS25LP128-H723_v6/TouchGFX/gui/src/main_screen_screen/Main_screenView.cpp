@@ -60,6 +60,11 @@ void Change_screen()
 
 }
 
+void Main_screenView::Set_date_time()
+{
+	TGFX_Actual_menu = menu_;
+	application().Set_Date_ScreenNoTransition();
+}
 void Main_screenView::shortcut_goto_test()
 {
 

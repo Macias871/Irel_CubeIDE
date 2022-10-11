@@ -20,6 +20,8 @@ public:
         touchgfx::Callback<FrontendApplication> transitionCallback;
         void Test_menu_ScreenNoTransitionImpl();
 
+        void Set_Date_ScreenNoTransition();
+        void Set_Date_ScreenNoTransitionImpl();
 
     virtual void handleTickEvent()
     {

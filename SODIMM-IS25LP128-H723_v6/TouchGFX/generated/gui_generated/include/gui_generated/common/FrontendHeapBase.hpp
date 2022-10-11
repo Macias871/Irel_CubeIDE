@@ -18,6 +18,8 @@
 #include <gui/menu_9_screen/Menu_9Presenter.hpp>
 #include <gui/test_menu_screen/TEST_MenuView.hpp>
 #include <gui/test_menu_screen/TEST_MenuPresenter.hpp>
+#include <gui/clock_settings_screen/Clock_settingsView.hpp>
+#include <gui/clock_settings_screen/Clock_settingsPresenter.hpp>
 
 
 /**
@@ -43,7 +45,8 @@ public:
     typedef touchgfx::meta::TypeList< Main_screenView,
             touchgfx::meta::TypeList< Menu_9View,
             touchgfx::meta::TypeList< TEST_MenuView,
-            touchgfx::meta::Nil > >
+            touchgfx::meta::TypeList< Clock_settingsView,
+            touchgfx::meta::Nil > > >
             > GeneratedViewTypes;
 
     /**
@@ -58,7 +61,8 @@ public:
     typedef touchgfx::meta::TypeList< Main_screenPresenter,
             touchgfx::meta::TypeList< Menu_9Presenter,
             touchgfx::meta::TypeList< TEST_MenuPresenter,
-            touchgfx::meta::Nil > >
+            touchgfx::meta::TypeList< Clock_settingsPresenter,
+            touchgfx::meta::Nil > > >
             > GeneratedPresenterTypes;
 
     /**

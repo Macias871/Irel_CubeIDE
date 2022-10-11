@@ -4,6 +4,7 @@
 #include <gui_generated/main_screen_screen/Main_screenViewBase.hpp>
 #include <touchgfx/Color.hpp>
 #include <BitmapDatabase.hpp>
+#include <texts/TextKeysAndLanguages.hpp>
 
 Main_screenViewBase::Main_screenViewBase() :
     buttonCallback(this, &Main_screenViewBase::buttonCallbackHandler)
@@ -42,11 +43,25 @@ Main_screenViewBase::Main_screenViewBase() :
     Test_shortcut.setAction(buttonCallback);
     slideMenu1.add(Test_shortcut);
 
+    btn_set_time.setXY(18, 9);
+    btn_set_time.setBitmaps(touchgfx::Bitmap(BITMAP_TOP_SLIDE_MENU_BACKGROUND_MOD_ID), touchgfx::Bitmap(BITMAP_TOP_SLIDE_MENU_BACKGROUND_MOD_ON_ID));
+    btn_set_time.setAction(buttonCallback);
+    btn_set_time.setAlpha(42);
+
+    digitalClock1.setPosition(28, 11, 102, 26);
+    digitalClock1.setColor(touchgfx::Color::getColorFromRGB(9, 128, 110));
+    digitalClock1.setTypedText(touchgfx::TypedText(T___SINGLEUSE_HX4O));
+    digitalClock1.displayLeadingZeroForHourIndicator(true);
+    digitalClock1.setDisplayMode(touchgfx::DigitalClock::DISPLAY_24_HOUR);
+    digitalClock1.setTime24Hour(10, 10, 0);
+
     add(__background);
     add(Image_main_screen);
     add(btn_menu);
     add(Image_Wifi);
     add(slideMenu1);
+    add(btn_set_time);
+    add(digitalClock1);
 }
 
 void Main_screenViewBase::setupScreen()
@@ -69,5 +84,12 @@ void Main_screenViewBase::buttonCallbackHandler(const touchgfx::AbstractButton& 
         //When Test_shortcut clicked call virtual function
         //Call shortcut_goto_test
         shortcut_goto_test();
+    }
+    else if (&src == &btn_set_time)
+    {
+        //Set_dt
+        //When btn_set_time clicked call virtual function
+        //Call Set_date_time
+        Set_date_time();
     }
 }

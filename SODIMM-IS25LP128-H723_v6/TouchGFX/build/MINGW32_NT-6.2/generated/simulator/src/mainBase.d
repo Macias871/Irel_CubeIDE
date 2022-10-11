@@ -79,8 +79,11 @@ build/MINGW32_NT-6.2/generated/simulator/src/mainBase.o: \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/SlideMenu.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/EasingEquations.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/mixins/MoveAnimator.hpp \
- gui/include/gui/main_screen_screen/../Structures.h \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/clock/DigitalClock.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/clock/AbstractClock.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp \
+ gui/include/gui/main_screen_screen/../Structures.h \
  generated/texts/include/texts/TextKeysAndLanguages.hpp \
  gui/include/gui/menu_9_screen/Menu_9View.hpp \
  generated/gui_generated/include/gui_generated/menu_9_screen/Menu_9ViewBase.hpp \
@@ -116,6 +119,11 @@ build/MINGW32_NT-6.2/generated/simulator/src/mainBase.o: \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/RadioButtonGroup.hpp \
  gui/include/gui/test_menu_screen/../Structures.h \
  gui/include/gui/menu_9_screen/../Structures.h \
+ gui/include/gui/clock_settings_screen/Clock_settingsView.hpp \
+ generated/gui_generated/include/gui_generated/clock_settings_screen/Clock_settingsViewBase.hpp \
+ gui/include/gui/clock_settings_screen/Clock_settingsPresenter.hpp \
+ gui/include/gui/containers/Reg_container.hpp \
+ generated/gui_generated/include/gui_generated/containers/Reg_containerBase.hpp \
  ../Middlewares/ST/touchgfx/framework/include/platform/driver/lcd/LCD32bpp.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/lcd/LCD32DebugPrinter.hpp
 
@@ -277,9 +285,15 @@ gui/include/gui/model/ModelListener.hpp:
 
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/mixins/MoveAnimator.hpp:
 
-gui/include/gui/main_screen_screen/../Structures.h:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/clock/DigitalClock.hpp:
+
+../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/clock/AbstractClock.hpp:
+
+../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp:
 
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp:
+
+gui/include/gui/main_screen_screen/../Structures.h:
 
 generated/texts/include/texts/TextKeysAndLanguages.hpp:
 
@@ -350,6 +364,16 @@ gui/include/gui/test_menu_screen/TEST_MenuPresenter.hpp:
 gui/include/gui/test_menu_screen/../Structures.h:
 
 gui/include/gui/menu_9_screen/../Structures.h:
+
+gui/include/gui/clock_settings_screen/Clock_settingsView.hpp:
+
+generated/gui_generated/include/gui_generated/clock_settings_screen/Clock_settingsViewBase.hpp:
+
+gui/include/gui/clock_settings_screen/Clock_settingsPresenter.hpp:
+
+gui/include/gui/containers/Reg_container.hpp:
+
+generated/gui_generated/include/gui_generated/containers/Reg_containerBase.hpp:
 
 ../Middlewares/ST/touchgfx/framework/include/platform/driver/lcd/LCD32bpp.hpp:
 

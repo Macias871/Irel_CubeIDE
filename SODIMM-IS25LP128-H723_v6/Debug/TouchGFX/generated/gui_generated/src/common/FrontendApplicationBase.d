@@ -55,10 +55,13 @@ TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.o: \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/SlideMenu.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/EasingEquations.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/mixins/MoveAnimator.hpp \
- ../TouchGFX/gui/include/gui/main_screen_screen/../Structures.h \
- ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/clock/DigitalClock.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/TypedText.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/Texts.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/clock/AbstractClock.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp \
+ ../TouchGFX/gui/include/gui/main_screen_screen/../Structures.h \
  ../TouchGFX/generated/texts/include/texts/TextKeysAndLanguages.hpp \
  ../TouchGFX/gui/include/gui/menu_9_screen/Menu_9View.hpp \
  ../TouchGFX/generated/gui_generated/include/gui_generated/menu_9_screen/Menu_9ViewBase.hpp \
@@ -95,6 +98,11 @@ TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.o: \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/RadioButtonGroup.hpp \
  ../TouchGFX/gui/include/gui/test_menu_screen/../Structures.h \
  ../TouchGFX/gui/include/gui/menu_9_screen/../Structures.h \
+ ../TouchGFX/gui/include/gui/clock_settings_screen/Clock_settingsView.hpp \
+ ../TouchGFX/generated/gui_generated/include/gui_generated/clock_settings_screen/Clock_settingsViewBase.hpp \
+ ../TouchGFX/gui/include/gui/clock_settings_screen/Clock_settingsPresenter.hpp \
+ ../TouchGFX/gui/include/gui/containers/Reg_container.hpp \
+ ../TouchGFX/generated/gui_generated/include/gui_generated/containers/Reg_containerBase.hpp \
  ../Middlewares/ST/touchgfx/framework/include/platform/driver/lcd/LCD32bpp.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/lcd/LCD32DebugPrinter.hpp
 ../TouchGFX/generated/gui_generated/include/gui_generated/common/FrontendApplicationBase.hpp:
@@ -152,10 +160,13 @@ TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.o: \
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/SlideMenu.hpp:
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/EasingEquations.hpp:
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/mixins/MoveAnimator.hpp:
-../TouchGFX/gui/include/gui/main_screen_screen/../Structures.h:
-../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/clock/DigitalClock.hpp:
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/TypedText.hpp:
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/Texts.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/clock/AbstractClock.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp:
+../TouchGFX/gui/include/gui/main_screen_screen/../Structures.h:
 ../TouchGFX/generated/texts/include/texts/TextKeysAndLanguages.hpp:
 ../TouchGFX/gui/include/gui/menu_9_screen/Menu_9View.hpp:
 ../TouchGFX/generated/gui_generated/include/gui_generated/menu_9_screen/Menu_9ViewBase.hpp:
@@ -192,5 +203,10 @@ TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.o: \
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/RadioButtonGroup.hpp:
 ../TouchGFX/gui/include/gui/test_menu_screen/../Structures.h:
 ../TouchGFX/gui/include/gui/menu_9_screen/../Structures.h:
+../TouchGFX/gui/include/gui/clock_settings_screen/Clock_settingsView.hpp:
+../TouchGFX/generated/gui_generated/include/gui_generated/clock_settings_screen/Clock_settingsViewBase.hpp:
+../TouchGFX/gui/include/gui/clock_settings_screen/Clock_settingsPresenter.hpp:
+../TouchGFX/gui/include/gui/containers/Reg_container.hpp:
+../TouchGFX/generated/gui_generated/include/gui_generated/containers/Reg_containerBase.hpp:
 ../Middlewares/ST/touchgfx/framework/include/platform/driver/lcd/LCD32bpp.hpp:
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/lcd/LCD32DebugPrinter.hpp:

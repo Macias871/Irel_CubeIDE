@@ -40,7 +40,7 @@
             "Name": "slideMenu1",
             "X": 383,
             "Y": 457,
-            "Width": 97,
+            "Width": 99,
             "Height": 273,
             "FileNameBackground": "right_slide_menu_background_black.png",
             "BackgroundX": 23,
@@ -67,6 +67,35 @@
                 "Released": "menu_button_pressed_01.png"
               }
             ]
+          },
+          {
+            "Type": "Button",
+            "Name": "btn_set_time",
+            "X": 18,
+            "Y": 9,
+            "Width": 122,
+            "Height": 28,
+            "Pressed": "top_slide_menu_background_mod_on.png",
+            "Released": "top_slide_menu_background_mod.png",
+            "Alpha": 42
+          },
+          {
+            "Type": "DigitalClock",
+            "Name": "digitalClock1",
+            "X": 28,
+            "Y": 11,
+            "Width": 102,
+            "Height": 26,
+            "TextColor": {
+              "Red": 9,
+              "Green": 128,
+              "Blue": 110
+            },
+            "TextId": "__SingleUse_HX4O",
+            "DisplaySeconds": true,
+            "DisplayLeadingZeroForHourIndicator": true,
+            "InitialHour": 10,
+            "InitialMinute": 10
           }
         ],
         "Interactions": [
@@ -91,6 +120,17 @@
             "Action": {
               "Type": "ActionCustom",
               "FunctionName": "shortcut_goto_test"
+            }
+          },
+          {
+            "InteractionName": "Set_dt",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "btn_set_time"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "Set_date_time"
             }
           }
         ]
@@ -834,6 +874,80 @@
             }
           }
         ]
+      },
+      {
+        "Name": "Clock_settings",
+        "CanvasBufferSize": 7200,
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "image1",
+            "Width": 480,
+            "Height": 800,
+            "RelativeFilename": "background_black.png"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "Clock_menu_tree_title_container",
+            "Width": 480,
+            "Height": 68,
+            "CustomContainerDefinitionName": "Menu_tree_title_container"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "Clock_back_menu_container",
+            "Y": 732,
+            "Width": 480,
+            "Height": 68,
+            "CustomContainerDefinitionName": "Back_menu_container"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "HH_container",
+            "X": 102,
+            "Y": 96,
+            "Width": 70,
+            "Height": 168,
+            "CustomContainerDefinitionName": "Reg_container"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "MM_container",
+            "X": 304,
+            "Y": 96,
+            "Width": 70,
+            "Height": 168,
+            "CustomContainerDefinitionName": "Reg_container"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "DD_container",
+            "X": 32,
+            "Y": 316,
+            "Width": 70,
+            "Height": 168,
+            "CustomContainerDefinitionName": "Reg_container"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "MO_container",
+            "X": 205,
+            "Y": 316,
+            "Width": 70,
+            "Height": 168,
+            "CustomContainerDefinitionName": "Reg_container"
+          },
+          {
+            "Type": "CustomContainerInstance",
+            "Name": "YY_container",
+            "X": 374,
+            "Y": 316,
+            "Width": 70,
+            "Height": 168,
+            "CustomContainerDefinitionName": "Reg_container"
+          }
+        ],
+        "Interactions": []
       }
     ],
     "CustomContainerDefinitions": [
@@ -991,6 +1105,116 @@
             "Action": {
               "Type": "ActionCustom",
               "FunctionName": "clickAction"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "Reg_container",
+        "X": 160,
+        "Y": -160,
+        "Width": 70,
+        "Height": 170,
+        "Components": [
+          {
+            "Type": "Button",
+            "Name": "button_up_small",
+            "X": 19,
+            "Y": 44,
+            "Width": 30,
+            "Height": 17,
+            "Pressed": "orange_arrow_up.png",
+            "Released": "black_arrow_up.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "button_dn_small",
+            "X": 19,
+            "Y": 110,
+            "Width": 30,
+            "Height": 17,
+            "Pressed": "orange_arrow.png",
+            "Released": "black_arrow.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "button_up_big",
+            "X": 14,
+            "Width": 40,
+            "Height": 23,
+            "Pressed": "orange_arrow_up_b.png",
+            "Released": "black_arrow_up_b.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "button_dn_big",
+            "X": 14,
+            "Y": 145,
+            "Width": 40,
+            "Height": 23,
+            "Pressed": "orange_arrow_b.png",
+            "Released": "black_arrow_b.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Value_t",
+            "X": 19,
+            "Y": 61,
+            "Height": 49,
+            "TextId": "WC1",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 15,
+              "Green": 83,
+              "Blue": 125
+            },
+            "AutoSize": true,
+            "Wildcard1": {}
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "FUP",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "button_up_small"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "Fine_up"
+            }
+          },
+          {
+            "InteractionName": "FDN",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "button_dn_small"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "Fine_dn"
+            }
+          },
+          {
+            "InteractionName": "CUP",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "button_up_big"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "Coarse_up"
+            }
+          },
+          {
+            "InteractionName": "CDN",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "button_dn_big"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "Coarse_dn"
             }
           }
         ]
