@@ -85,6 +85,11 @@ enum TEXTS
     T_DIAGNSTIC,
     T_DEFAULT_SETTINGS,
     T_WSTECZ,
+    T_TIME_DD,
+    T_TIME_MO,
+    T_TIME_YY,
+    T_TIME_MM,
+    T_TIME_HH,
     NUMBER_OF_TEXT_KEYS
 };
 

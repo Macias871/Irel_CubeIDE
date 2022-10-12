@@ -315,7 +315,28 @@
         <Translation Language="PL">Wstecz</Translation>
       </Text>
     </TextGroup>
-    <TextGroup Id="Unsorted" />
+    <TextGroup Id="Time_set">
+      <Text Id="Time_DD" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">Day:</Translation>
+        <Translation Language="PL">Dzień:</Translation>
+      </Text>
+      <Text Id="Time_MO" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">Month</Translation>
+        <Translation Language="PL">Miesiąc:</Translation>
+      </Text>
+      <Text Id="Time_YY" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">Year:</Translation>
+        <Translation Language="PL">Rok:</Translation>
+      </Text>
+      <Text Id="Time_MM" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">Minute:</Translation>
+        <Translation Language="PL">Minuta:</Translation>
+      </Text>
+      <Text Id="Time_HH" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">Hour:</Translation>
+        <Translation Language="PL">Godzina:</Translation>
+      </Text>
+    </TextGroup>
   </Texts>
   <Typographies>
     <Typography Id="Default" Font="verdana.ttf" Size="20" Bpp="4" Direction="LTR" FallbackCharacter="?" WildcardCharacters="0123456789" WidgetWildcardCharacters="0123456789 :APM" />

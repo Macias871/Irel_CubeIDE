@@ -12,6 +12,7 @@
 #include <gui/containers/Menu_tree_title_container.hpp>
 #include <gui/containers/Back_menu_container.hpp>
 #include <gui/containers/Reg_container.hpp>
+#include <touchgfx/widgets/TextArea.hpp>
 
 class Clock_settingsViewBase : public touchgfx::View<Clock_settingsPresenter>
 {
@@ -37,6 +38,11 @@ protected:
     Reg_container DD_container;
     Reg_container MO_container;
     Reg_container YY_container;
+    touchgfx::TextArea T_hh;
+    touchgfx::TextArea T_mm;
+    touchgfx::TextArea T_dd;
+    touchgfx::TextArea T_mo;
+    touchgfx::TextArea T_yy;
 
 private:
 
