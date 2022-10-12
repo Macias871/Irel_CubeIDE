@@ -905,46 +905,125 @@
             "Type": "CustomContainerInstance",
             "Name": "HH_container",
             "X": 102,
-            "Y": 96,
-            "Width": 70,
+            "Y": 153,
+            "Width": 100,
             "Height": 168,
             "CustomContainerDefinitionName": "Reg_container"
           },
           {
             "Type": "CustomContainerInstance",
             "Name": "MM_container",
-            "X": 304,
-            "Y": 96,
-            "Width": 70,
+            "X": 305,
+            "Y": 153,
+            "Width": 100,
             "Height": 168,
             "CustomContainerDefinitionName": "Reg_container"
           },
           {
             "Type": "CustomContainerInstance",
             "Name": "DD_container",
-            "X": 32,
-            "Y": 316,
-            "Width": 70,
+            "Y": 400,
+            "Width": 100,
             "Height": 168,
             "CustomContainerDefinitionName": "Reg_container"
           },
           {
             "Type": "CustomContainerInstance",
             "Name": "MO_container",
-            "X": 205,
-            "Y": 316,
-            "Width": 70,
+            "X": 190,
+            "Y": 400,
+            "Width": 100,
             "Height": 168,
             "CustomContainerDefinitionName": "Reg_container"
           },
           {
             "Type": "CustomContainerInstance",
             "Name": "YY_container",
-            "X": 374,
-            "Y": 316,
-            "Width": 70,
+            "X": 380,
+            "Y": 400,
+            "Width": 100,
             "Height": 168,
             "CustomContainerDefinitionName": "Reg_container"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "T_hh",
+            "X": 107,
+            "Y": 129,
+            "Width": 90,
+            "Height": 24,
+            "TextId": "Time_HH",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 26,
+              "Green": 122,
+              "Blue": 119
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "T_mm",
+            "X": 317,
+            "Y": 129,
+            "Width": 77,
+            "Height": 24,
+            "TextId": "Time_MM",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 26,
+              "Green": 122,
+              "Blue": 119
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "T_dd",
+            "X": 18,
+            "Y": 376,
+            "Width": 65,
+            "Height": 24,
+            "TextId": "Time_DD",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 26,
+              "Green": 122,
+              "Blue": 119
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "T_mo",
+            "X": 199,
+            "Y": 376,
+            "Width": 82,
+            "Height": 24,
+            "TextId": "Time_MO",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 26,
+              "Green": 122,
+              "Blue": 119
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "T_yy",
+            "X": 407,
+            "Y": 376,
+            "Width": 46,
+            "Height": 24,
+            "TextId": "Time_YY",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 26,
+              "Green": 122,
+              "Blue": 119
+            },
+            "AutoSize": true
           }
         ],
         "Interactions": []
@@ -1113,13 +1192,13 @@
         "Name": "Reg_container",
         "X": 160,
         "Y": -160,
-        "Width": 70,
-        "Height": 170,
+        "Width": 100,
+        "Height": 168,
         "Components": [
           {
             "Type": "Button",
             "Name": "button_up_small",
-            "X": 19,
+            "X": 35,
             "Y": 44,
             "Width": 30,
             "Height": 17,
@@ -1129,7 +1208,7 @@
           {
             "Type": "Button",
             "Name": "button_dn_small",
-            "X": 19,
+            "X": 34,
             "Y": 110,
             "Width": 30,
             "Height": 17,
@@ -1139,7 +1218,7 @@
           {
             "Type": "Button",
             "Name": "button_up_big",
-            "X": 14,
+            "X": 29,
             "Width": 40,
             "Height": 23,
             "Pressed": "orange_arrow_up_b.png",
@@ -1148,7 +1227,7 @@
           {
             "Type": "Button",
             "Name": "button_dn_big",
-            "X": 14,
+            "X": 29,
             "Y": 145,
             "Width": 40,
             "Height": 23,
@@ -1158,7 +1237,7 @@
           {
             "Type": "TextArea",
             "Name": "Value_t",
-            "X": 19,
+            "X": 35,
             "Y": 61,
             "Height": 49,
             "TextId": "WC1",

@@ -9,25 +9,25 @@
 Reg_containerBase::Reg_containerBase() :
     buttonCallback(this, &Reg_containerBase::buttonCallbackHandler)
 {
-    setWidth(70);
-    setHeight(170);
-    button_up_small.setXY(19, 44);
+    setWidth(100);
+    setHeight(168);
+    button_up_small.setXY(35, 44);
     button_up_small.setBitmaps(touchgfx::Bitmap(BITMAP_BLACK_ARROW_UP_ID), touchgfx::Bitmap(BITMAP_ORANGE_ARROW_UP_ID));
     button_up_small.setAction(buttonCallback);
 
-    button_dn_small.setXY(19, 110);
+    button_dn_small.setXY(34, 110);
     button_dn_small.setBitmaps(touchgfx::Bitmap(BITMAP_BLACK_ARROW_ID), touchgfx::Bitmap(BITMAP_ORANGE_ARROW_ID));
     button_dn_small.setAction(buttonCallback);
 
-    button_up_big.setXY(14, 0);
+    button_up_big.setXY(29, 0);
     button_up_big.setBitmaps(touchgfx::Bitmap(BITMAP_BLACK_ARROW_UP_B_ID), touchgfx::Bitmap(BITMAP_ORANGE_ARROW_UP_B_ID));
     button_up_big.setAction(buttonCallback);
 
-    button_dn_big.setXY(14, 145);
+    button_dn_big.setXY(29, 145);
     button_dn_big.setBitmaps(touchgfx::Bitmap(BITMAP_BLACK_ARROW_B_ID), touchgfx::Bitmap(BITMAP_ORANGE_ARROW_B_ID));
     button_dn_big.setAction(buttonCallback);
 
-    Value_t.setXY(19, 61);
+    Value_t.setXY(35, 61);
     Value_t.setColor(touchgfx::Color::getColorFromRGB(15, 83, 125));
     Value_t.setLinespacing(0);
     Value_t.setTypedText(touchgfx::TypedText(T_WC1));
