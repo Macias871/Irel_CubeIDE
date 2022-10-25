@@ -1,0 +1,9 @@
+../Core/LIB/touch_gtxxxx_bsp.c:56:8:ctDelay	24	static
+../Core/LIB/touch_gtxxxx_bsp.c:67:8:ctMessagePut	16	static
+../Core/LIB/touch_gtxxxx_bsp.c:77:11:ctMessageGet	24	static
+../Core/LIB/touch_gtxxxx_bsp.c:93:8:ctQueueCreate	4	static
+../Core/LIB/touch_gtxxxx_bsp.c:109:6:I2C_ResetChip	32	static
+../Core/LIB/touch_gtxxxx_bsp.c:144:6:EXTI_IRQ_enable	8	static
+../Core/LIB/touch_gtxxxx_bsp.c:175:6:HAL_GPIO_EXTI_Callback	16	static
+../Core/LIB/touch_gtxxxx_bsp.c:181:6:I2C_Touch_Init	8	static
+../Core/LIB/touch_gtxxxx_bsp.c:202:5:I2C_Transfer	32	static

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextDatabase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="texts.xsd" Version="4.20.0">
+  <Languages>
+    <Language Id="GB" />
+  </Languages>
+  <Texts>
+    <TextGroup Id="Group1">
+      <Text Id="__SingleUse_HC40" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">Sprężarka</Translation>
+      </Text>
+      <Text Id="__SingleUse_5UGX" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">Pompa DŹ</Translation>
+      </Text>
+      <Text Id="__SingleUse_VDQ3" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">Pompa CO</Translation>
+      </Text>
+      <Text Id="__SingleUse_M29T" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">Pompa CWU</Translation>
+      </Text>
+      <Text Id="__SingleUse_281K" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">Zawor 3D</Translation>
+      </Text>
+      <Text Id="__SingleUse_2PWB" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">Grzałka 1</Translation>
+      </Text>
+      <Text Id="__SingleUse_CU4U" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">Grzałka 2</Translation>
+      </Text>
+      <Text Id="__SingleUse_78W6" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">Zew. zrd.</Translation>
+      </Text>
+      <Text Id="__SingleUse_XH3M" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">Wył. Przep.</Translation>
+      </Text>
+      <Text Id="__SingleUse_73J3" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">Presostat NC</Translation>
+      </Text>
+      <Text Id="__SingleUse_UXPV" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">Presostat OP</Translation>
+      </Text>
+      <Text Id="__SingleUse_P3TM" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">Presostat WC</Translation>
+      </Text>
+      <Text Id="__SingleUse_1D1D" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">Zasilanie</Translation>
+      </Text>
+      <Text Id="__SingleUse_GH41" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">Silnik Sprężarki</Translation>
+      </Text>
+      <Text Id="__SingleUse_P3XL" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">We. dodatkowe</Translation>
+      </Text>
+      <Text Id="__SingleUse_0V0W" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">T1: &lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_RUFE" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">T2: &lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_8WV9" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">T3: &lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_Y80E" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">T4: &lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_9AWJ" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">T5: &lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_AR34" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">T6: &lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_HSZQ" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">T7: &lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_NB6D" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">TZ: &lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_F8D8" Alignment="Left" TypographyId="Typography_01">
+        <Translation Language="GB">PWM1: &lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_72E4" Alignment="Left" TypographyId="Typography_01">
+        <Translation Language="GB">PWM2: &lt;value&gt;</Translation>
+      </Text>
+    </TextGroup>
+  </Texts>
+  <Typographies>
+    <Typography Id="Typography_00" Font="verdana.ttf" Size="20" Bpp="4" Direction="LTR" WildcardCharacters="-,0-9" />
+    <Typography Id="Typography_01" Font="Alef-Bold.ttf" Size="20" Bpp="4" Direction="LTR" FallbackCharacter="?" WildcardCharacters="1234567890" />
+  </Typographies>
+</TextDatabase>

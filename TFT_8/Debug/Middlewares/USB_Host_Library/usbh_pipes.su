@@ -1,0 +1,5 @@
+C:/Users/Irel/STM32Cube/Repository/STM32Cube_FW_F4_V1.27.1/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_pipes.c:85:20:USBH_OpenPipe	32	static
+C:/Users/Irel/STM32Cube/Repository/STM32Cube_FW_F4_V1.27.1/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_pipes.c:102:20:USBH_ClosePipe	16	static
+C:/Users/Irel/STM32Cube/Repository/STM32Cube_FW_F4_V1.27.1/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_pipes.c:117:9:USBH_AllocPipe	24	static
+C:/Users/Irel/STM32Cube/Repository/STM32Cube_FW_F4_V1.27.1/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_pipes.c:139:20:USBH_FreePipe	16	static
+C:/Users/Irel/STM32Cube/Repository/STM32Cube_FW_F4_V1.27.1/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_pipes.c:156:17:USBH_GetFreePipe	24	static

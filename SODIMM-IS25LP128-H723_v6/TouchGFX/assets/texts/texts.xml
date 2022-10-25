@@ -317,24 +317,24 @@
     </TextGroup>
     <TextGroup Id="Time_set">
       <Text Id="Time_DD" Alignment="Center" TypographyId="Default">
-        <Translation Language="GB">Day:</Translation>
-        <Translation Language="PL">Dzień:</Translation>
+        <Translation Language="GB">Day</Translation>
+        <Translation Language="PL">Dzień</Translation>
       </Text>
       <Text Id="Time_MO" Alignment="Center" TypographyId="Default">
         <Translation Language="GB">Month</Translation>
-        <Translation Language="PL">Miesiąc:</Translation>
+        <Translation Language="PL">Miesiąc</Translation>
       </Text>
       <Text Id="Time_YY" Alignment="Center" TypographyId="Default">
-        <Translation Language="GB">Year:</Translation>
-        <Translation Language="PL">Rok:</Translation>
+        <Translation Language="GB">Year</Translation>
+        <Translation Language="PL">Rok</Translation>
       </Text>
       <Text Id="Time_MM" Alignment="Center" TypographyId="Default">
-        <Translation Language="GB">Minute:</Translation>
-        <Translation Language="PL">Minuta:</Translation>
+        <Translation Language="GB">Minute</Translation>
+        <Translation Language="PL">Minuta</Translation>
       </Text>
       <Text Id="Time_HH" Alignment="Center" TypographyId="Default">
-        <Translation Language="GB">Hour:</Translation>
-        <Translation Language="PL">Godzina:</Translation>
+        <Translation Language="GB">Hour</Translation>
+        <Translation Language="PL">Godzina</Translation>
       </Text>
     </TextGroup>
   </Texts>

@@ -1,0 +1,809 @@
+{
+  "Application": {
+    "Screens": [
+      {
+        "Name": "Main",
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "box1",
+            "Y": -1,
+            "Width": 800,
+            "Height": 480,
+            "LockPosition": true,
+            "Color": {
+              "Red": 112,
+              "Green": 44,
+              "Blue": 64
+            }
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "toggleButton1",
+            "X": 139,
+            "Y": 19,
+            "Width": 50,
+            "Height": 50,
+            "Pressed": "Ikony TEST PC\\ON_toggle_button_selected_00.png",
+            "Released": "Ikony TEST PC\\OFF_toggle_button_00.png"
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "toggleButton1_1",
+            "X": 139,
+            "Y": 69,
+            "Width": 50,
+            "Height": 50,
+            "Pressed": "Ikony TEST PC\\ON_toggle_button_selected_00.png",
+            "Released": "Ikony TEST PC\\OFF_toggle_button_00.png"
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "toggleButton1_2",
+            "X": 139,
+            "Y": 119,
+            "Width": 50,
+            "Height": 50,
+            "Pressed": "Ikony TEST PC\\ON_toggle_button_selected_00.png",
+            "Released": "Ikony TEST PC\\OFF_toggle_button_00.png"
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "toggleButton1_3",
+            "X": 139,
+            "Y": 169,
+            "Width": 50,
+            "Height": 50,
+            "Pressed": "Ikony TEST PC\\ON_toggle_button_selected_00.png",
+            "Released": "Ikony TEST PC\\OFF_toggle_button_00.png"
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "toggleButton1_4",
+            "X": 139,
+            "Y": 219,
+            "Width": 50,
+            "Height": 50,
+            "Pressed": "Ikony TEST PC\\ON_toggle_button_selected_00.png",
+            "Released": "Ikony TEST PC\\OFF_toggle_button_00.png"
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "toggleButton1_5",
+            "X": 139,
+            "Y": 269,
+            "Width": 50,
+            "Height": 50,
+            "Pressed": "Ikony TEST PC\\ON_toggle_button_selected_00.png",
+            "Released": "Ikony TEST PC\\OFF_toggle_button_00.png"
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "toggleButton1_6",
+            "X": 139,
+            "Y": 319,
+            "Width": 50,
+            "Height": 50,
+            "Pressed": "Ikony TEST PC\\ON_toggle_button_selected_00.png",
+            "Released": "Ikony TEST PC\\OFF_toggle_button_00.png"
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "toggleButton1_7",
+            "X": 139,
+            "Y": 369,
+            "Width": 50,
+            "Height": 50,
+            "Pressed": "Ikony TEST PC\\ON_toggle_button_selected_00.png",
+            "Released": "Ikony TEST PC\\OFF_toggle_button_00.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 13,
+            "Y": 32,
+            "Width": 101,
+            "Height": 24,
+            "TextId": "__SingleUse_HC40",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 114,
+              "Green": 176,
+              "Blue": 240
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1_1",
+            "X": 10,
+            "Y": 77,
+            "Width": 104,
+            "Height": 24,
+            "TextId": "__SingleUse_5UGX",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 114,
+              "Green": 176,
+              "Blue": 240
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1_2",
+            "X": 10,
+            "Y": 127,
+            "Width": 104,
+            "Height": 24,
+            "TextId": "__SingleUse_VDQ3",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 114,
+              "Green": 176,
+              "Blue": 240
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1_3",
+            "X": 10,
+            "Y": 177,
+            "Width": 123,
+            "Height": 24,
+            "TextId": "__SingleUse_M29T",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 114,
+              "Green": 176,
+              "Blue": 240
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1_4",
+            "X": 10,
+            "Y": 227,
+            "Width": 97,
+            "Height": 24,
+            "TextId": "__SingleUse_281K",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 114,
+              "Green": 176,
+              "Blue": 240
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1_5",
+            "X": 10,
+            "Y": 277,
+            "Width": 96,
+            "Height": 24,
+            "TextId": "__SingleUse_2PWB",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 114,
+              "Green": 176,
+              "Blue": 240
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1_6",
+            "X": 10,
+            "Y": 327,
+            "Width": 96,
+            "Height": 24,
+            "TextId": "__SingleUse_CU4U",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 114,
+              "Green": 176,
+              "Blue": 240
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1_7",
+            "X": 10,
+            "Y": 377,
+            "Width": 94,
+            "Height": 24,
+            "TextId": "__SingleUse_78W6",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 114,
+              "Green": 176,
+              "Blue": 240
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1_8",
+            "X": 212,
+            "Y": 32,
+            "Width": 113,
+            "Height": 24,
+            "TextId": "__SingleUse_XH3M",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 114,
+              "Green": 176,
+              "Blue": 240
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1_8_1",
+            "X": 212,
+            "Y": 82,
+            "Width": 129,
+            "Height": 24,
+            "TextId": "__SingleUse_73J3",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 114,
+              "Green": 176,
+              "Blue": 240
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1_8_2",
+            "X": 212,
+            "Y": 132,
+            "Width": 128,
+            "Height": 24,
+            "TextId": "__SingleUse_UXPV",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 114,
+              "Green": 176,
+              "Blue": 240
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1_8_3",
+            "X": 212,
+            "Y": 182,
+            "Width": 134,
+            "Height": 24,
+            "TextId": "__SingleUse_P3TM",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 114,
+              "Green": 176,
+              "Blue": 240
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1_8_4",
+            "X": 212,
+            "Y": 232,
+            "Width": 89,
+            "Height": 24,
+            "TextId": "__SingleUse_1D1D",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 114,
+              "Green": 176,
+              "Blue": 240
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1_8_5",
+            "X": 212,
+            "Y": 282,
+            "Width": 157,
+            "Height": 24,
+            "TextId": "__SingleUse_GH41",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 114,
+              "Green": 176,
+              "Blue": 240
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1_8_6",
+            "X": 212,
+            "Y": 332,
+            "Width": 154,
+            "Height": 24,
+            "TextId": "__SingleUse_P3XL",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 114,
+              "Green": 176,
+              "Blue": 240
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "toggleButton1_8",
+            "X": 381,
+            "Y": 19,
+            "Width": 50,
+            "Height": 50,
+            "Pressed": "Ikony TEST PC\\OK.png",
+            "Released": "Ikony TEST PC\\NOK.png"
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "toggleButton1_9",
+            "X": 381,
+            "Y": 69,
+            "Width": 50,
+            "Height": 50,
+            "Pressed": "Ikony TEST PC\\OK.png",
+            "Released": "Ikony TEST PC\\NOK.png"
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "toggleButton1_10",
+            "X": 381,
+            "Y": 119,
+            "Width": 50,
+            "Height": 50,
+            "Pressed": "Ikony TEST PC\\OK.png",
+            "Released": "Ikony TEST PC\\NOK.png"
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "toggleButton1_11",
+            "X": 381,
+            "Y": 169,
+            "Width": 50,
+            "Height": 50,
+            "Pressed": "Ikony TEST PC\\OK.png",
+            "Released": "Ikony TEST PC\\NOK.png"
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "toggleButton1_12",
+            "X": 381,
+            "Y": 219,
+            "Width": 50,
+            "Height": 50,
+            "Pressed": "Ikony TEST PC\\OK.png",
+            "Released": "Ikony TEST PC\\NOK.png"
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "toggleButton1_13",
+            "X": 381,
+            "Y": 269,
+            "Width": 50,
+            "Height": 50,
+            "Pressed": "Ikony TEST PC\\OK.png",
+            "Released": "Ikony TEST PC\\NOK.png"
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "toggleButton1_14",
+            "X": 381,
+            "Y": 319,
+            "Width": 50,
+            "Height": 50,
+            "Pressed": "Ikony TEST PC\\OK.png",
+            "Released": "Ikony TEST PC\\NOK.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea2",
+            "X": 445,
+            "Y": 32,
+            "Width": 41,
+            "Height": 24,
+            "TextId": "__SingleUse_0V0W",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 70,
+              "Green": 157,
+              "Blue": 194
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "UseBuffer": true,
+              "BufferSize": 6
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea2_1",
+            "X": 444,
+            "Y": 82,
+            "Width": 41,
+            "Height": 24,
+            "TextId": "__SingleUse_RUFE",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 70,
+              "Green": 157,
+              "Blue": 194
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "UseBuffer": true,
+              "BufferSize": 6
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea2_2",
+            "X": 445,
+            "Y": 132,
+            "Width": 41,
+            "Height": 24,
+            "TextId": "__SingleUse_8WV9",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 70,
+              "Green": 157,
+              "Blue": 194
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "UseBuffer": true,
+              "BufferSize": 6
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea2_3",
+            "X": 445,
+            "Y": 182,
+            "Width": 41,
+            "Height": 24,
+            "TextId": "__SingleUse_Y80E",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 70,
+              "Green": 157,
+              "Blue": 194
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "UseBuffer": true,
+              "BufferSize": 6
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea2_4",
+            "X": 445,
+            "Y": 232,
+            "Width": 41,
+            "Height": 24,
+            "TextId": "__SingleUse_9AWJ",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 70,
+              "Green": 157,
+              "Blue": 194
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "UseBuffer": true,
+              "BufferSize": 6
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea2_5",
+            "X": 445,
+            "Y": 282,
+            "Width": 41,
+            "Height": 24,
+            "TextId": "__SingleUse_AR34",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 70,
+              "Green": 157,
+              "Blue": 194
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "UseBuffer": true,
+              "BufferSize": 6
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea2_6",
+            "X": 444,
+            "Y": 332,
+            "Width": 41,
+            "Height": 24,
+            "TextId": "__SingleUse_HSZQ",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 70,
+              "Green": 157,
+              "Blue": 194
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "UseBuffer": true,
+              "BufferSize": 6
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea2_7",
+            "X": 444,
+            "Y": 382,
+            "Width": 42,
+            "Height": 24,
+            "TextId": "__SingleUse_NB6D",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 70,
+              "Green": 157,
+              "Blue": 194
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "UseBuffer": true,
+              "BufferSize": 6
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea2_8",
+            "X": 611,
+            "Y": 13,
+            "Width": 70,
+            "Height": 27,
+            "TextId": "__SingleUse_F8D8",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 70,
+              "Green": 157,
+              "Blue": 194
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "UseBuffer": true,
+              "BufferSize": 5
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea2_9",
+            "X": 610,
+            "Y": 47,
+            "Width": 72,
+            "Height": 27,
+            "TextId": "__SingleUse_72E4",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 70,
+              "Green": 157,
+              "Blue": 194
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "UseBuffer": true,
+              "BufferSize": 5
+            }
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "toggleButton1_14_1",
+            "X": 738,
+            "Y": 419,
+            "Width": 50,
+            "Height": 50,
+            "Pressed": "Ikony TEST PC\\OK.png",
+            "Released": "Ikony TEST PC\\NOK.png"
+          },
+          {
+            "Type": "AnimatedImage",
+            "Name": "animatedImage1",
+            "X": 606,
+            "Y": 204,
+            "Width": 60,
+            "Height": 60,
+            "FileNameFirst": "Pump\\FAN_SB_01.png",
+            "FileNameLast": "Pump\\FAN_SB_04.png",
+            "UpdateTicksInterval": 50,
+            "StartOnLoad": true,
+            "LoopEnabled": true
+          },
+          {
+            "Type": "AnimatedImage",
+            "Name": "animatedImage1_1",
+            "X": 675,
+            "Y": 102,
+            "Width": 60,
+            "Height": 60,
+            "FileNameFirst": "Pump\\PUMP_OS2_02.png",
+            "FileNameLast": "Pump\\PUMP_OS2_05.png",
+            "UpdateTicksInterval": 50,
+            "StartOnLoad": true,
+            "LoopEnabled": true
+          },
+          {
+            "Type": "Image",
+            "Name": "image1",
+            "X": 654,
+            "Y": 92,
+            "Width": 100,
+            "Height": 80,
+            "RelativeFilename": "Pump\\PUMP_OS2_main.png"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "SPR_ON_Click",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "toggleButton1"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "SPR"
+            }
+          },
+          {
+            "InteractionName": "PDZ_ON_Click",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "toggleButton1_1"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "PDZ"
+            }
+          },
+          {
+            "InteractionName": "PCO_ON_Click",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "toggleButton1_2"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "PCO"
+            }
+          },
+          {
+            "InteractionName": "PCWU_ON_Click",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "toggleButton1_3"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "PCWU"
+            }
+          },
+          {
+            "InteractionName": "Z3D_ON_Click",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "toggleButton1_4"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "Z3D"
+            }
+          },
+          {
+            "InteractionName": "GR1_ON_Click",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "toggleButton1_5"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "GR1"
+            }
+          },
+          {
+            "InteractionName": "GR2_ON_Click",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "toggleButton1_6"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "GR2"
+            }
+          },
+          {
+            "InteractionName": "ZEWZRD_ON_Click",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "toggleButton1_7"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "ZEWZRD"
+            }
+          },
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerNone"
+            },
+            "Action": {
+              "Type": "ActionNone"
+            }
+          }
+        ]
+      }
+    ],
+    "CustomContainerDefinitions": [],
+    "Name": "MyApplication",
+    "Resolution": {
+      "Width": 800,
+      "Height": 480
+    },
+    "SelectedColorDepth": 16,
+    "StartupScreenName": "Main",
+    "SelectedStartupLanguage": "GB",
+    "Skin": "Blue",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "UIPath": ".",
+    "AvailableColorDepths": [
+      16
+    ],
+    "AvailableLCDs": {
+      "16": "LCD16bpp"
+    },
+    "AvailableSections": [
+      "ExtFlashSection",
+      "IntFlashSection"
+    ],
+    "AvailableResolutions": [
+      {
+        "Width": 800,
+        "Height": 480
+      }
+    ],
+    "PhysicalButtons": [],
+    "FrameworkFeatures": {
+      "LCD16bpp": {
+        "Id": "LCD16bpp",
+        "IsEnabled": true
+      }
+    },
+    "GenerateAssetsCommand": "make -f simulator/gcc/Makefile assets -j8",
+    "PostGenerateCommand": "touchgfx update_project --project-file=simulator/msvs/Application.vcxproj",
+    "PostGenerateTargetCommand": "touchgfx update_project",
+    "CompileSimulatorCommand": "make -f simulator/gcc/Makefile -j8",
+    "RunSimulatorCommand": "build\\bin\\simulator.exe",
+    "LandscapeSkinX": 0,
+    "LandscapeSkinY": 0,
+    "PortraitSkinX": 0,
+    "PortraitSkinY": 0,
+    "DisplayOrientation": "Landscape",
+    "Family": "STM32F4",
+    "Platform": "m4",
+    "ProjectFile": "../TFT_8.ioc",
+    "OptionalComponentsRoot": "../Middlewares/ST/touchgfx_components",
+    "OptionalComponents": []
+  },
+  "Version": "4.20.0"
+}

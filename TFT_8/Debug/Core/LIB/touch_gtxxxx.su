@@ -1,0 +1,13 @@
+../Core/LIB/touch_gtxxxx.c:145:16:CTP_I2C_Read	40	static
+../Core/LIB/touch_gtxxxx.c:177:16:CTP_I2C_Write	32	static
+../Core/LIB/touch_gtxxxx.c:195:15:CTP_Send_Command	24	static
+../Core/LIB/touch_gtxxxx.c:211:15:CTP_I2C_Test	16	static
+../Core/LIB/touch_gtxxxx.c:238:13:CTP_Touch_Down	24	static
+../Core/LIB/touch_gtxxxx.c:252:13:CTP_Touch_Up	8	static
+../Core/LIB/touch_gtxxxx.c:271:6:CTP_TS_Work_Func	56	static
+../Core/LIB/touch_gtxxxx.c:335:9:CTP_read	24	static
+../Core/LIB/touch_gtxxxx.c:358:15:CTP_WakeUp_Sleep	16	static
+../Core/LIB/touch_gtxxxx.c:374:16:CTP_Get_Info	4	static
+../Core/LIB/touch_gtxxxx.c:407:9:CTP_Init_Panel	40	static
+../Core/LIB/touch_gtxxxx.c:546:16:CTP_Read_Version	48	static
+../Core/LIB/touch_gtxxxx.c:647:6:debug_uart	24	static
